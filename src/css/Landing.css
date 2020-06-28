@@ -1,0 +1,11 @@
+.landing h1 {
+	color: green;
+}
+
+.my-button {
+	background: green;
+}
+
+.my-button:hover {
+	background: red;
+}
