@@ -10,11 +10,9 @@ import '../css/Landing.css';
 const Landing = () => {
 	return (
 		<div className="landing">
-			<h1>wassup</h1>
+			<h1>Landing Page</h1>
 			<img src={ANyName} alt="whatevr" />
-			<Link to="/about">
-				<Button className="my-button">to about</Button>
-			</Link>
+		
 		</div>
 	);
 };

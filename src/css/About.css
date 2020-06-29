@@ -1,0 +1,17 @@
+.about .top{
+    background: #307d99 url('../img/aboutUsJPG.JPG');
+    background-position: 79% 30%;
+    background-size: 100%;
+    padding: 2em;
+}
+
+.about .aboutPic {
+    color: orange;
+    padding: 10em;
+ 
+}
+
+.about .chunk{
+    padding: 4em;
+
+}
