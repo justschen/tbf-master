@@ -8,9 +8,10 @@
 
 }
 
-.header h4 {
+.header .navbar{
     display: -ms-inline-flexbox;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: stretch;
     text-align: center;
     
    

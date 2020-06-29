@@ -8,7 +8,7 @@ const Header = () => {
 	return (
 		<div className="header">
 			<h1>The Berkeley Forum</h1>
-            <h4>
+            <section class='navbar'>
                 <Link to="/about">About Us</Link>
                 <Link to="/team">Team Page</Link>
                 <Link to="/convoBlocks">Conversations</Link>
@@ -19,7 +19,7 @@ const Header = () => {
                 <Link to="/contact">Contact</Link>
                 <Link to="/decal">Decal</Link> 
                 <Link to="/join">Join Us</Link>
-            </h4>
+            </section>
 			
         
 		</div>
