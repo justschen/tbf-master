@@ -5,7 +5,8 @@ import '../../css/About.css'
 import bigPic from '../../img/aboutUsJPG.JPG'
 import Header from '../A-WebElements/Header'
 import ANyName from '../../img/medicatio.png';
-import Button from '../A-WebElements/Button'
+import Button from '../A-WebElements/Button';
+import Footer from '../A-WebElements/Footer';
 
 const About = () => {
 	return (
@@ -29,6 +30,8 @@ const About = () => {
                 <Button text='OUR COMMITTEES'/>
                 <Button text='LEGACY'/>
             </div>
+
+            <Footer/>
         </section>
     </div>
 		
