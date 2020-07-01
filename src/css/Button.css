@@ -1,0 +1,11 @@
+.tbf-button button{
+    background-color: #233748;
+    color : white;
+    border-radius:5px;
+    width: 100px;
+    height: 57px;
+    border-color: transparent;
+    white-space:nowrap;
+    width:fit-content;
+    padding:0px 30px;
+}

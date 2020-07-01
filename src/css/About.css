@@ -10,7 +10,7 @@
 }
 
 .about .aboutPic {
-    color: orange;
+    color: white;
     padding: 2em;
  
 }
@@ -19,4 +19,18 @@
     padding: 4em;
     
 
+}
+
+.about .bottom {
+    text-align: center;
+    margin: 75px 200px;
+}
+
+.about .form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .info-text {
+    margin-bottom: 100px;
 }
