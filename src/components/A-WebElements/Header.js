@@ -6,16 +6,22 @@ import '../../css/Header.css'
 import {Nav, NavDropdown, Navbar} from 'react-bootstrap';
 
 
-const Header = () => {
+const Header = (props) => {
+    let middle;
+    const bg = {
+    backgroundImage:`url(${props.image})`,
+        background: props.image,
+    };
     
 	return (
-		<div className="header">
+        <div className="stuff" style={bg}>
+		    <div className="header">
 			<h1>The Berkeley Forum</h1>
             <div class='bar'>
             <Navbar collapseOnSelect expand="lg" >
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="m-auto">
+                <Nav className="mm">
                     <div className="dropdown">
                                 <Link to="/about" className="link-tag">
                                     <p className="nav-text">About Us</p>
@@ -59,6 +65,11 @@ const Header = () => {
             
             </div>
 		</div>
+
+
+        <h2 class="text">{props.name}</h2>
+     
+    </div>
 	);
 };
 

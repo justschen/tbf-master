@@ -10,13 +10,9 @@ const About = () => {
 	return (
     <div class="about"> 
         <section class="top">
-            <header>
-                <Header></Header>
-            </header>
-            
+        <Header name="About Us" image={bigPic}/>
         
-            <h1 class='aboutPic'>About Us</h1>
-			<Link to="/">to home</Link>
+        <h1 class='aboutPic'></h1>
         
         </section>
         <section class='bottom'>

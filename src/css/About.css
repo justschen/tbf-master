@@ -1,16 +1,12 @@
 .about .top{
     height: 50vw;
-
-    background: url('../img/aboutUsJPG.JPG');
-    background-size: 100%;
-    background-position: left;
-    padding: 3em;
-    padding-bottom: 5em; 
+   
+    
     
 }
 
 .about .aboutPic {
-    color: orange;
+    color: white;
     padding: 2em;
  
 }
