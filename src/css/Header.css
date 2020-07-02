@@ -50,7 +50,13 @@
 
 .header.dropdown {
     position: relative;
+<<<<<<< Updated upstream
 	display: inline-block;
+=======
+    display: block;
+    justify-content: space-between;
+
+>>>>>>> Stashed changes
 }
 .header .dropdown-content {
     display: none;
@@ -68,6 +74,7 @@
 	display: block;
 }
 .header .dropdown:hover .dropdown-content {
+    
     justify-content: center;
 	display: block;
 }
