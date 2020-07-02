@@ -17,16 +17,17 @@ const Header = (props) => {
         <div className="stuff" style={bg}>
 		    <div className="header">
 			<h1>The Berkeley Forum</h1>
-            <div class='bar'>
+            <div className='bar'>
             <Navbar collapseOnSelect expand="lg" >
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mm">
                     <div className="dropdown">
+                
                                 <Link to="/about" className="link-tag">
                                     <p className="nav-text">About Us</p>
                                 </Link>
-                                <div className="dropdown-content">
+                                <div className="dropdown-content-about">
                                     <Link to="/team" className="link-tag">
                                         <p className="nav-text">Meet the Team</p>
                                     </Link>
@@ -36,7 +37,7 @@ const Header = (props) => {
                                 <Link to="/calendar" className="link-tag">
                                     <p className="nav-text">Events</p>
                                 </Link>
-                                <div className="dropdown-content">
+                                <div className="dropdown-content-events">
                                     <Link to="/pastEvents" className="link-tag">
                                         <p className="nav-text">Past Events</p>
                                     </Link>
