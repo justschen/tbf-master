@@ -3,7 +3,8 @@ import { Link } from '@reach/router';
 
 import '../../css/Header.css'
 
-import {Nav, NavDropdown, Navbar} from 'react-bootstrap';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/NavBar';
 
 
 const Header = (props) => {
