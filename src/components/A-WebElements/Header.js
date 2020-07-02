@@ -30,7 +30,7 @@ const Header = (props) => {
                                 </Link>
                                 <div className="dropdown-content-about">
                                     <Link to="/team" className="link-tag">
-                                        <p className="nav-text">Meet the Team</p>
+                                        <p className="nav-text">Meet the<br/>Team</p>
                                     </Link>
                                 </div>
                     </div>
@@ -40,10 +40,10 @@ const Header = (props) => {
                                 </Link>
                                 <div className="dropdown-content-events">
                                     <Link to="/pastEvents" className="link-tag">
-                                        <p className="nav-text">Past Events</p>
+                                        <p className="nav-text">Past<br/>Events</p>
                                     </Link>
                                     <Link to="/posters" className="link-tag">
-                                        <p className="nav-text">Speaker Posters</p>
+                                        <p className="nav-text">Speaker<br/>Posters</p>
                                     </Link>
                                 </div>
                     </div>
