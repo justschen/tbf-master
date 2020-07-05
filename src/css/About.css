@@ -18,3 +18,8 @@
 .bottom p {
     margin: 103px 128px 170px 128px;
 }
+
+.bottom .form {
+    display: flex;
+    justify-content: space-around;
+}
