@@ -1,3 +1,54 @@
 .App {
 	text-align: center;
 }
+
+p {
+	color: black;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 27px;
+}
+
+h1 {
+	color: #FFFFFF;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	letter-spacing: 0.21em;
+	text-transform: uppercase;	
+}
+
+h2 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 77px;
+	line-height: 90px;
+	text-align: center;
+	color: #FFFFFF;
+	text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.73);
+}
+
+h3, h4, h5 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 56px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #233748;
+}
+
+button { 
+	border-radius: 6px;
+	background-color: #233748;
+	color: #FFFFFF;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 35px;
+	text-align: center;
+	text-transform: uppercase;
+	border-color: transparent;
+	box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.18);
+	padding: 12px 29px 17px 29px;
+}
