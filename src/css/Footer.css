@@ -4,16 +4,27 @@
     margin-top: 100px;
     height: 248px;
     display: flex;
+    position: relative;
 }
 
 .footer img {
+    object-fit: fill;
+}
+
+.footer .tbf-logo {
+    /*Inherited object-fit:fill from .footer img*/
     width: 140px;
     height: 140px;
     border: solid;
     border-width: 2px;
     border-color: #FFFFFF;
-    object-fit: fill;
     margin: 50px;
+}
+
+.footer .wdb-logo {
+    position:absolute;
+    right: 58px;
+    bottom: 51px;
 }
 
 .footer p {
@@ -32,6 +43,7 @@
     flex-wrap: wrap;
     align-content: flex-start;
     margin-top: 50px;
+    position: relative;
 }
 .footer .footer-link-text {
     margin: 0;

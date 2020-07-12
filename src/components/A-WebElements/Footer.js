@@ -3,11 +3,12 @@ import { Link } from '@reach/router';
 
 import '../../css/Footer.css'
 import tbfLogoPath from '../../img/footerlogo.png';
+import wdbLogoPath from '../../img/wdblogo.png';
 
 const Footer = (props) => {
 	return (
         <div className="footer">
-                <img src={tbfLogoPath} alt='tbf-logo'/>
+                <img src={tbfLogoPath} alt='tbf-logo' className='tbf-logo'/>
                 <p className='contact-info'>The Berkeley Forum at the University of California
                         <br/><br/>432 Eshleman Hall, Berkeley, CA 94720-4520
                         <br/><br/>General Inquiries
@@ -48,6 +49,7 @@ const Footer = (props) => {
                                 <p className="footer-link-text">Join Us</p>
                         </Link>
                 </div>
+                <img src={wdbLogoPath} alt='wdb-logo' className='wdb-logo'/>
                         
         </div>
 	);
