@@ -29,7 +29,7 @@
 
 .footer p {
     font-style: normal;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 19px;  
     text-align: left;
     height:fit-content;
@@ -38,13 +38,24 @@
     
 }
 
-.footer .footer-links{
+.footer .footer-links { 
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
-    margin-top: 50px;
+    margin-top: 42px;
     position: relative;
 }
+
+.footer .footer-col {
+    /*Format the columns of the footer links*/
+
+    display: flex;
+    flex-direction: column;
+    align-content: left;
+    margin-right: 3.5em;
+}
+
+
 .footer .footer-link-text {
     margin: 0;
 }
@@ -56,6 +67,6 @@
 
 .contact-info {
     /* Maybe change divider to its own element? */
-    padding-right: 28px;
+    padding-right: 31px;
     border-right: 2px solid white;
 }
