@@ -6,6 +6,7 @@ import '../../css/Header.css'
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/NavBar';
 
+import tasslePath from '../../img/social-tassle.png';
 
 const Header = (props) => {
     let middle;
@@ -18,6 +19,7 @@ const Header = (props) => {
         <div className="stuff" style={bg}>
 		    <div className="header">
 			<h1>The Berkeley Forum</h1>
+            <img src={tasslePath} alt='tassle-socials' className='socials-tassle'/>
             <div className='bar'>
             <Navbar collapseOnSelect expand="lg" >
             <Navbar.Toggle aria-controls="basic-navbar-nav" />

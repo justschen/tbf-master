@@ -168,3 +168,10 @@
     display: block;
 
 }
+
+.header .socials-tassle {
+    object-fit: fill;
+    position:absolute;
+    right: 50px;
+    top: -3px;
+}

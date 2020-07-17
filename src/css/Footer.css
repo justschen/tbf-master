@@ -5,6 +5,7 @@
     height: 248px;
     display: flex;
     position: relative;
+
 }
 
 .footer img {
@@ -35,6 +36,7 @@
     height:fit-content;
     color: #FFFFFF;
     margin: 50px;
+    margin-bottom: 0px;
     
 }
 
@@ -69,4 +71,6 @@
     /* Maybe change divider to its own element? */
     padding-right: 31px;
     border-right: 2px solid white;
+    
+    margin-bottom: 0px;
 }
