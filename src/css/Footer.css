@@ -30,7 +30,7 @@
 
 .footer p {
     font-style: normal;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 19px;  
     text-align: left;
     height:fit-content;
@@ -54,12 +54,14 @@
     display: flex;
     flex-direction: column;
     align-content: left;
-    margin-right: 3.5em;
+    margin-right: 6em;
+ 
 }
 
 
 .footer .footer-link-text {
     margin: 0;
+ 
 }
 
 .footer .link-tag {
@@ -69,7 +71,7 @@
 
 .contact-info {
     /* Maybe change divider to its own element? */
-    padding-right: 31px;
+    padding-right: 50px;
     border-right: 2px solid white;
     
     margin-bottom: 0px;

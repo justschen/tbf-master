@@ -1,0 +1,33 @@
+.join .top{
+    height: 50vw;
+
+}
+
+.join .join {
+    color: white;
+    padding: 2em;
+ 
+}
+
+.join .chunk{
+    padding: 4em;
+}
+
+.join .bottom p {
+    border-radius: 10px;
+    	border-color: transparent;
+	box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.18);
+    color: white;
+    background-color: #233748;
+    padding: 1.5em;
+    
+    font-size: 20px;
+}
+
+.join .bottom .title{
+    
+    font-weight: bold;
+    font-size: 32px;
+    margin-top: -1em;
+    margin-bottom: 0em;
+}

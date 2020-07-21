@@ -19,7 +19,8 @@
 }
 
 .stuff .header h1 {
-    margin: 4rem 0 0 4rem;
+    margin: 5rem 0 0 4rem;
+    padding-top: 1rem;
     text-align: left;
 }
 
@@ -29,13 +30,13 @@
 
 
 .stuff h2 {
-    margin-top: 5rem;
+    margin-top: 8rem;
 }
 
 .header .nav-text {
     justify-content: space-between;
     text-align: center !important;
-    font-size: 15px;
+    font-size: 18px;
 	color: white;
     padding: 0;
     margin: 0 2.6rem;

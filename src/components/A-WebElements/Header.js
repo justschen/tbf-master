@@ -28,7 +28,10 @@ const Header = (props) => {
                     <div className="dropdown">
                 
                                 <Link to="/about" className="link-tag">
-                                    <p className="nav-text">About Us</p>
+                                    <p className="nav-text">About Us
+                                    <span class="glyphicon glyphicon-on logo-small"></span>
+                                    <span class="icon-bar"></span>
+                                    </p>
                                 </Link>
                                 <div className="dropdown-content-about">
                                     <Link to="/team" className="link-tag">

@@ -17,7 +17,8 @@ const About = () => {
         </section>
         <section class='bottom'>
             
-            <p>“The Berkeley Forum is a non-partisan forum for the expression and debate of a wide range of ideas. 
+            <p>
+                “The Berkeley Forum is a non-partisan forum for the expression and debate of a wide range of ideas. 
                 Founded in 2012, the Forum organizes panels, debates, and talks by leading experts and distinguished 
                 persons on issues both topical and timeless. Forum events are open to the public and broadcasted online 
                 on our Facebook Page. Admission to Forum events is free for UC Berkeley students, staff, and faculty. 

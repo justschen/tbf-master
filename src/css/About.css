@@ -1,8 +1,6 @@
 .about .top{
     height: 50vw;
-   
-    
-    
+
 }
 
 .about .aboutPic {
@@ -16,6 +14,7 @@
 }
 
 .bottom p {
+    
     margin: 103px 128px 170px 128px;
 }
 
