@@ -1,24 +1,22 @@
-.about .top{
-    height: 50vw;
-
+.about-content {
+	padding: 4rem;
+	padding-bottom: 0;
 }
 
-.about .aboutPic {
-    color: white;
-    padding: 2em;
- 
+.about-content .row {
+	margin: 0;
 }
 
-.about .chunk{
-    padding: 4em;
+.about-content .middle-row {
+	margin-top: 2rem;
+	margin-bottom: 3.5rem;
 }
 
-.bottom p {
-    
-    margin: 103px 128px 170px 128px;
+.about-content p {
+	margin: 0 1rem;
 }
 
-.bottom .form {
-    display: flex;
-    justify-content: space-around;
+.about-content .bottom-navbar {
+	display: flex;
+	justify-content: space-around;
 }

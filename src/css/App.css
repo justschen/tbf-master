@@ -1,23 +1,21 @@
 .App {
 	text-align: center;
 	font-family: 'Karla', sans-serif;
-
 }
 
 p {
-	color: black;
 	font-family: 'Karla', sans-serif;
-
+	color: black;
 	font-size: 27px;
 }
 
 h1 {
-	color: #FFFFFF;
+	color: #ffffff;
 	font-family: 'Karla', sans-serif;
 	font-weight: bold;
 	font-size: 35px;
 	letter-spacing: 0.21em;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 }
 
 h2 {
@@ -27,11 +25,13 @@ h2 {
 	font-size: 77px;
 	line-height: 90px;
 	text-align: center;
-	color: #FFFFFF;
+	color: #ffffff;
 	text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.73);
 }
 
-h3, h4, h5 {
+h3,
+h4,
+h5 {
 	font-family: 'Karla', sans-serif;
 	font-style: normal;
 	font-weight: bold;
@@ -42,11 +42,11 @@ h3, h4, h5 {
 	color: #233748;
 }
 
-button { 
+button {
 	font-family: 'Karla', sans-serif;
 	border-radius: 6px;
 	background-color: #233748;
-	color: #FFFFFF;
+	color: #ffffff;
 	font-style: normal;
 	font-weight: normal;
 	line-height: 35px;
