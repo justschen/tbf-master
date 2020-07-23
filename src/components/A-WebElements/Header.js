@@ -18,7 +18,9 @@ const Header = (props) => {
 	return (
         <div className="stuff" style={bg}>
 		    <div className="header">
-			<h1>The Berkeley Forum</h1>
+			<Link to="/" className="landing-link">
+                <h1>The Berkeley Forum</h1>
+            </Link>
             <img src={tasslePath} alt='tassle-socials' className='socials-tassle'/>
             <div className='bar'>
             <Navbar collapseOnSelect expand="lg" >

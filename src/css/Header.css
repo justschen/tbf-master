@@ -19,7 +19,7 @@
 }
 
 .stuff .header h1 {
-    margin: 5rem 0 0 4rem;
+    margin: 2rem 0 0 4rem;
     padding-top: 1rem;
     text-align: left;
 }
@@ -28,6 +28,9 @@
     text-decoration: none;
 }
 
+.header .landing-link:hover {
+    text-decoration: none;
+}
 
 .stuff h2 {
     margin-top: 8rem;

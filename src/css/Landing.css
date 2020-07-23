@@ -1,11 +1,10 @@
-.landing h1 {
-	color: green;
+.landing .landing-content {
+
+	padding: 5rem;
 }
 
-.my-button {
-	background: green;
-}
+.landing p {
+	font-size: 21px;
 
-.my-button:hover {
-	background: red;
+	text-align: left;
 }
