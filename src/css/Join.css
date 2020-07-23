@@ -10,17 +10,26 @@
 }
 
 .join .chunk{
-    padding: 4em;
+    padding: em;
+}
+
+.join .bottom {
+    padding: 3em 0em 0 20em;
+    width: 85%;
+    justify-content: center;
+
+    text-align: center;
 }
 
 .join .bottom p {
     border-radius: 10px;
-    	border-color: transparent;
+    border-color: transparent;
 	box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.18);
     color: white;
     background-color: #233748;
     padding: 1.5em;
-    
+  
+
     font-size: 20px;
 }
 
