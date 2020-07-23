@@ -34,31 +34,8 @@ const Footer = (props) => {
 						<Link to="/" className="link-tag">
 							<p>Home</p>
 						</Link>
-						<Link to="/events" className="link-tag">
-							<p>Events</p>
-						</Link>
-						<Link to="/team" className="link-tag">
-							<p>Meet Our Team</p>
-						</Link>
-					</Col>
-
-					<Col xs={3} className="footer-col">
-						<Link to="/contact" className="link-tag">
-							<p>Contact Us</p>
-						</Link>
-						<Link to="/about" className="link-tag">
+                                                <Link to="/about" className="link-tag">
 							<p>About Us</p>
-						</Link>
-						<Link to="/calendar" className="link-tag">
-							<p>Calendar</p>
-						</Link>
-					</Col>
-					<Col xs={3} className="footer-col">
-						<Link to="" className="link-tag">
-							<p>Advisory Committee</p>
-						</Link>
-						<Link to="" className="link-tag">
-							<p>Privacy Policy</p>
 						</Link>
 						<Link to="/convoBlocks" className="link-tag">
 							<p>Conversations</p>
@@ -66,15 +43,38 @@ const Footer = (props) => {
 					</Col>
 
 					<Col xs={3} className="footer-col">
-						<Link to="/pastEvents" className="link-tag">
+                                                <Link to="/events" className="link-tag">
+							<p>Events</p>
+						</Link>
+						<Link to="/calendar" className="link-tag">
+							<p>Calendar</p>
+						</Link>
+                                                <Link to="/pastEvents" className="link-tag">
 							<p>Past Events</p>
+						</Link>
+					</Col>
+					<Col xs={3} className="footer-col">
+                                                <Link to="/team" className="link-tag">
+							<p>Meet Our Team</p>
+						</Link>
+						<Link to="" className="link-tag">
+							<p>Advisory Committee</p>
 						</Link>
 						<Link to="/join" className="link-tag">
 							<p>Join Us</p>
 						</Link>
 					</Col>
+
+					<Col xs={3} className="footer-col">
+                                                <Link to="/contact" className="link-tag">
+							<p>Contact Us</p>
+						</Link>
+						<Link to="" className="link-tag">
+							<p>Privacy Policy</p>
+						</Link>
+					</Col>
 				</Row>
-				<Row className="justify-content-end">
+				<Row className="logo">
 					<img src={wdbLogoPath} alt="wdb-logo" className="wdb-logo" />
 				</Row>
 			</Col>

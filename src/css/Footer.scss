@@ -18,7 +18,7 @@
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
-		justify-content: space-between;
+		justify-content: space-around;
 		p {
 			font-size: 16px;
 			line-height: 19px;
@@ -32,14 +32,16 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	.logo {
+		margin-left: auto;
+	}
 	.footer-links {
 		flex-direction: row;
-		border: 1px solid green;
 		.footer-col {
 			flex-direction: column;
 			align-items: flex-start;
 			p {
-				font-size: 17px;
+				font-size: 16px;
 				line-height: 20px;
 				color: #ffffff;
 				text-align: left;
