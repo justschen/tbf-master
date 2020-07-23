@@ -15,7 +15,7 @@ const ConvoBlocks = () => {
 		<div className="conversations">
 			<Header name="Conversations" image={AboutHeader} />
 			<Container fluid className="convo-content">
-				
+			
 				<Row classname="top-row">
 					<Col>
 					<Link to="/randPaul" className="landing-link">
@@ -30,7 +30,7 @@ const ConvoBlocks = () => {
 
 				</Row>
 				<Row className="middle-row1">
-				<	Col>
+					<Col>
 						<p>
 						US Senator Rand Paul at the Berkeley Forum
 						</p>
