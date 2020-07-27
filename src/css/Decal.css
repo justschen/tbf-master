@@ -1,0 +1,36 @@
+.decal {
+	padding: 4rem;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.decal .row {
+    text-align: center;
+	margin: 0;
+}
+
+.decal h5{
+    font-size: 40px;
+    color: black;
+	margin: 0;
+}
+
+.decal .top-row {
+   
+	margin-top: 2rem;
+	margin-bottom: 3.5rem;
+}
+
+.decal .middle-row {
+	margin-top: 2rem;
+	margin-bottom: 3.5rem;
+}
+
+.decal p {
+	margin: 0 7rem;
+}
+
+.decal .bottom-row {
+	display: flex;
+	justify-content: space-around;
+}
