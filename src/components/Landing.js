@@ -14,7 +14,7 @@ const Landing = () => {
 	return (
 		
 		<div className="landing">
-			<Header name="landing" image={bigPic} />
+			<Header name="" image={bigPic} />
 			<Container fluid className="landing-content">
 				<Row>
 					<p>Welcome to the Berkeley Forum, a non-partisan, student-run organization at the University of California, Berkeley. 
