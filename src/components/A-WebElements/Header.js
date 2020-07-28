@@ -15,8 +15,6 @@ import landingMailPhoto from '../../img/mailing-list-photo.png';
 
 import HeaderBar from './HeaderBar';
 
-
-import AboutHeader from '../../img/aboutUsJPG.JPG';
 const Header = (props) => {
     let middle;
     const bg = {
@@ -69,10 +67,9 @@ const Header = (props) => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mm">
                         <div className="dropdown">
-                    
                                     <Link to="/about" className="link-tag">
                                         <p className="nav-text">About Us
-                                        <span class="glyphicon glyphicon-on logo-small"></span>
+                                        <span class="glyphicon glyphicon-chevron-down logo-small"></span>
                                         <span class="icon-bar"></span>
                                         </p>
                                     </Link>
