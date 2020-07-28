@@ -13,6 +13,8 @@ import tasslePath from '../../img/social-tassle.png';
 import landingLinePhoto from '../../img/lineup-photo.png';
 import landingMailPhoto from '../../img/mailing-list-photo.png';
 
+import HeaderBar from './HeaderBar';
+
 
 import AboutHeader from '../../img/aboutUsJPG.JPG';
 const Header = (props) => {
@@ -24,6 +26,7 @@ const Header = (props) => {
     if(props.name.localeCompare("landing") == 0) {
         return (
             <div className='landing-header'>
+                <HeaderBar />
                 <Carousel>
                     <Carousel.Item> 
                         <img
@@ -32,7 +35,7 @@ const Header = (props) => {
                         alt="First slide"
                         />
 
-                        <Carousel.Caption className = "d-flex flex-column h-100 align-items-left justify-content-center">
+                        <Carousel.Caption className = "d-flex flex-column h-50 align-items-left justify-content-start">
                             <h3>Fall 2020 Lineup</h3>
                             <p>See the Events</p>
                         </Carousel.Caption>
@@ -44,7 +47,7 @@ const Header = (props) => {
                         alt="Third slide"
                         />
 
-                        <Carousel.Caption className = "d-flex flex-column h-100 align-items-left justify-content-center">
+                        <Carousel.Caption className = "d-flex flex-column h-50 align-items-left justify-content-start">
                             <h3>Keep Up with the Forum</h3>
                             <p>Subscribe to Our Mailing List</p>
                         </Carousel.Caption>
