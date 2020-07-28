@@ -10,6 +10,9 @@ import Carousel from 'react-bootstrap/Carousel';
 import tasslePath from '../../img/social-tassle.png';
 
 
+import landingLinePhoto from '../../img/lineup-photo.png';
+import landingMailPhoto from '../../img/mailing-list-photo.png';
+
 
 import AboutHeader from '../../img/aboutUsJPG.JPG';
 const Header = (props) => {
@@ -20,29 +23,34 @@ const Header = (props) => {
     };
     if(props.name.localeCompare("landing") == 0) {
         return (
-            <Carousel>
-                <Carousel.Item>
-                    <img
-                    className="d-block w-100"
-                    src={props.image}
-                    alt="First slide"
-                    />
-                    <Carousel.Caption>
-                    <h3>Fall 2020 Lineup</h3>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                    className="d-block w-100"
-                    src={AboutHeader}
-                    alt="Third slide"
-                    />
+            <div className='landing-header'>
+                <Carousel>
+                    <Carousel.Item> 
+                        <img
+                        className="d-block w-100"
+                        src={landingLinePhoto}
+                        alt="First slide"
+                        />
 
-                    <Carousel.Caption>
-                    <h3>Keep Up with the Forum</h3>
-                    </Carousel.Caption>
-                </Carousel.Item>
-            </Carousel>
+                        <Carousel.Caption className = "d-flex flex-column h-100 align-items-left justify-content-center">
+                            <h3>Fall 2020 Lineup</h3>
+                            <p>See the Events</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                        className="d-block w-100"
+                        src={landingMailPhoto}
+                        alt="Third slide"
+                        />
+
+                        <Carousel.Caption className = "d-flex flex-column h-100 align-items-left justify-content-center">
+                            <h3>Keep Up with the Forum</h3>
+                            <p>Subscribe to Our Mailing List</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                </Carousel>
+            </div>
         );
     } else {
         return (

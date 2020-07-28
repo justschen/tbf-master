@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from '@reach/router';
-import bigPic from '../img/aboutUsJPG.JPG';
+import coverPhoto from '../img/aboutUsJPG.JPG';
 import Header from './A-WebElements/Header';
 import Footer from './A-WebElements/Footer';
 
@@ -14,7 +14,7 @@ const Landing = () => {
 	return (
 		
 		<div className="landing">
-			<Header name="" image={bigPic} />
+			<Header name="landing" image={coverPhoto} />
 			<Container fluid className="landing-content">
 				<Row>
 					<p>Welcome to the Berkeley Forum, a non-partisan, student-run organization at the University of California, Berkeley. 

@@ -179,3 +179,36 @@
     right: 50px;
     top: -3px;
 }
+
+
+/* LANDING PAGE HEADER*/
+.landing-header h3 {
+        
+    text-align: left;
+    text-transform: none;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 77px;
+    line-height: 90px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.73);
+}
+
+.landing-header .carousel-caption {
+    color: green;
+}
+
+.landing-header .carousel-caption p {
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+
+}
