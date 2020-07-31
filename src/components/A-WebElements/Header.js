@@ -68,8 +68,8 @@ const Header = (props) => {
                         <div className="dropdown">
                                     <Link to="/about" className="link-tag">
                                         <p className="nav-text">About Us
-                                        <span class="glyphicon glyphicon-chevron-down logo-small"></span>
-                                        <span class="icon-bar"></span>
+                                        <span className="glyphicon glyphicon-chevron-down logo-small"></span>
+                                        <span className="icon-bar"></span>
                                         </p>
                                     </Link>
                                     <div className="dropdown-content-about">
@@ -91,16 +91,16 @@ const Header = (props) => {
                                         </Link>
                                     </div>
                         </div>
-                        <Link to="/join" class='link-tag'>
+                        <Link to="/join" className='link-tag'>
                             <p className="nav-text">Join Us</p>
                         </Link>
-                        <Link to="/convoBlocks" class='link-tag'>
+                        <Link to="/convoBlocks" className='link-tag'>
                             <p className="nav-text">Conversations</p>
                             </Link>
-                        <Link to="/contact" class='link-tag'>
+                        <Link to="/contact" className='link-tag'>
                             <p className="nav-text">Contact</p>
                         </Link>
-                        <Link to="/decal" class='link-tag'>
+                        <Link to="/decal" className='link-tag'>
                             <p className="nav-text">Decal</p>
                         </Link> 
                         
@@ -133,8 +133,8 @@ const Header = (props) => {
                         <div className="dropdown">
                                     <Link to="/about" className="link-tag">
                                         <p className="nav-text">About Us
-                                        <span class="glyphicon glyphicon-chevron-down logo-small"></span>
-                                        <span class="icon-bar"></span>
+                                        <span className="glyphicon glyphicon-chevron-down logo-small"></span>
+                                        <span className="icon-bar"></span>
                                         </p>
                                     </Link>
                                     <div className="dropdown-content-about">
@@ -145,7 +145,11 @@ const Header = (props) => {
                         </div>
                         <div className="dropdown">
                                     <Link to="/calendar" className="link-tag">
-                                        <p className="nav-text">Events</p>
+                                        <p className="nav-text">Events
+                                        <span className="glyphicon glyphicon-chevron-down logo-small"></span>
+                                        <span className="icon-bar"></span>
+                                        
+                                        </p>
                                     </Link>
                                     <div className="dropdown-content-events">
                                         <Link to="/pastEvents" className="link-tag">
@@ -156,16 +160,16 @@ const Header = (props) => {
                                         </Link>
                                     </div>
                         </div>
-                        <Link to="/join" class='link-tag'>
+                        <Link to="/join" className='link-tag'>
                             <p className="nav-text">Join Us</p>
                         </Link>
-                        <Link to="/convoBlocks" class='link-tag'>
+                        <Link to="/convoBlocks" className='link-tag'>
                             <p className="nav-text">Conversations</p>
                             </Link>
-                        <Link to="/contact" class='link-tag'>
+                        <Link to="/contact" className='link-tag'>
                             <p className="nav-text">Contact</p>
                         </Link>
-                        <Link to="/decal" class='link-tag'>
+                        <Link to="/decal" className='link-tag'>
                             <p className="nav-text">Decal</p>
                         </Link> 
                         
@@ -178,7 +182,7 @@ const Header = (props) => {
             </div>
 
 
-            <h2 class="text">{props.name}</h2>
+            <h2 className="text">{props.name}</h2>
         
         </div>
         );
