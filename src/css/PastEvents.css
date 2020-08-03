@@ -1,0 +1,70 @@
+.past .block {
+    background-image: url('../img/BackgroundCard.png');
+    background-repeat: no-repeat !important;
+    background-size: 90%;
+    background-position: top;
+    display: flex;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    
+}
+
+.past .block .lloydPic {
+    background-image: none;
+    height: 20vw;
+    margin-left: -10rem;
+    margin-top: 2rem;
+}
+
+.past .block .juliePic {
+    background-image: none;
+    height: 21vw;
+    margin-left: -10rem;
+    margin-top: 1rem;
+}
+
+
+.past .personBlock h3 {
+    text-align: left;
+    margin-left: -6rem;
+    margin-top: 1rem;
+}
+
+.past .personBlock hr {
+    display: block; 
+    overflow: hidden; 
+    width: 110%;
+    border-style: inset; 
+    border-width: 1px;
+    border-color: black;
+    margin-left: -6rem;
+}
+
+.past .personBlock .title {
+    text-align: left;
+    font-size: 20px;
+    text-transform: uppercase!important;
+    background-image: none;
+    margin-left: -6rem;
+    margin-top: -.4rem;
+}
+
+
+.past .personBlock .date {
+    text-align: left;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: grey;
+    background-image: none;
+    margin-left: -6rem;
+    margin-top: -.4rem;
+}
+
+
+.past .personBlock .content{
+    text-align: left;
+    background-image: none;
+    font-size: 18px;
+    margin-left: -6rem;
+}
+
