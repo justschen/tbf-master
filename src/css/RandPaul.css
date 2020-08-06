@@ -1,15 +1,15 @@
-.convo-content {
+.rand-content {
     padding: 3.3rem;
 }
 
-.convo-content p {
+.rand-content p {
     margin: 1rem 4.5rem;
     font-size: 140%;
     text-align: left;
     display: block;
 }
 
-.convo-content .italics {
+.rand-content .italics {
     font-style: italic;
 }
 

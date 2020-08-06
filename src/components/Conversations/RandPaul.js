@@ -6,6 +6,7 @@ import AboutHeader from '../../img/aboutUsJPG.JPG';
 import Header from '../A-WebElements/Header';
 import Footer from '../A-WebElements/Footer';
 
+
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -14,13 +15,13 @@ const RandPaul = () => {
 	return (
 		<div className="conversations">
 			<Header name="randPaul"/>
-			<Container fluid className="convo-content">
+			<Container fluid className="rand-content">
 			<div className="weird">
 			
 				<h2>
 				US Senator Rand Paul at the Berkeley Forum
-
 				</h2>
+				
 
 			</div>
 
@@ -28,6 +29,7 @@ const RandPaul = () => {
 					<p className='italics'>
 					US Senator Rand Paul appeared at the Berkeley Forum on March 19, 2014. Senator Paul discussed the implications of NSA’s surveillance activities on liberty and his potential plans to run for the 2016 Republican nomination for President. The event was moderated by Matthew Freeman.
 					</p>
+					
 				</Row>
 				<Row className="middle-row1">
 					<p>

@@ -27,10 +27,44 @@
 }
 
 .convo-content p {
-	margin: 0 7rem;
+	font-size: 170% !important;
+	font-weight: bold;
+	margin-top: -2.5rem !important;
+	margin-left: -3rem !important;
+	color: white;
+	text-align: left !important;
+	padding: 5rem
 }
 
-.convo-content .bottom-row {
-	display: flex;
-	justify-content: space-around;
+.convo-content link {
+	margin-left: 2em !important;
+}
+
+.convo-content h6 {
+	font-size: 120% !important;
+	margin-top: -10rem !important;
+	margin-right: -3rem !important;
+	color: white;
+	text-align: right!important;
+	padding: 5rem
+}
+
+
+.convo-content .articleLink{
+	background-image: url(../img/randPaulBlock.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+
+.convo-content .randPaul-link{
+	background-image: url(../img/randPaulBlock.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.convo-content .article2-link{
+	background-image: url(../img/randPaulBlock.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
