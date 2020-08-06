@@ -29,11 +29,11 @@
 .convo-content p {
 	font-size: 170% !important;
 	font-weight: bold;
-	margin-top: -2.5rem !important;
-	margin-left: -3rem !important;
+	margin-top: 2rem !important;
+	margin-left: 1rem !important;
 	color: white;
 	text-align: left !important;
-	padding: 5rem
+	padding: 1rem
 }
 
 .convo-content link {
@@ -41,30 +41,89 @@
 }
 
 .convo-content h6 {
+	position: relative;
 	font-size: 120% !important;
-	margin-top: -10rem !important;
-	margin-right: -3rem !important;
+	margin-top: -4rem !important;
+	margin-right: -0.7rem;
 	color: white;
 	text-align: right!important;
-	padding: 5rem
+	padding: 2.5rem
 }
 
 
-.convo-content .articleLink{
-	background-image: url(../img/randPaulBlock.png);
-	background-size: 100%;
+.convo-content .blank{
+	background-position: center;
+	background-image: url(../img/blank.png);
+	background-size: 95%;
 	background-repeat: no-repeat;
 }
 
-
-.convo-content .randPaul-link{
-	background-image: url(../img/randPaulBlock.png);
+.convo-content .lineup1{
+	background-position: center;
+	background-image: url(../img/lineup1.png);
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: 95%;
 }
 
-.convo-content .article2-link{
-	background-image: url(../img/randPaulBlock.png);
+.convo-content .discourse{
+	background-position: center;
+	background-image: url(../img/discourse.png);
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: 95%;
+}
+.convo-content .rand{
+	background-position: center;
+	background-position: center;
+	background-image: url(../img/rand.png);
+	background-size: 95%;
+	background-repeat: no-repeat;
+}
+
+.convo-content .ellen{
+	background-position: center;
+	background-image: url(../img/ellen.png);
+	background-size: 95%;
+	background-repeat: no-repeat;
+}
+.convo-content .homeland{
+	background-position: center;
+	background-image: url(../img/homeland.png);
+	background-size: 95%;
+	background-repeat: no-repeat;
+}
+.convo-content .feng{
+	background-position: center;
+	background-image: url(../img/feng.png);
+	background-size: 95%;
+	background-repeat: no-repeat;
+}
+.convo-content .politico{
+	background-position: center;
+	background-image: url(../img/politico.png);
+	background-size: 95%;
+	background-repeat: no-repeat;
+}
+.convo-content .host{
+	background-position: center;
+	background-image: url(../img/host.png);
+	background-size: 95%;
+	background-repeat: no-repeat;
+}
+.convo-content .hey-vsauce-michael-here{
+	background-position: center;
+	background-image: url(../img/vsauce.png);
+	background-size: 95%;
+	background-repeat: no-repeat;
+}
+.convo-content .josh{
+	background-position: center;
+	background-image: url(../img/josh.png);
+	background-size: 95%;
+	background-repeat: no-repeat;
+}
+.convo-content .lineup2{
+	background-position: center;
+	background-image: url(../img/lineup2.png);
+	background-size: 95%;
+	background-repeat: no-repeat;
 }
