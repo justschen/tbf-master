@@ -11,7 +11,8 @@ const TeamCard = (props) => {
     };
     return (
         <div className="team-card">
-            <div className="headshot" style={bg}>
+            <div className="headshot">
+                <img src={props.image}/>
                 <p className="bio">
                     {props.bio}
                 </p>

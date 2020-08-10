@@ -1,30 +1,42 @@
 .team-card{
+    width:25%;
     .headshot {
+        position: relative;
         border-radius: 4px;
-        background-size: 100%;
-        background-repeat: no-repeat;
-        height: 100%;
+        height:437px;
+        width: 336px;
+        margin: 0;
         .bio {
+            position: absolute;
+            border-radius: 4px;
+            top:0;
+            left:0;
             background-color: #233748;
+            padding: 1rem;
+            text-align: center;
             color: white;
             opacity:0;
             height: 100%;
             width: 100%;
-            font-size: 21px;
+            font-size: 1vw;
             -webkit-transition: opacity 1s;
             -moz-transition:    opacity 1s;
             -ms-transition:     opacity 1s;
             -o-transition:      opacity 1s;
             transition:         opacity 1s;
+            margin-bottom: 0px;
         }
         .bio:hover {
             opacity: 0.8;
         }
     }
     .name {
-        
+        font-size: 33px;
+        margin:0;
+        text-transform: none;
     }
     .role {
-
+        margin-top:-1rem;
+        font-size: 30px;
     }
 }
