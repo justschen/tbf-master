@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from '@reach/router';
 
-import '../../css/Header.css'
+import '../../css/Header.scss'
 
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/NavBar';
@@ -42,7 +42,7 @@ const Header = (props) => {
                         <img
                         className="d-block w-100"
                         src={landingMailPhoto}
-                        alt="Third slide"
+                        alt="Second slide"
                         />
                         <Carousel.Caption className = "d-flex flex-column h-50 align-items-left justify-content-start">
                             <h3>Keep Up with the Forum</h3>

@@ -1,0 +1,30 @@
+.team-card{
+    .headshot {
+        border-radius: 4px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 100%;
+        .bio {
+            background-color: #233748;
+            color: white;
+            opacity:0;
+            height: 100%;
+            width: 100%;
+            font-size: 21px;
+            -webkit-transition: opacity 1s;
+            -moz-transition:    opacity 1s;
+            -ms-transition:     opacity 1s;
+            -o-transition:      opacity 1s;
+            transition:         opacity 1s;
+        }
+        .bio:hover {
+            opacity: 0.8;
+        }
+    }
+    .name {
+        
+    }
+    .role {
+
+    }
+}
