@@ -14,8 +14,9 @@ import Posters from './components/Events/Posters';
 import Contact from './components/Contact';
 import Decal from './components/Decal';
 import JoinUs from './components/JoinUs';
+import Advisory from './components/About/Advisory';
 
-import Header from './components/A-WebElements/Header'
+import Header from './components/A-WebElements/Header';
 
 const App = () => {
 	return (
@@ -33,7 +34,7 @@ const App = () => {
 				<Contact path ="/contact" />
 				<Decal path ="/decal" />
 				<JoinUs path ="/join" />
-		
+				<Advisory path="/advisory" />
 			</Router>
 		</div>
 	);

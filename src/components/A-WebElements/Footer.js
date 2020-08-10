@@ -57,7 +57,7 @@ const Footer = (props) => {
                                                 <Link to="/team" className="link-tag">
 							<p>Meet Our Team</p>
 						</Link>
-						<Link to="" className="link-tag">
+												<Link to="/advisory" className="link-tag">
 							<p>Advisory Committee</p>
 						</Link>
 						<Link to="/join" className="link-tag">

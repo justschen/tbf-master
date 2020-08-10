@@ -1,5 +1,6 @@
 .stuff {
     background-size: 100%;
+    background-repeat: no-repeat;
     background-position: left;
     width: 100%;
     height: 100vh;
@@ -14,6 +15,7 @@
 .space {
     background-size: 100%;
     background-position: left;
+    background-repeat: no-repeat;
     width: 100%;
     height: 7em;
     position: relative;
