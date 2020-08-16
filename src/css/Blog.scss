@@ -1,0 +1,45 @@
+.blog-content {
+    padding: 3.3rem;
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+ 
+    
+    .header-rand {
+        display: flex;
+        width: 100%;
+        background-image: url(../img/smallText.png);
+        background-position: 50% 40%;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .header-lineup {
+        display: flex;
+        width: 100%;
+        background-image: url(../img/2020lineup.png);
+        background-position: 50% 40%;
+        background-repeat: no-repeat;
+        background-size: 98%;
+    }
+}
+
+.blog-content p {
+    margin: 1rem 4.5rem;
+    font-size: 140%;
+    text-align: left;
+    display: block;
+}
+
+.blog-content .italics {
+    font-style: italic;
+}
+
+.blog-content h2 {
+    align-items: center;
+    text-align: left;
+    padding-top: 16rem;
+    padding-bottom: 4rem;
+    padding-left: 3rem;
+    font-size: 50px;
+}

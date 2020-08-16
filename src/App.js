@@ -15,6 +15,7 @@ import Contact from './components/Contact';
 import Decal from './components/Decal';
 import JoinUs from './components/JoinUs';
 import Advisory from './components/About/Advisory';
+import Lineup from './components/Conversations/Lineup'
 
 import Header from './components/A-WebElements/Header';
 
@@ -28,6 +29,7 @@ const App = () => {
 				<Team path="/team" />
 				<ConvoBlocks path ="/convoBlocks" />
 				<RandPaul path ="/randPaul" />
+				<Lineup path ="/lineup" />
 				<Calendar path ="/calendar" />
 				<PastEvents path ="/pastEvents" />
 				<Posters path ="/posters" />

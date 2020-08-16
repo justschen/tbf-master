@@ -52,7 +52,7 @@ const Header = (props) => {
                 </Carousel>
             </div>
         );
-    } else if(props.name.localeCompare("randPaul") == 0) {
+    } else if(props.name.localeCompare("blog") == 0) {
         return (
             <div className="space">
                 <div className="header">

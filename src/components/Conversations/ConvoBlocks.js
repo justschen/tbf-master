@@ -18,7 +18,7 @@ const ConvoBlocks = () => {
 			
 				<Row classname="top-row">
 					<Col className="blank">
-					<Link to="/randPaul">
+					<Link to="/lineup">
                 		<p >Introducing the Berkeley Forum's <br></br>Spring 2020 Lineup</p>
 						<h6>January 27, 2020</h6>
             		</Link>

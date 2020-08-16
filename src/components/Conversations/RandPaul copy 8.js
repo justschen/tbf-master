@@ -14,7 +14,7 @@ import Col from 'react-bootstrap/Col';
 const RandPaul = () => {
 	return (
 		<div className="conversations">
-			<Header name="blog"/>
+			<Header name="randPaul"/>
 			<Container fluid className="blog-content">
 			<div className="header-rand">
 
