@@ -8,7 +8,7 @@ import Footer from './A-WebElements/Footer';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
-import '../css/Landing.css';
+import '../css/Landing.scss';
 
 const Landing = () => {
 	return (
