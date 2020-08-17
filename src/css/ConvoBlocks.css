@@ -127,3 +127,7 @@
 	background-size: 95%;
 	background-repeat: no-repeat;
 }
+
+.convo-content a {
+	text-decoration: none;
+}
