@@ -58,3 +58,8 @@ button {
 	font-size: 2vw;
 	text-decoration: none;
 }
+
+.scrolled {
+	height:0vh;
+	background-color: mediumaquamarine;
+}

@@ -14,12 +14,13 @@ import Col from 'react-bootstrap/Col';
 const RandPaul = () => {
 	return (
 		<div className="conversations">
-			<Header name="randPaul"/>
+			<Header name="blog"/>
 			<Container fluid className="blog-content">
-			<div className="header-rand">
+			<div className="header-none">
 
 				<h2>
-				US Senator Rand Paul at the Berkeley Forum
+				Statement Regarding the Cancellation of the <br>
+				</br>Co-Founders of Cards Against Humanity Event
 				</h2>
 				
 			</div>
