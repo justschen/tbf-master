@@ -1,12 +1,7 @@
 .blog-content {
     padding: 3.3rem;
-    background-position: 50% 40%;
-    background-repeat: no-repeat;
-    background-size: 100%;
- 
     
     .header-rand {
-        display: flex;
         width: 100%;
         background-image: url(../img/smallText.png);
         background-position: 50% 40%;
@@ -15,7 +10,6 @@
     }
 
     .header-lineup {
-        display: flex;
         width: 100%;
         background-image: url(../img/2020lineup.png);
         background-position: 50% 40%;
@@ -29,6 +23,12 @@
     font-size: 140%;
     text-align: left;
     display: block;
+
+
+}
+
+.blog-content .caret {
+    color: black;
 }
 
 .blog-content .italics {
@@ -42,4 +42,8 @@
     padding-bottom: 4rem;
     padding-left: 3rem;
     font-size: 50px;
+}
+
+.blog-content .right-column {
+    margin-left: -25rem;
 }

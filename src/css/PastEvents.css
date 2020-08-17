@@ -13,21 +13,21 @@
     background-image: none;
     height: 20vw;
     margin-left: -10rem;
-    margin-top: 2rem;
+    margin-top: 0rem;
 }
 
 .past .block .juliePic {
     background-image: none;
     height: 21vw;
     margin-left: -10rem;
-    margin-top: 1rem;
+    margin-top: -1rem;
 }
 
 
 .past .personBlock h3 {
     text-align: left;
     margin-left: -6rem;
-    margin-top: 1rem;
+    margin-top: -1.4rem;
 }
 
 .past .personBlock hr {

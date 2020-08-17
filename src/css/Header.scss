@@ -1,3 +1,5 @@
+
+
 .stuff {
     background-size: 100%;
     background-repeat: no-repeat;
@@ -11,6 +13,19 @@
 .stuff h2 {
     margin-top: 22vw !important;
 }
+
+.stuff {
+    .btn-default {
+        color: white;
+        background: none;
+        margin-top: 17rem;
+        font-size: 70px;
+    }
+    .btn-default:hover{
+        color: grey;
+    }
+}
+
 
 .space {
     background-size: 100%;
@@ -230,3 +245,4 @@
     height: 100vh;
     overflow: hidden;
 }
+

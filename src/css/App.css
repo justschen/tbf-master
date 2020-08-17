@@ -57,3 +57,8 @@ button {
 	padding: 1vw;
 	font-size: 2vw;
 }
+
+.scrolled {
+	height:0vh;
+	background-color: mediumaquamarine;
+}

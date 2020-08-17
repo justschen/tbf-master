@@ -54,51 +54,84 @@ const Lineup = () => {
 					</p>
 				</Row>
 			
-				<Row  >
+				<Row style={{
+				justifyContent:"flex-start"
+				}}>
+				
 					<p>
 					<strong><u>FEBRUARY</u></strong>
-					<br></br><br></br>					
-					<strong>Rebecca Nagle, two-spirit Cherokee activist</strong>  -  Thursday, February 6
 					<br></br><br></br>
-					<strong>Ien Chi, Creative Director of Jubilee</strong>  -  Monday, February 10
-					<br></br><br></br>
-					<strong>Tim Chau, Owner of 3.14 (pi) on Instagram</strong>  -  Tuesday, February 25
-					<br></br><br></br>
-					<strong>Christian Picciolini, Founder of the Free Radicals Project</strong>  -  Thursday, February 27
-					<br></br><br></br>
-					<strong>Ien Chi, Creative Director of Jubilee</strong>  -  Monday, February 10
-					<br></br><br></br><br></br>
-					
-					<strong><u>MARCH</u></strong>
-					<br></br><br></br>
-					<strong>Bias in Machine Learning Panel</strong>  -  Monday, March 2
-					<br></br><br></br>
-					<strong>Affirmative Action Debate</strong>  -  Thursday, March 5
-					<br></br><br></br>
-					<strong>Andrew Kortina, Co-founder of Venmo</strong>  -  Wednesday, March 11
-					<br></br><br></br>
-					<strong>Doug Freeman, COO of Patagonia</strong>  -  Tuesday, March 17
-					<br></br><br></br><br></br>
-					
-					
-					<strong><u>APRIL</u></strong>
-					<br></br><br></br>
-					<strong>Alice Wong, Founder & Director of the Disability Visibility Project</strong>  -  Monday, April 6
-					<br></br><br></br>
-					<strong>Hong Kong Protests Panel</strong>  -  Thursday, April 23
-					<br></br><br></br>
-					<strong>Barry Levenson, Founder & Curator of the National Mustard Museum</strong>  -  Tuesday, April 28
-					<br></br><br></br><br></br>
-
-
-					<strong><u>TENTATIVE</u></strong>
-					<br></br><br></br>
-					<strong>Steven Lim, Buzzfeed Producer</strong>  -  TBA
-					<br></br><br></br>
-					<strong>Alaleh Kianerci, District Attorney of People v. Brock Turner (2016)</strong>  - TBA
+					<strong> - Rebecca Nagle, two-spirit Cherokee activist</strong>  -  Thursday, February 6
 					</p>
-					s
+
+					<p>
+					<strong>- Ien Chi, Creative Director of Jubilee</strong>  -  Monday, February 10
+					</p>
+					<p>
+					<strong>- Tim Chau, Owner of 3.14 (pi) on Instagram</strong>  -  Tuesday, February 25
+					</p>
+					<p>
+					<strong>- Christian Picciolini, Founder of the Free Radicals Project</strong>  -  Thursday, February 27
+					</p>
+				
+					
+				</Row>
+				<Row style={{
+				justifyContent:"flex-start"
+				}}>	
+					
+						<p>
+						<strong><u>MARCH</u></strong>
+						<br></br><br></br>
+						<strong>- Bias in Machine Learning Panel</strong>  -  Monday, March 2
+						</p>
+	
+						<p>
+						<strong>- Affirmative Action Debate</strong>  -  Thursday, March 5 &nbsp
+						</p>
+						<p>
+						<strong>- Andrew Kortina, Co-founder of Venmo</strong>  -  Wednesday, March 11
+						</p>
+						<p>
+						<strong>- Doug Freeman, COO of Patagonia</strong>  -  Tuesday, March 17
+						</p>
+				
+				
+					
+				</Row>
+				
+				<Row style={{
+				justifyContent:"flex-start"
+				}}>
+					
+					<p>
+						<strong><u>APRIL</u></strong>
+						<br></br><br></br>
+						<strong>- Alice Wong, Founder & Director of the Disability Visibility Project</strong>  -  Monday, April 6
+					</p>
+					<p>
+					<strong>- Hong Kong Protests Panel</strong>  -  Thursday, April 23
+					</p>
+					<p>
+					<strong>- Barry Levenson, Founder & Curator of the National Mustard Museum</strong>  -  Tuesday, April 28
+					</p>
 			
+				</Row>
+				<Row style={{
+				justifyContent:"left"
+				}}>
+					
+					<p>
+						<strong><u>TENTATIVE</u></strong>
+						<br></br><br></br>
+						<strong>- Steven Lim, Buzzfeed Producer</strong>  -  TBA
+					</p>
+					
+					<p>
+					<strong>- Alaleh Kianerci, District Attorney of People v. Brock Turner (2016)</strong>  - TBA
+					</p>
+			
+					
 				</Row>
 				<Row  >
 					<p>
@@ -106,9 +139,9 @@ const Lineup = () => {
 					</p>
 				</Row>
 				<Row  >
-					<p>
+					<h3>
 					<strong>About The Berkeley Forum</strong> 
-					</p>
+					</h3>
 				</Row>
 
 				<Row >
@@ -135,7 +168,9 @@ const Lineup = () => {
 					</p>
 				</Row>
 
-				<Row  >
+				<Row style={{
+				justifyContent:"flex-start"
+				}}>
 					<p>
 					<strong>Press Contact</strong>
 					<br></br><br></br>
@@ -144,30 +179,6 @@ const Lineup = () => {
 					Communications Project Manager
 					<br></br><br></br>
 					da-eun.jung@berkeley.edu 
-					</p>
-				</Row>
-
-				<Row  >
-					<p>
-					
-					</p>
-				</Row>
-
-				<Row  >
-					<p>
-					
-					</p>
-				</Row>
-
-				<Row  >
-					<p>
-					
-					</p>
-				</Row>
-
-				<Row  >
-					<p>
-					
 					</p>
 				</Row>
 			</Container>

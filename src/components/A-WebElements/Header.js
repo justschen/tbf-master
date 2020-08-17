@@ -1,5 +1,9 @@
 import React from 'react';
-import { Link } from '@reach/router';
+import { Link as ReachRouterLink } from '@reach/router';
+import {Link as ReactScrollLink } from 'react-scroll';
+
+import * as Scroll from 'react-scroll';
+import { Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 import '../../css/Header.scss'
 
@@ -14,6 +18,7 @@ import landingLinePhoto from '../../img/lineup-photo.png';
 import landingMailPhoto from '../../img/mailing-list-photo.png';
 
 import HeaderBar from './HeaderBar';
+import Scrolls from './Scroll';
 
 const Header = (props) => {
     let middle;
@@ -56,9 +61,9 @@ const Header = (props) => {
         return (
             <div className="space">
                 <div className="header">
-                <Link to="/" className="landing-link">
+                <ReachRouterLink to="/" className="landing-link">
                     <h1>The Berkeley Forum</h1>
-                </Link>
+                </ReachRouterLink>
                 <img src={tasslePath} alt='tassle-socials' className='socials-tassle'/>
                 <div className='bar'>
                 <Navbar collapseOnSelect expand="lg" >
@@ -66,43 +71,43 @@ const Header = (props) => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mm">
                         <div className="dropdown">
-                                    <Link to="/about" className="link-tag">
+                                    <ReachRouterLink to="/about" className="link-tag">
                                         <p className="nav-text">About Us
-                                        <span className="glyphicon glyphicon-chevron-down logo-small"></span>
+                                        
                                         <span className="icon-bar"></span>
                                         </p>
-                                    </Link>
+                                    </ReachRouterLink>
                                     <div className="dropdown-content-about">
-                                        <Link to="/team" className="link-tag">
+                                        <ReachRouterLink to="/team" className="link-tag">
                                             <p className="nav-text">Meet the<br/>Team</p>
-                                        </Link>
+                                        </ReachRouterLink>
                                     </div>
                         </div>
                         <div className="dropdown">
-                                    <Link to="/calendar" className="link-tag">
+                                    <ReachRouterLink to="/calendar" className="link-tag">
                                         <p className="nav-text">Events</p>
-                                    </Link>
+                                    </ReachRouterLink>
                                     <div className="dropdown-content-events">
-                                        <Link to="/pastEvents" className="link-tag">
+                                        <ReachRouterLink to="/pastEvents" className="link-tag">
                                             <p className="nav-text">Past<br/>Events</p>
-                                        </Link>
-                                        <Link to="/posters" className="link-tag">
+                                        </ReachRouterLink>
+                                        <ReachRouterLink to="/posters" className="link-tag">
                                             <p className="nav-text">Speaker<br/>Posters</p>
-                                        </Link>
+                                        </ReachRouterLink>
                                     </div>
                         </div>
-                        <Link to="/join" className='link-tag'>
+                        <ReachRouterLink to="/join" className='link-tag'>
                             <p className="nav-text">Join Us</p>
-                        </Link>
-                        <Link to="/convoBlocks" className='link-tag'>
+                        </ReachRouterLink>
+                        <ReachRouterLink to="/convoBlocks" className='link-tag'>
                             <p className="nav-text">Conversations</p>
-                            </Link>
-                        <Link to="/contact" className='link-tag'>
+                            </ReachRouterLink>
+                        <ReachRouterLink to="/contact" className='link-tag'>
                             <p className="nav-text">Contact</p>
-                        </Link>
-                        <Link to="/decal" className='link-tag'>
+                        </ReachRouterLink>
+                        <ReachRouterLink to="/decal" className='link-tag'>
                             <p className="nav-text">Decal</p>
-                        </Link> 
+                        </ReachRouterLink> 
                         
                     </Nav>
         
@@ -119,74 +124,106 @@ const Header = (props) => {
     
     } else {
         return (
-            <div className="stuff" style={bg}>
-                <div className="header">
-                <Link to="/" className="landing-link">
-                    <h1>The Berkeley Forum</h1>
-                </Link>
-                <img src={tasslePath} alt='tassle-socials' className='socials-tassle'/>
-                <div className='bar'>
-                <Navbar collapseOnSelect expand="lg" >
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="mm">
-                        <div className="dropdown">
-                                    <Link to="/about" className="link-tag">
-                                        <p className="nav-text">About Us
-                                        <span className="glyphicon glyphicon-chevron-down logo-small"></span>
-                                        <span className="icon-bar"></span>
-                                        </p>
-                                    </Link>
-                                    <div className="dropdown-content-about">
-                                        <Link to="/team" className="link-tag">
-                                            <p className="nav-text">Meet the<br/>Team</p>
-                                        </Link>
-                                    </div>
-                        </div>
-                        <div className="dropdown">
-                                    <Link to="/calendar" className="link-tag">
-                                        <p className="nav-text">Events
-                                        <span className="glyphicon glyphicon-chevron-down logo-small"></span>
-                                        <span className="icon-bar"></span>
+            <div>
+                <div className="stuff" style={bg}>
+                                <div className="header">
+                                <ReachRouterLink to="/" className="landing-link">
+                                    <h1>The Berkeley Forum</h1>
+                                </ReachRouterLink>
+                                <img src={tasslePath} alt='tassle-socials' className='socials-tassle'/>
+                                <div className='bar'>
+                                <Navbar collapseOnSelect expand="lg" >
+                                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                                <Navbar.Collapse id="basic-navbar-nav">
+                                    <Nav className="mm">
+                                        <div className="dropdown">
+                                                    <ReachRouterLink to="/about" className="link-tag">
+                                                        <p className="nav-text">About Us
+                                                        <span className="glyphicon glyphicon-chevron-down logo-small"></span>
+                                                        <span className="icon-bar"></span>
+                                                        </p>
+                                                    </ReachRouterLink>
+                                                    <div className="dropdown-content-about">
+                                                        <ReachRouterLink to="/team" className="link-tag">
+                                                            <p className="nav-text">Meet the<br/>Team</p>
+                                                        </ReachRouterLink>
+                                                    </div>
+                                        </div>
+                                        <div className="dropdown">
+                                                    <ReachRouterLink to="/calendar" className="link-tag">
+                                                        <p className="nav-text">Events
+                                                        <span className="glyphicon glyphicon-chevron-down logo-small"></span>
+                                                        <span className="icon-bar"></span>
+                                                        
+                                                        </p>
+                                                    </ReachRouterLink>
+                                                    <div className="dropdown-content-events">
+                                                        <ReachRouterLink to="/pastEvents" className="link-tag">
+                                                            <p className="nav-text">Past<br/>Events</p>
+                                                        </ReachRouterLink>
+                                                        <ReachRouterLink to="/posters" className="link-tag">
+                                                            <p className="nav-text">Speaker<br/>Posters</p>
+                                                        </ReachRouterLink>
+                                                    </div>
+                                        </div>
+                                        <ReachRouterLink to="/join" className='link-tag'>
+                                            <p className="nav-text">Join Us</p>
+                                        </ReachRouterLink>
+                                        <ReachRouterLink to="/convoBlocks" className='link-tag'>
+                                            <p className="nav-text">Conversations</p>
+                                            </ReachRouterLink>
+                                        <ReachRouterLink to="/contact" className='link-tag'>
+                                            <p className="nav-text">Contact</p>
+                                        </ReachRouterLink>
+                                        <ReachRouterLink to="/decal" className='link-tag'>
+                                            <p className="nav-text">Decal</p>
+                                        </ReachRouterLink> 
                                         
-                                        </p>
-                                    </Link>
-                                    <div className="dropdown-content-events">
-                                        <Link to="/pastEvents" className="link-tag">
-                                            <p className="nav-text">Past<br/>Events</p>
-                                        </Link>
-                                        <Link to="/posters" className="link-tag">
-                                            <p className="nav-text">Speaker<br/>Posters</p>
-                                        </Link>
-                                    </div>
-                        </div>
-                        <Link to="/join" className='link-tag'>
-                            <p className="nav-text">Join Us</p>
-                        </Link>
-                        <Link to="/convoBlocks" className='link-tag'>
-                            <p className="nav-text">Conversations</p>
-                            </Link>
-                        <Link to="/contact" className='link-tag'>
-                            <p className="nav-text">Contact</p>
-                        </Link>
-                        <Link to="/decal" className='link-tag'>
-                            <p className="nav-text">Decal</p>
-                        </Link> 
+                                    </Nav>
                         
-                    </Nav>
+                                    </Navbar.Collapse>
+                                </Navbar>
+                                
+                                </div>
+                            </div>
+
+
+                            <h2 className="text">{props.name}</h2>
+
+                        
+                            <a type="button" class="btn-default">
+                            <ReactScrollLink
+                            className="scrolldown"
+                            activeClass="active"
+                            to="scrolls"
+                            spy={true}
+                            smooth={true}
+                            offset={0}
+                            duration= {500}
+                        ><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-compact-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"/>
+                    </svg></ReactScrollLink>   
+                            </a>
+                        
+
         
-                    </Navbar.Collapse>
-                </Navbar>
-                
                 </div>
+
+                <div>
+                    <Scrolls/>
+                </div>
+
             </div>
-
-
-            <h2 className="text">{props.name}</h2>
-        
-        </div>
+            
+    
         );
     }
+
+
+
 };
+
+
+
 
 export default Header;
