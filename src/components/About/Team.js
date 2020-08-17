@@ -6,6 +6,7 @@ import TeamHeader from '../../img/team-bg.png';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 import Header from '../A-WebElements/Header';
 import Footer from '../A-WebElements/Footer';
@@ -23,41 +24,83 @@ import DanielVoskoboynik from '../../img/bios/Daniel_Voskoboynik.png';
 import AnkitaInamdar from '../../img/bios/Ankita_Inamdar.png';
 import NayanChavan from '../../img/bios/Nayan_Chavan.png';
 
+var execData = [
+	["Cindy Tang", 
+	"President", 
+	"Cindy Tang is a third-year student studying Business Administration " +
+	"and Sociology with a minor in Human Rights Interdisciplinary." + 
+	"Originally from Columbus, OH, Cindy has passions for inclusion" + 
+	"and diversity, people, and education. In Cindy’s free time, she" +
+	"enjoys hiking, vintage shopping, and trying new restaurants." +
+	"Cindy is currently an RA in Blackwell Hall and is a huge fan of" + 
+	"the Ohio State Buckeyes.",
+	CindyTang],
+	["Aparna Iyer",
+	"VP of Events",
+	"",
+	AparnaIyer],
+	["Ethan Qi",
+	"VP of Finance",
+	"",
+	EthanQi],
+	["Abhay Aggarwal",
+	"VP of Moderating",
+	"",
+	AbhayAggarwal],
+	["David Lee",
+	"VP of System & Technology",
+	"",
+	DavidLee],
+	["Kaho Otake",
+	"VP of Communication",
+	"",
+	KahoOtake],
+	["CJ Hines",
+	"VP of System & Technology",
+	"",
+	CJHines]
+];
+
+var directorData = [
+	["Nayan Chavan",
+	"Director of Social Affairs",
+	"",
+	NayanChavan],
+	["Ankita Inamdar",
+	"Director of Development",
+	"",
+	AnkitaInamdar],
+	["Daniel Voskoboynik",
+	"Director of Membership",
+	"",
+	DanielVoskoboynik]
+];
+
+
 const Team = () => {
 	return (
 		<div className="team">
 			<Header name="Meet Our Team" image={TeamHeader} />
-			<Container fluid className = "executive-committee">
+			<Container fluid className = "profiles">
 				<Row>
 					<h1>Executive Committee</h1>
 				</Row>
 				<Row>
-					<TeamCard bio="Cindy Tang is a third-year student studying Business Administration 
-						and Sociology with a minor in Human Rights Interdisciplinary. 
-						Originally from Columbus, OH, Cindy has passions for inclusion 
-						and diversity, people, and education. In Cindy’s free time, she 
-						enjoys hiking, vintage shopping, and trying new restaurants. 
-						Cindy is currently an RA in Blackwell Hall and is a huge fan of 
-						the Ohio State Buckeyes." 
-						name="Cindy Tang" role="President" image={CindyTang}/>
-					<TeamCard name="Aparna Iyer" role="VP of Events" image={AparnaIyer}/>
-					<TeamCard name="Ethan Qi" role="VP of Finance" image={EthanQi}/>
-				</Row>
-				<Row>
-					<TeamCard name="Abhay Aggarwal" role="VP of Moderating" image={AbhayAggarwal}/>
-					<TeamCard name="David Lee" role="VP of Programming" image={DavidLee}/>
-					<TeamCard name="Kaho Otake" role="VP of Communication" image={KahoOtake}/>
-				</Row>
-				<Row>
-					<TeamCard name="CJ Hines" role="VP of System & Technology" image={CJHines}/>
+					{execData.map((member) => (
+						<Col xs={4}>
+							<TeamCard bio={member[2]} name={member[0]} role={member[1]} image={member[3]}/>
+						</Col>
+					))}
 				</Row>
 				<Row>
 					<h1 className="section-divider">Directors</h1>
 				</Row>
 				<Row>
-					<TeamCard name="Nayan Chavan" role="VP of System & Technology" image={NayanChavan}/>
-					<TeamCard name="Ankita Inamdar" role="VP of System & Technology" image={AnkitaInamdar}/>
-					<TeamCard name="Daniel Voskoboynik" role="VP of System & Technology" image={DanielVoskoboynik}/>
+					{directorData.map((member) => (
+						<Col xs={4}>
+							<TeamCard bio={member[2]} name={member[0]} role={member[1]} image={member[3]}/>
+						</Col>
+					))}
 				</Row>
 				<Row>
 					<h1 className="section-divider">Members</h1>
