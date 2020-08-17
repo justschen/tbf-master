@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link as ReachRouterLink } from '@reach/router';
-import { Link as ReactScrollLink } from 'react-scroll';
+import {Link as ReactScrollLink } from 'react-scroll';
 
 import * as Scroll from 'react-scroll';
 import { Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
@@ -31,7 +31,7 @@ const Header = (props) => {
             <div className='landing-header'>
                 <HeaderBar />
                 
-                <Carousel wrap={false} data-wrap={false}>
+                <Carousel wrap={true} data-wrap={false}>
                     <Carousel.Item> 
                         <img
                         className="d-block w-100"
@@ -39,11 +39,9 @@ const Header = (props) => {
                         alt="First slide"
                         />
 
-                        <Carousel.Caption>
+                        <Carousel.Caption className = "d-flex flex-column h-50 align-items-left justify-content-start">
                             <h3>Fall 2020 Lineup</h3>
-                            <ReachRouterLink to="/events">
-                                <p className="link-text">See the Events</p>
-                            </ReachRouterLink>
+                            <p>See the Events</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -52,11 +50,9 @@ const Header = (props) => {
                         src={landingMailPhoto}
                         alt="Second slide"
                         />
-                        <Carousel.Caption className = "d-flex flex-column justify-content-start">
+                        <Carousel.Caption className = "d-flex flex-column h-50 align-items-left justify-content-start">
                             <h3>Keep Up with the Forum</h3>
-                            <ReachRouterLink to="">
-                                <p className="link-text">Subscribe to Our Mailing List</p>
-                            </ReachRouterLink>
+                            <p>Subscribe to Our Mailing List</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     
