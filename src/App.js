@@ -1,7 +1,7 @@
 import React from 'react';
 import { Router } from '@reach/router';
 
-import './css/App.css';
+import './css/App.css';     
 
 import Landing from './components/Landing';
 import About from './components/About/About';
