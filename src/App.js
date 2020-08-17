@@ -16,8 +16,9 @@ import Decal from './components/Decal';
 import JoinUs from './components/JoinUs';
 import Advisory from './components/About/Advisory';
 import Lineup from './components/Conversations/Lineup'
+import OurCommittees from './components/About/OurCommittees';
+import Legacy from './components/About/Legacy';
 
-import Header from './components/A-WebElements/Header';
 
 const App = () => {
 	return (
@@ -37,6 +38,8 @@ const App = () => {
 				<Decal path ="/decal" />
 				<JoinUs path ="/join" />
 				<Advisory path="/advisory" />
+				<OurCommittees path="/committees" />
+				<Legacy path="/legacy" />
 			</Router>
 		</div>
 	);
