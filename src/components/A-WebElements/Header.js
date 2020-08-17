@@ -31,7 +31,7 @@ const Header = (props) => {
             <div className='landing-header'>
                 <HeaderBar />
                 
-                <Carousel wrap={true} data-wrap={false}>
+                <Carousel wrap={false} data-wrap={false}>
                     <Carousel.Item> 
                         <img
                         className="d-block w-100"
@@ -39,9 +39,11 @@ const Header = (props) => {
                         alt="First slide"
                         />
 
-                        <Carousel.Caption className = "d-flex flex-column h-50 align-items-left justify-content-start">
+                        <Carousel.Caption>
                             <h3>Fall 2020 Lineup</h3>
-                            <p>See the Events</p>
+                            <ReachRouterLink to="/events">
+                                <p className="link-text">See the Events</p>
+                            </ReachRouterLink>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -50,9 +52,11 @@ const Header = (props) => {
                         src={landingMailPhoto}
                         alt="Second slide"
                         />
-                        <Carousel.Caption className = "d-flex flex-column h-50 align-items-left justify-content-start">
+                        <Carousel.Caption>
                             <h3>Keep Up with the Forum</h3>
-                            <p>Subscribe to Our Mailing List</p>
+                            <ReachRouterLink to="">
+                                <p className="link-text">Subscribe to Our Mailing List</p>
+                            </ReachRouterLink>
                         </Carousel.Caption>
                     </Carousel.Item>
                     
