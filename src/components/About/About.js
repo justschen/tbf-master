@@ -1,19 +1,19 @@
 import React from 'react';
 import { Link } from '@reach/router';
 
-import '../../css/About.css';
+import '../../css/About.scss';
 import AboutHeader from '../../img/aboutUsJPG.JPG';
 import Header from '../A-WebElements/Header';
 import Footer from '../A-WebElements/Footer';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 
 const About = () => {
 	return (
 		<div className="about">
 			<Header name="About Us" image={AboutHeader} />
+			
 			<Container fluid className="about-content">
 				<Row>
 					<p>
@@ -37,10 +37,18 @@ const About = () => {
 					</p>
 				</Row>
 				<Row className="bottom-navbar">
-					<p>Meet Our Team</p>
-					<p>Advisory Committee</p>
-					<p>Our Committees</p>
-					<p>Legacy</p>
+					<Link to="/team">
+						<p className="link-text">Meet Our Team</p>
+					</Link>
+					<Link to="/advisory">
+						<p className="link-text">Advisory Committee</p>
+					</Link>
+					<Link to="/committees">
+						<p className="link-text">Our Committees</p>
+					</Link>
+					<Link to="/legacy">
+						<p className="link-text">Legacy</p>
+					</Link>
 				</Row>
 			</Container>
 			<Footer />

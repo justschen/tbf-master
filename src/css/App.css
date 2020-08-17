@@ -56,6 +56,7 @@ button {
 	box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.18);
 	padding: 1vw;
 	font-size: 2vw;
+	text-decoration: none;
 }
 
 .scrolled {

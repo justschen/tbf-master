@@ -30,7 +30,8 @@ const Header = (props) => {
         return (
             <div className='landing-header'>
                 <HeaderBar />
-                <Carousel>
+                
+                <Carousel wrap={true} data-wrap={false}>
                     <Carousel.Item> 
                         <img
                         className="d-block w-100"
@@ -54,6 +55,7 @@ const Header = (props) => {
                             <p>Subscribe to Our Mailing List</p>
                         </Carousel.Caption>
                     </Carousel.Item>
+                    
                 </Carousel>
             </div>
         );

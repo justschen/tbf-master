@@ -16,8 +16,9 @@ import Decal from './components/Decal';
 import JoinUs from './components/JoinUs';
 import Advisory from './components/About/Advisory';
 import Lineup from './components/Conversations/Lineup'
+import OurCommittees from './components/About/OurCommittees';
+import Legacy from './components/About/Legacy';
 
-import Header from './components/A-WebElements/Header';
 
 export const ScrollToTop = ({ children, location }) => {
 	React.useEffect(() => window.scrollTo(0, 0), [location.pathname])
@@ -29,6 +30,7 @@ const App = () => {
 	return (
 		
 		<div className="App">
+
 			<Router primary={false}>
 				<ScrollToTop path ="/">
 					<Landing path="/" class/>
@@ -42,6 +44,8 @@ const App = () => {
 					<Posters path ="/posters" />
 					<Contact path ="/contact" />
 					<Decal path ="/decal" />
+					<OurCommittees path="/committees" />
+					<Legacy path="/legacy" />
 					<JoinUs path ="/join" />
 					<Advisory path="/advisory" />
 				</ScrollToTop>
