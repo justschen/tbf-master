@@ -14,19 +14,19 @@ import Col from 'react-bootstrap/Col';
 const RandPaul = () => {
 	return (
 		<div className="conversations">
-			<Header name="randPaul"/>
+		<Header name="blog"/>
 			<Container fluid className="blog-content">
-			<div className="header-rand">
+			<div className="header-press">
 
 				<h2>
-				US Senator Rand Paul at the Berkeley Forum
+				Former White House Press Secretary Josh Earnest <br></br>at the Berkeley Forum
 				</h2>
 				
 			</div>
 
 				<Row>
 					<p className='italics'>
-					US Senator Rand Paul appeared at the Berkeley Forum on March 19, 2014. Senator Paul discussed the implications of NSA’s surveillance activities on liberty and his potential plans to run for the 2016 Republican nomination for President. The event was moderated by Matthew Freeman.
+					Former White House Press Secretary Josh Earnest at the Berkeley Forum
 					</p>
 					
 				</Row>

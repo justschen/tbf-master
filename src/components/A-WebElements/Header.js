@@ -101,7 +101,7 @@ const Header = (props) => {
                         <ReachRouterLink to="/join" className='link-tag'>
                             <p className="nav-text">Join Us</p>
                         </ReachRouterLink>
-                        <ReachRouterLink to="/convoBlocks" className='link-tag'>
+                        <ReachRouterLink to="/conversations" className='link-tag'>
                             <p className="nav-text">Conversations</p>
                             </ReachRouterLink>
                         <ReachRouterLink to="/contact" className='link-tag'>
@@ -171,7 +171,7 @@ const Header = (props) => {
                                         <ReachRouterLink to="/join" className='link-tag'>
                                             <p className="nav-text">Join Us</p>
                                         </ReachRouterLink>
-                                        <ReachRouterLink to="/convoBlocks" className='link-tag'>
+                                        <ReachRouterLink to="/conversations" className='link-tag'>
                                             <p className="nav-text">Conversations</p>
                                             </ReachRouterLink>
                                         <ReachRouterLink to="/contact" className='link-tag'>

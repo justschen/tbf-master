@@ -53,7 +53,7 @@ const HeaderBar = (props) => {
                 <Link to="/join" class='link-tag'>
                     <p className="nav-text">Join Us</p>
                 </Link>
-                <Link to="/convoBlocks" class='link-tag'>
+                <Link to="/conversations" class='link-tag'>
                     <p className="nav-text">Conversations</p>
                     </Link>
                 <Link to="/contact" class='link-tag'>

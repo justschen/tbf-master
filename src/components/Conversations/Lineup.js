@@ -16,7 +16,7 @@ const Lineup = () => {
 		<div className="conversations">
 			<Header name="blog"/>
 			<Container fluid className="blog-content">
-			<div className="header-lineup">
+			<div className="header-2020lineup">
 
 				<h2>
 				Introducing the Berkeley Forum’s Spring 2020 Lineup
