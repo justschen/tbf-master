@@ -19,24 +19,33 @@ import Lineup from './components/Conversations/Lineup'
 
 import Header from './components/A-WebElements/Header';
 
+export const ScrollToTop = ({ children, location }) => {
+	React.useEffect(() => window.scrollTo(0, 0), [location.pathname])
+	return children
+  }
+
+
 const App = () => {
 	return (
 		
 		<div className="App">
-			<Router>
-				<Landing path="/" class/>
-				<About path="/about" />
-				<Team path="/team" />
-				<ConvoBlocks path ="/convoBlocks" />
-				<RandPaul path ="/randPaul" />
-				<Lineup path ="/lineup" />
-				<Calendar path ="/calendar" />
-				<PastEvents path ="/pastEvents" />
-				<Posters path ="/posters" />
-				<Contact path ="/contact" />
-				<Decal path ="/decal" />
-				<JoinUs path ="/join" />
-				<Advisory path="/advisory" />
+			<Router primary={false}>
+				<ScrollToTop path ="/">
+					<Landing path="/" class/>
+					<About path="/about" />
+					<Team path="/team" />
+					<ConvoBlocks path ="/convoBlocks" />
+					<RandPaul path ="/randPaul" />
+					<Lineup path ="/lineup" />
+					<Calendar path ="/calendar" />
+					<PastEvents path ="/pastEvents" />
+					<Posters path ="/posters" />
+					<Contact path ="/contact" />
+					<Decal path ="/decal" />
+					<JoinUs path ="/join" />
+					<Advisory path="/advisory" />
+				</ScrollToTop>
+				
 			</Router>
 		</div>
 	);
