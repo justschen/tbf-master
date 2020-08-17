@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from '@reach/router';
 
-import '../../css/HeaderBar.css'
+import '../../css/HeaderBar.scss'
 
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/NavBar';
