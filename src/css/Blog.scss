@@ -1,135 +1,131 @@
 .blog-content {
-    padding: 3.3rem;
-    
-    h2 {
-        line-height: 4rem;
-    }
-    
-    .header-rand {
-        width: 100%;
-        background-image: url(../img/smallText.png);
-        background-position: 50% 40%;
-        background-repeat: no-repeat;
-        background-size: 100%;
-    }
+	padding: 3.3rem;
 
-    .header-2020lineup {
-        width: 100%;
-        background-image: url(../img/2020lineup.png);
-        background-position: 50% 40%;
-        background-repeat: no-repeat;
-        background-size: 98%;
-    }
-   
-    .header-ellen{
-        width: 100%;
-        background-image: url(../img/ellen-blog.png);
-        background-position: 50% 40%;
-        background-repeat: no-repeat;
-        background-size: 98%;
-    }
-    .header-cohost{
-        width: 100%;
-        background-image: url(../img/cohost-blog.png);
-        background-position: 50% 40%;
-        background-repeat: no-repeat;
-        background-size: 98%;
-    }
-    .header-feng{
-        width: 100%;
-        background-image: url(../img/feng-blog.png);
-        background-position: 50% 40%;
-        background-repeat: no-repeat;
-        background-size: 98%;
-    }
-    .header-discourse{
-        width: 100%;
-        background-image: url(../img/discourse-blog.png);
-        background-position: 50% 40%;
-        background-repeat: no-repeat;
-        background-size: 98%;
-    }
-    .header-fall2019{
-        width: 100%;
-        background-image: url(../img/2019lineup-blog.png);
-        background-position: 50% 40%;
-        background-repeat: no-repeat;
-        background-size: 98%;
-    }
-    .header-vsauce{
-        width: 100%;
-        background-image: url(../img/vsauce-blog.png);
-        background-position: 50% 40%;
-        background-repeat: no-repeat;
-        background-size: 98%;
-    }
-    .header-homeland{
-        width: 100%;
-        background-image: url(../img/homeland-blog.png);
-        background-position: 50% 40%;
-        background-repeat: no-repeat;
-        background-size: 98%;
-    }
-    .header-politico{
-        width: 100%;
-        background-image: url(../img/vandehei-blog.png);
-        background-position: 50% 40%;
-        background-repeat: no-repeat;
-        background-size: 98%;
-    }
+	h2 {
+		line-height: 4rem;
+	}
 
-    .header-press{
-        width: 100%;
-        background-image: url(../img/press-blog.png);
-        background-position: 50% 40%;
-        background-repeat: no-repeat;
-        background-size: 98%;
-    }
-    .header-2019spring{
-        width: 100%;
-        background-image: url(../img/spring2019-blog.png);
-        background-position: 50% 40%;
-        background-repeat: no-repeat;
-        background-size: 98%;
-    }
+	.header-rand {
+		width: 100%;
+		background-image: url(../img/smallText.png);
+		background-position: 50% 40%;
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
 
-    .header-none{
-        width: 100%;
-        background-image: url(../img/blank-blog.png);
-        background-position: 50% 40%;
-        background-repeat: no-repeat;
-        background-size: 98%;
-    }
+	.header-2020lineup {
+		width: 100%;
+		background-image: url(../img/2020lineup.png);
+		background-position: 50% 40%;
+		background-repeat: no-repeat;
+		background-size: 98%;
+	}
 
+	.header-ellen {
+		width: 100%;
+		background-image: url(../img/ellen-blog.png);
+		background-position: 50% 40%;
+		background-repeat: no-repeat;
+		background-size: 98%;
+	}
+	.header-cohost {
+		width: 100%;
+		background-image: url(../img/cohost-blog.png);
+		background-position: 50% 40%;
+		background-repeat: no-repeat;
+		background-size: 98%;
+	}
+	.header-feng {
+		width: 100%;
+		background-image: url(../img/feng-blog.png);
+		background-position: 50% 40%;
+		background-repeat: no-repeat;
+		background-size: 98%;
+	}
+	.header-discourse {
+		width: 100%;
+		background-image: url(../img/discourse-blog.png);
+		background-position: 50% 40%;
+		background-repeat: no-repeat;
+		background-size: 98%;
+	}
+	.header-fall2019 {
+		width: 100%;
+		background-image: url(../img/2019lineup-blog.png);
+		background-position: 50% 40%;
+		background-repeat: no-repeat;
+		background-size: 98%;
+	}
+	.header-vsauce {
+		width: 100%;
+		background-image: url(../img/vsauce-blog.png);
+		background-position: 50% 40%;
+		background-repeat: no-repeat;
+		background-size: 98%;
+	}
+	.header-homeland {
+		width: 100%;
+		background-image: url(../img/homeland-blog.png);
+		background-position: 50% 40%;
+		background-repeat: no-repeat;
+		background-size: 98%;
+	}
+	.header-politico {
+		width: 100%;
+		background-image: url(../img/vandehei-blog.png);
+		background-position: 50% 40%;
+		background-repeat: no-repeat;
+		background-size: 98%;
+	}
 
+	.header-press {
+		width: 100%;
+		background-image: url(../img/press-blog.png);
+		background-position: 50% 40%;
+		background-repeat: no-repeat;
+		background-size: 98%;
+	}
+	.header-2019spring {
+		width: 100%;
+		background-image: url(../img/spring2019-blog.png);
+		background-position: 50% 40%;
+		background-repeat: no-repeat;
+		background-size: 98%;
+	}
+
+	.header-none {
+		width: 100%;
+		background-image: url(../img/blank-blog.png);
+		background-position: 50% 40%;
+		background-repeat: no-repeat;
+		background-size: 98%;
+	}
 }
 
 .blog-content p {
-    margin: 1rem 4.5rem;
-    font-size: 140%;
-    text-align: left;
-    display: block;
-
-
+	margin: 1rem 8rem;
+	font-size: 140%;
+	text-align: left;
+	display: block;
 }
 
 .blog-content .caret {
-    color: black;
+	color: black;
 }
 
 .blog-content .italics {
-    font-style: italic;
+	font-style: italic;
 }
 
 .blog-content h2 {
-    align-items: center;
-    text-align: left;
-    padding-top: 16rem;
-    padding-bottom: 4rem;
-    padding-left: 3rem;
-    font-size: 50px;
+	align-items: center;
+	text-align: left;
+	padding-top: 16rem;
+	padding-bottom: 4rem;
+	padding-left: 3rem;
+	font-size: 50px;
 }
 
 .blog-content .right-column {
-    margin-left: -25rem;
+	margin-left: -25rem;
 }
