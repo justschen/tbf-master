@@ -12,12 +12,7 @@ import {
 } from 'react-scroll';
 
 import '../../css/Header.scss';
-
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/NavBar';
 import Carousel from 'react-bootstrap/Carousel';
-
-import tasslePath from '../../img/social-tassle.png';
 
 import landingLinePhoto from '../../img/lineup-photo.png';
 import landingMailPhoto from '../../img/mailing-list-photo.png';

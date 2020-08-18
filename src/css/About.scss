@@ -9,9 +9,9 @@
 		margin-bottom: 10rem;
 	}
 	p {
-		margin: 0 5rem;
+		margin: 0 6rem;
 	}
-	p.link-text{
+	p.link-text {
 		font-family: 'Karla', sans-serif;
 		border-radius: 6px;
 		background-color: #233748;
@@ -32,11 +32,10 @@
 		text-decoration: none;
 	}
 	.bottom-navbar {
+		padding-left: 3rem;
+		padding-right: 3rem;
 		display: flex;
 		justify-content: space-around;
 		margin-bottom: 5rem;
 	}
-	
 }
-
-
