@@ -232,20 +232,8 @@ const Posters = () => {
 											</Col>
 										</Row>
 										<Row>
-											<Col>
-												<img
-													src={Poster5}
-													alt="Picture of stuff"
-													className="posterImg"
-												/>
-											</Col>
-											<Col>
-												<img
-													src={Poster6}
-													alt="Picture of stuff"
-													className="posterImg"
-												/>
-											</Col>
+											<Col></Col>
+											<Col></Col>
 										</Row>
 									</Card.Body>
 								</Accordion.Collapse>
