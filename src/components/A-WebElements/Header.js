@@ -25,6 +25,7 @@ const Header = (props) => {
 	const bg = {
 		backgroundImage: `url(${props.image})`,
 		background: props.image,
+		backgroundPosition: props.position,
 	};
 	if (props.name.localeCompare('landing') == 0) {
 		return (

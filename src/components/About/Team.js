@@ -12,7 +12,7 @@ import Header from '../A-WebElements/Header';
 import Footer from '../A-WebElements/Footer';
 import TeamCard from '../A-WebElements/TeamCard';
 
-import { execData, directorData, memberData } from './TeamData.js';
+import { execData, directorData, memberData } from './data/TeamData.js';
 
 const Team = () => {
 	return (

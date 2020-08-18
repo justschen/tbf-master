@@ -1,0 +1,51 @@
+.legacy {
+	.profiles {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+
+		h1 {
+			padding: 1rem;
+			width: 50%;
+			color: #233748;
+			letter-spacing: 2px;
+			border-bottom: solid 3px;
+			border-bottom-color: #e9e9e9;
+		}
+	}
+	.row {
+		width: 100%;
+		justify-content: space-around;
+		margin-top: 2rem;
+	}
+	p.link-text {
+		font-family: 'Karla', sans-serif;
+		border-radius: 6px;
+		background-color: #233748;
+		color: #ffffff;
+		font-style: normal;
+		font-weight: normal;
+		line-height: 35px;
+		text-align: center;
+		text-transform: uppercase;
+		border-color: transparent;
+		box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.18);
+		padding: 1vw 2vw 1vw 2vw;
+		font-size: 2vw;
+		margin: 0;
+		text-decoration: none;
+	}
+	a {
+		text-decoration: none;
+	}
+	.bottom-navbar {
+		padding: 0 10rem;
+		display: flex;
+		justify-content: space-around;
+		margin: 15rem 0 5rem 0;
+		text-decoration: none;
+	}
+	.introduction {
+		padding: 5rem;
+	}
+}
