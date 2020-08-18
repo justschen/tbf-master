@@ -146,3 +146,7 @@ button {
 	left: 0;
 	right: 0;
 }
+
+.contactPage {
+	overflow-x: hidden;
+}

@@ -29,7 +29,8 @@ const Contact = () => {
 					<Row className="top-row">
 						<p>
 							For general inquiries, please use the submission box below. We’ll
-							make sure to answer your question as soon as we can!
+							make sure to answer your question as soon as we can! You can find
+							our contact information down below.
 						</p>
 					</Row>
 

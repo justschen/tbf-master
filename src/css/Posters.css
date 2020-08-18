@@ -1,13 +1,11 @@
 .poster-content {
 	padding: 4rem;
-    padding-bottom: 0;
-    text-align: center;
+	padding-bottom: 0;
+	text-align: center;
 }
-
 
 .poster-content .bottom-part {
 	padding: 0em 5em 0em 5em;
-	
 }
 
 .poster-content .middle-row1 {
@@ -16,15 +14,56 @@
 	margin-bottom: 3em;
 }
 
-.poster-content  h5{
-    font-size: 40px;
-    color: black;
+.poster-content h5 {
+	font-size: 40px;
+	color: black;
 	margin: 0;
+}
+.poster-content p {
+	margin-left: 7rem;
+	margin-right: 7rem;
+	text-align: left;
 }
 
 .poster-content .posterImg {
-	height:80%;
+	height: 80%;
 	margin-bottom: 0em;
-	
+}
+.toggle-row {
+	display: flex;
+}
 
+.posterImg {
+	max-width: 70%;
+	margin-bottom: 1rem;
+}
+
+.card {
+	margin: auto;
+	justify-content: center !important;
+	display: flex !important;
+	text-align: center !important;
+	justify-self: center !important;
+	width: 80% !important;
+	border-bottom: 1px solid gray !important;
+
+	border: none;
+}
+
+.toggle {
+	background: transparent;
+}
+.toggle:hover {
+	cursor: pointer;
+}
+.toggle-top {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+.toggle-arrow {
+	margin: 0 2%;
+	width: 28px;
+	height: 28px;
 }
