@@ -1,15 +1,15 @@
 .about-content {
-	padding: 4rem;
+	padding: 5rem;
 	padding-bottom: 0;
 	.row {
 		margin: 0;
 	}
 	.middle-row {
 		margin-top: 2rem;
-		margin-bottom: 3.5rem;
+		margin-bottom: 10rem;
 	}
 	p {
-		margin: 0 1rem;
+		margin: 0 5rem;
 	}
 	p.link-text{
 		font-family: 'Karla', sans-serif;
@@ -34,6 +34,7 @@
 	.bottom-navbar {
 		display: flex;
 		justify-content: space-around;
+		margin-bottom: 5rem;
 	}
 	
 }
