@@ -1,0 +1,26 @@
+.cardStuff .image {
+	z-index: -1;
+}
+
+.cardStuff {
+	border: none !important;
+}
+
+.cardStuff p {
+	text-align: right !important;
+	margin-right: 4.5em;
+	font-size: 25px;
+	background-color: white;
+}
+
+.cardStuff .background {
+	background-color: white;
+}
+
+.cardStuff .cardBack p {
+	color: #233748;
+	z-index: 1;
+}
+.cardStuff .cardBack {
+	margin-top: -20rem;
+}

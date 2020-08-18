@@ -1,22 +1,79 @@
 .decal {
 	padding: 4rem;
-    padding-bottom: 0;
-    text-align: center;
+	padding-bottom: 0;
+	text-align: center;
+}
+
+.formContainer label {
+	color: white;
+	text-align: left;
+	margin-left: 3rem;
+	float: left;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type='text'],
+select,
+textarea {
+	width: 90%; /* Full width */
+	padding: 12px; /* Some padding */
+	border: 1px solid black; /* Gray border */
+	border-radius: 4px; /* Rounded borders */
+	box-sizing: border-box; /* Make sure that padding and width stays in place */
+	margin-top: 6px; /* Add a top margin */
+	margin-bottom: 16px; /* Bottom margin */
+	resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type='submit'] {
+	align-items: left;
+	text-align: left;
+	background-color: white;
+	color: 233748;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type='submit']:hover {
+	background-color: gainsboro;
+}
+
+/* Add a background color and some padding around the form */
+.formContainer {
+	margin: auto;
+	margin-top: rem;
+	width: 70%;
+	border-radius: 10px;
+	background-color: #233748;
+	padding: 20px;
+}
+.contactPage .clickUp p {
+	font-size: 14px !important;
+}
+
+.contactPage .clickUp {
+	top: 135rem;
+	left: 60rem;
+	right: 0;
+	position: absolute;
 }
 
 .decal .row {
-    text-align: center;
+	text-align: center;
 	margin: 0;
 }
 
-.decal h5{
-    font-size: 40px;
-    color: black;
+.decal h5 {
+	font-size: 40px;
+	color: black;
 	margin: 0;
 }
 
 .decal .top-row {
-   
 	margin-top: 2rem;
 	margin-bottom: 3.5rem;
 }
@@ -33,4 +90,59 @@
 .decal .bottom-row {
 	display: flex;
 	justify-content: space-around;
+}
+
+.bottom-space {
+	padding-bottom: 40rem;
+}
+
+button {
+	background-color: white !important;
+	border-radius: 0px;
+	line-height: 0px;
+	border-color: transparent;
+	box-shadow: none;
+	outline: none !important;
+}
+
+.transform {
+	max-width: 70vw;
+	-webkit-transition: all 2s ease;
+	-moz-transition: all 2s ease;
+	-o-transition: all 2s ease;
+	-ms-transition: all 2s ease;
+	transition: all 2s ease;
+	position: absolute;
+	margin-right: auto;
+	margin-left: 23rem;
+	margin-top: 7rem;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+.transform-card {
+	max-width: 70vw;
+	-webkit-transition: all 2s ease;
+	-moz-transition: all 2s ease;
+	-o-transition: all 2s ease;
+	-ms-transition: all 2s ease;
+	transition: all 2s ease;
+	position: absolute;
+	margin-right: auto;
+	margin-left: 8rem;
+	margin-top: 7rem;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+.slider {
+	max-width: 60vw;
+	position: absolute;
+	margin-left: auto;
+	margin-right: 34vw;
+	margin-top: 7rem;
+	left: 0;
+	right: 0;
 }
