@@ -6,7 +6,17 @@ import '../../css/HeaderBar.scss';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/NavBar';
 
-import tasslePath from '../../img/social-tassle.png';
+import tasslePath from '../../img/social-tassle/tassle.png';
+import facebookIcon from '../../img/social-tassle/Facebook.png';
+import instagramIcon from '../../img/social-tassle/Instagram.png';
+import twitterIcon from '../../img/social-tassle/Twitter.png';
+import linkedinIcon from '../../img/social-tassle/LinkedIN.png';
+
+const facebookURL = 'http://facebook.com/berkeleyforum';
+const instagramURL = 'http://instagram.com/berkeleyforum';
+const twitterURL = 'https://twitter.com/berkeleyforum';
+const linkedinURL =
+	'https://www.linkedin.com/company/the-berkeley-forum/about/';
 
 const HeaderBar = (props) => {
 	let middle;
@@ -18,6 +28,20 @@ const HeaderBar = (props) => {
 			</Link>
 			<div className="social-links">
 				<img src={tasslePath} alt="socials-tassle" className="socials-tassle" />
+				<div className="icons">
+					<a href={facebookURL}>
+						<img src={facebookIcon} />
+					</a>
+					<a href={instagramURL}>
+						<img src={instagramIcon} />
+					</a>
+					<a href={twitterURL}>
+						<img src={twitterIcon} />
+					</a>
+					<a href={linkedinURL}>
+						<img src={linkedinIcon} />
+					</a>
+				</div>
 			</div>
 			<div className="bar">
 				<Navbar collapseOnSelect expand="lg">
