@@ -18,6 +18,14 @@ import Poster4 from '../../img/poster4.png';
 import Poster5 from '../../img/poster5.png';
 import Poster6 from '../../img/poster6.png';
 
+import F18P1 from '../../img/Posters/Fall 2018/Nov2-2018.png';
+import F18P1 from '../../img/Posters/Fall 2018';
+import F18P1 from '../../img/Posters/Fall 2018';
+import F18P1 from '../../img/Posters/Fall 2018';
+import F18P1 from '../../img/Posters/Fall 2018';
+import F18P1 from '../../img/Posters/Fall 2018';
+import F18P1 from '../../img/Posters/Fall 2018';
+
 import ToggleArrowDown from '../../img/toggle-arrow-down.png';
 import ToggleArrowRight from '../../img/toggle-arrow-right.png';
 
