@@ -1,14 +1,16 @@
 import React from 'react';
 import { Link } from '@reach/router';
 
+import linkedIn from '../../img/bios/LinkedIN.png';
+
 import '../../css/LegacyCard.scss';
 
 const LegacyCard = (props) => {
 	return (
 		<div className="legacy-card">
 			<div className="headshot">
-				<a href={props.linkedIn}>
-					<img src={props.image} className="portrait" />
+				<a href={props.linkedIn} className="linkedIn-link">
+					<img src={props.image} alt="portrait" className="portrait" />
 					<p className="bio">
 						<strong>Favorite memory in The Berkeley Forum: </strong>
 						{props.memory}
