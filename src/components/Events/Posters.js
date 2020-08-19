@@ -96,6 +96,9 @@ const Posters = () => {
 	let opened2019 = false;
 	let opened2018 = false;
 	let opened2017 = false;
+	let opened2016 = false;
+	let opened2015 = false;
+	let opened2014 = false;
 	let opened2019Mobile = false;
 	let opened2018Mobile = false;
 	let opened2017Mobile = false;
@@ -121,8 +124,8 @@ const Posters = () => {
 			arrowVariable = false;
 		}
 	}
-	const openTeacher = () => {
-		rotate2('toggle-arrow-teacher', opened2019);
+	const open0 = () => {
+		rotate2('toggle-arrow-0', opened2019);
 		opened2019 = !opened2019;
 	};
 	const openStudent = () => {
@@ -131,6 +134,18 @@ const Posters = () => {
 	};
 	const openDeveloper = () => {
 		rotate('toggle-arrow-developer', opened2017);
+		opened2017 = !opened2017;
+	};
+	const open3 = () => {
+		rotate('toggle-arrow-3', opened2017);
+		opened2017 = !opened2017;
+	};
+	const open4 = () => {
+		rotate('toggle-arrow-4', opened2017);
+		opened2017 = !opened2017;
+	};
+	const open5 = () => {
+		rotate('toggle-arrow-5', opened2017);
 		opened2017 = !opened2017;
 	};
 	const openTeacherMobile = () => {
@@ -177,7 +192,7 @@ const Posters = () => {
 									as={Card.Header}
 									eventKey="0"
 									className="toggle"
-									onClick={openTeacher}
+									onClick={open0}
 								>
 									<div className="toggle-top">
 										<h3 className="year">Spring 2020</h3>
@@ -185,9 +200,9 @@ const Posters = () => {
 										<img
 											src={ToggleArrowDown}
 											alt="toggle-arrow"
-											className="toggle-arrow-right selectDisable"
+											className="toggle-arrow-down selectDisable"
 											draggable="false"
-											id="toggle-arrow-teacher"
+											id="toggle-arrow-0"
 										/>
 									</div>
 								</Accordion.Toggle>
@@ -271,7 +286,7 @@ const Posters = () => {
 										<h3 className="year">Fall 2019</h3>
 										<img
 											src={ToggleArrowRight}
-											alt="toggle-arrow"
+											alt="toggle-arrow-right"
 											className="toggle-arrow selectDisable"
 											draggable="false"
 											id="toggle-arrow-student"
@@ -515,7 +530,7 @@ const Posters = () => {
 									as={Card.Header}
 									eventKey="0"
 									className="toggle"
-									onClick={openDeveloper}
+									onClick={open3}
 								>
 									<div className="toggle-top">
 										<h3 className="year">Fall 2018</h3>
@@ -524,7 +539,7 @@ const Posters = () => {
 											alt="toggle-arrow"
 											className="toggle-arrow selectDisable"
 											draggable="false"
-											id="toggle-arrow-developer"
+											id="toggle-arrow-3"
 										/>
 									</div>
 								</Accordion.Toggle>
@@ -666,7 +681,7 @@ const Posters = () => {
 									as={Card.Header}
 									eventKey="0"
 									className="toggle"
-									onClick={openDeveloper}
+									onClick={open4}
 								>
 									<div className="toggle-top">
 										<h3 className="year">Spring 2018</h3>
@@ -675,7 +690,7 @@ const Posters = () => {
 											alt="toggle-arrow"
 											className="toggle-arrow selectDisable"
 											draggable="false"
-											id="toggle-arrow-developer"
+											id="toggle-arrow-4"
 										/>
 									</div>
 								</Accordion.Toggle>
@@ -801,7 +816,7 @@ const Posters = () => {
 									as={Card.Header}
 									eventKey="0"
 									className="toggle"
-									onClick={openDeveloper}
+									onClick={open5}
 								>
 									<div className="toggle-top">
 										<h3 className="year">Fall 2017</h3>
@@ -810,7 +825,7 @@ const Posters = () => {
 											alt="toggle-arrow"
 											className="toggle-arrow selectDisable"
 											draggable="false"
-											id="toggle-arrow-developer"
+											id="toggle-arrow-5"
 										/>
 									</div>
 								</Accordion.Toggle>

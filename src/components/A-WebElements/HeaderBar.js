@@ -52,7 +52,7 @@ const HeaderBar = (props) => {
 						<Nav className="mm">
 							<div className="dropdown" id="parent">
 								<Link to="/about" className="link-tag">
-									<div className="toggle">
+									<div className="toggle-head">
 										<p className="nav-text">About Us</p>
 										<img
 											src={DropdownArrow}
@@ -75,7 +75,7 @@ const HeaderBar = (props) => {
 							</div>
 							<div className="dropdown" id="other">
 								<Link to="/events" className="link-tag">
-									<div className="toggle">
+									<div className="toggle-head">
 										<p className="nav-text">Events</p>
 										<img
 											src={DropdownArrow}
