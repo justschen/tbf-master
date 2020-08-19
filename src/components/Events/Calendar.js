@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 
 import '../../css/PastEvents.css';
 import PosterHeader from '../../img/pastEvents.png';
-import Julie from '../../img/julie.png';
+
 import Lloyd from '../../img/lloyd.png';
 
 import Header from '../A-WebElements/Header';
