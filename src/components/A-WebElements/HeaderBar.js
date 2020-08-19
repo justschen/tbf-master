@@ -12,6 +12,8 @@ import instagramIcon from '../../img/social-tassle/Instagram.png';
 import twitterIcon from '../../img/social-tassle/Twitter.png';
 import linkedinIcon from '../../img/social-tassle/LinkedIN.png';
 
+import DropdownArrow from '../../img/dropdown-arrow.png';
+
 const facebookURL = 'http://facebook.com/berkeleyforum';
 const instagramURL = 'http://instagram.com/berkeleyforum';
 const twitterURL = 'https://twitter.com/berkeleyforum';
@@ -48,13 +50,18 @@ const HeaderBar = (props) => {
 					<Navbar.Toggle aria-controls="basic-navbar-nav" />
 					<Navbar.Collapse id="basic-navbar-nav">
 						<Nav className="mm">
-							<div className="dropdown">
+							<div className="dropdown" id="parent">
 								<Link to="/about" className="link-tag">
-									<p className="nav-text">
-										About Us
-										<span class="glyphicon glyphicon-on logo-small"></span>
-										<span class="icon-bar"></span>
-									</p>
+									<div className="toggle">
+										<p className="nav-text">About Us</p>
+										<img
+											src={DropdownArrow}
+											alt="toggle-arrow"
+											className="dropdown-arrow"
+											draggable="false"
+											id="toggle-arrow-teacher"
+										/>
+									</div>
 								</Link>
 								<div className="dropdown-content-about">
 									<Link to="/team" className="link-tag">
@@ -66,12 +73,21 @@ const HeaderBar = (props) => {
 									</Link>
 								</div>
 							</div>
-							<div className="dropdown">
-								<Link to="/calendar" className="link-tag">
-									<p className="nav-text">Events</p>
+							<div className="dropdown" id="other">
+								<Link to="/events" className="link-tag">
+									<div className="toggle">
+										<p className="nav-text">Events</p>
+										<img
+											src={DropdownArrow}
+											alt="toggle-arrow"
+											className="dropdown-arrow2"
+											draggable="false"
+											id="toggle-arrow-teacher"
+										/>
+									</div>
 								</Link>
 								<div className="dropdown-content-events">
-									<Link to="/pastEvents" className="link-tag">
+									<Link to="/past-events" className="link-tag">
 										<p className="nav-text">
 											Past
 											<br />

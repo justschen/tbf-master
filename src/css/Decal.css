@@ -1,22 +1,21 @@
 .decal {
 	padding: 4rem;
-    padding-bottom: 0;
-    text-align: center;
+	padding-bottom: 0;
+	text-align: center;
 }
 
 .decal .row {
-    text-align: center;
+	text-align: center;
 	margin: 0;
 }
 
-.decal h5{
-    font-size: 40px;
-    color: black;
+.decal h5 {
+	font-size: 40px;
+	color: black;
 	margin: 0;
 }
 
 .decal .top-row {
-   
 	margin-top: 2rem;
 	margin-bottom: 3.5rem;
 }
@@ -27,7 +26,8 @@
 }
 
 .decal p {
-	margin: 0 7rem;
+	margin: 0 10rem;
+	font-size: 130%;
 }
 
 .decal .bottom-row {

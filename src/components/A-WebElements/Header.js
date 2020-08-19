@@ -69,6 +69,23 @@ const Header = (props) => {
 				<HeaderBar />
 			</div>
 		);
+	} else if (props.name.localeCompare('calendar') == 0) {
+		return (
+			<div className="stuff" style={bg}>
+				<HeaderBar />
+				<iframe
+					src="https://calendar.google.com/calendar/embed?src=ls98bn2it0ajelqm8dv7nnn6e0%40group.calendar.google.com&ctz=America%2FLos_Angeles"
+					style={{
+						marginTop: '11rem',
+						border: '0',
+						width: '1200px',
+						height: '600px',
+						frameborder: '0',
+						scrolling: 'no',
+					}}
+				></iframe>
+			</div>
+		);
 	} else {
 		return (
 			<div>

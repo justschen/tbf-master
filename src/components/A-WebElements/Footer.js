@@ -37,7 +37,7 @@ const Footer = (props) => {
                                                 <Link to="/about" className="link-tag">
 							<p>About Us</p>
 						</Link>
-						<Link to="/convoBlocks" className="link-tag">
+						<Link to="/conversations" className="link-tag">
 							<p>Conversations</p>
 						</Link>
 					</Col>
@@ -46,10 +46,10 @@ const Footer = (props) => {
                                                 <Link to="/events" className="link-tag">
 							<p>Events</p>
 						</Link>
-						<Link to="/calendar" className="link-tag">
+						<Link to="/events" className="link-tag">
 							<p>Calendar</p>
 						</Link>
-                                                <Link to="/pastEvents" className="link-tag">
+                                                <Link to="/past-events" className="link-tag">
 							<p>Past Events</p>
 						</Link>
 					</Col>

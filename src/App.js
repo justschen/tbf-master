@@ -66,8 +66,8 @@ const App = () => {
 					<RandPaul path="/rand-paul-at-the-berkeley-forum" />
 					<Spring2019 path="/spring-2019-lineup" />
 
-					<Calendar path="/calendar" />
-					<PastEvents path="/pastEvents" />
+					<Calendar path="/events" />
+					<PastEvents path="/past-events" />
 					<Posters path="/posters" />
 					<Contact path="/contact" />
 					<Decal path="/decal" />

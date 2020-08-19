@@ -1,8 +1,10 @@
 .blog-content {
-	padding: 3.3rem;
+	padding: 4rem;
 
 	h2 {
 		line-height: 4rem;
+		text-align: left !important;
+		margin-left: -1rem;
 	}
 
 	.header-rand {
@@ -101,16 +103,11 @@
 	}
 }
 
-
 .blog-content p {
 	margin: 1rem 8rem;
-	font-size: 140%;
+	font-size: 120%;
 	text-align: left;
 	display: block;
-}
-
-.blog-content .caret {
-	color: black;
 }
 
 .blog-content .italics {
@@ -119,11 +116,20 @@
 
 .blog-content h2 {
 	align-items: center;
-	text-align: left;
+	text-align: center;
 	padding-top: 16rem;
 	padding-bottom: 4rem;
 	padding-left: 3rem;
 	font-size: 50px;
+}
+
+.blog-content h3 {
+	align-items: center;
+	text-align: center;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	margin: auto;
+	font-size: 30px;
 }
 
 .blog-content .right-column {

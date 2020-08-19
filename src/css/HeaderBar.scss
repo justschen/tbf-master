@@ -64,11 +64,73 @@
 
 .header .dropdown {
 	position: relative;
-	display: block;
+	display: flex;
 	text-align: center !important;
 	display: flex !important;
 	flex-direction: column !important;
 	align-items: center;
+
+	.toggle,
+	#parent {
+		display: flex;
+		position: relative;
+		.dropdown-arrow {
+			position: absolute;
+			margin-left: 9.3rem;
+			margin-top: 0.5rem;
+			width: 8px;
+			height: 12px;
+			transition: 0.5s;
+			-webkit-transition: 0.5s;
+			-moz-transition: 0.5s;
+			-ms-transition: 0.5s;
+			-o-transition: 0.5s;
+		}
+	}
+
+	.toggle,
+	#other {
+		display: flex;
+		position: relative;
+		.dropdown-arrow2 {
+			position: absolute;
+			margin-left: 7.9rem;
+			margin-top: 0.5rem;
+			width: 8px;
+			height: 12px;
+			transition: 0.5s;
+			-webkit-transition: 0.5s;
+			-moz-transition: 0.5s;
+			-ms-transition: 0.5s;
+			-o-transition: 0.5s;
+		}
+	}
+}
+
+#parent:hover .dropdown-arrow {
+	transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-ms-transition: 0.5s;
+	-o-transition: 0.5s;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+
+#other:hover .dropdown-arrow2 {
+	transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-ms-transition: 0.5s;
+	-o-transition: 0.5s;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	transform: rotate(-90deg);
 }
 
 .header .dropdown-content-events {

@@ -64,6 +64,14 @@
 }
 .toggle-arrow {
 	margin: 0 2%;
+	margin-bottom: 0.3rem;
 	width: 28px;
+	height: 45px;
+}
+
+.toggle-arrow-right {
+	margin: 0 2%;
+	margin-bottom: 0.3rem;
+	width: 45px;
 	height: 28px;
 }
