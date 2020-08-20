@@ -34,3 +34,30 @@
 	display: flex;
 	justify-content: space-around;
 }
+
+@media only screen and (max-width: 1024px) {
+	.decal {
+		margin-top: -60%;
+	}
+	.decal p {
+		margin: 0 5rem;
+		font-size: 130%;
+	}
+}
+
+@media only screen and (max-width: 414px) {
+	.decal h5 {
+		font-size: 140%;
+		color: black;
+		line-height: normal;
+	}
+
+	.decal {
+		padding: 3rem;
+		margin-top: -100%;
+	}
+	.decal p {
+		margin: auto;
+		font-size: 100%;
+	}
+}

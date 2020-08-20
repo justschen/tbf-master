@@ -49,13 +49,13 @@ const Contact = () => {
 							id="mG61Hd"
 						>
 							<p>
-								<label for="first">NAME</label>
+								<label for="first">NAME/ORGANIZATION</label>
 								<input
 									type="text"
 									required
 									name="entry.290479036"
 									id="first"
-									placeholder="Please enter your first name."
+									placeholder="Please enter your name or organization."
 								/>
 							</p>
 

@@ -1,43 +1,148 @@
-.join .top{
-    height: 50vw;
+.join {
+	overflow: hidden;
+}
 
+.join .top {
+	height: 50vw;
 }
 
 .join .join {
-    color: white;
-    padding: 2em;
- 
+	color: white;
+	padding: 2em;
 }
 
-.join .chunk{
-    padding: em;
+.join .chunk {
+	padding: em;
 }
 
 .join .bottom {
-    margin-top: 10rem;
-    width: 100%;
-    justify-content: center;
-    display: flex;
-    text-align: center;
+	margin: auto;
+	margin-top: 6rem;
+
+	justify-content: center;
+	display: flex;
+	text-align: center;
 }
 
 .join .bottom p {
-    width: 80%;
-    border-radius: 10px;
-    border-color: transparent;
+	width: 80%;
+	border-radius: 10px;
+	border-color: transparent;
 	box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.18);
-    color: white;
-    background-color: #233748;
-    padding: 1.5em;
-  
-
-    font-size: 20px;
+	color: white;
+	background-color: #233748;
+	padding: 1.5em;
+	font-size: 20px;
 }
 
-.join .bottom .title{
-    
-    font-weight: bold;
-    font-size: 32px;
-    margin-top: -1em;
-    margin-bottom: 0em;
+.join .bottom .title {
+	font-weight: bold;
+	font-size: 32px;
+	margin-top: -1em;
+	margin-bottom: 0em;
+}
+
+@media only screen and (max-width: 2800px) {
+	.join .bottom {
+		margin-top: 4rem;
+		width: 70%;
+		justify-content: center;
+		display: flex;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 1900px) {
+	.join .bottom {
+		margin-top: 4rem;
+		width: 70%;
+		justify-content: center;
+		display: flex;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 1500px) {
+	.join .bottom {
+		margin-top: 10rem;
+		width: 70%;
+		justify-content: center;
+		display: flex;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 1346px) {
+	.join .bottom {
+		margin-top: 10rem;
+		width: 100%;
+		justify-content: center;
+		display: flex;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 1145px) {
+	.join .bottom {
+		margin-top: 14rem;
+		width: 80%;
+		justify-content: center;
+		display: flex;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	.join .bottom {
+		margin-top: 15rem;
+		width: 80%;
+		justify-content: center;
+		display: flex;
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 576px) {
+	.join .bottom {
+		margin-top: 12rem;
+		width: 80%;
+		justify-content: center;
+		display: flex;
+		text-align: center;
+	}
+
+	.join .bottom p {
+		font-size: 12px;
+		text-align: center;
+		margin: auto;
+	}
+
+	.join .bottom .title {
+		font-weight: bold;
+		font-size: 20px;
+		margin-top: -1em;
+		margin-bottom: -1rem;
+	}
+}
+@media only screen and (max-width: 400px) {
+	.join .bottom {
+		margin-top: 13rem;
+		width: 85%;
+		justify-content: center;
+		display: flex;
+		text-align: center;
+	}
+
+	.join .bottom p {
+		font-size: 12px;
+		text-align: center;
+		margin: auto;
+	}
+
+	.join .bottom .title {
+		font-weight: bold;
+		font-size: 20px;
+		margin-top: 1em;
+		margin-bottom: 1rem;
+		line-height: 30px;
+	}
 }

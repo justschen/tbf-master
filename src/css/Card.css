@@ -24,3 +24,17 @@
 .cardStuff .cardBack {
 	margin-top: -20rem;
 }
+
+@media only screen and (max-width: 2800px) {
+	.cardStuff p {
+		margin-right: 17rem;
+		font-size: 25px;
+	}
+}
+
+@media only screen and (max-width: 1600px) {
+	.cardStuff p {
+		margin-right: 7rem;
+		font-size: 20px;
+	}
+}

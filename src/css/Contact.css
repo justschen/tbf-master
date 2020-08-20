@@ -52,7 +52,7 @@ input[type='submit']:hover {
 	padding: 20px;
 }
 .contactPage .clickUp p {
-	font-size: 14px !important;
+	font-size: 20px !important;
 }
 
 .contactPage .clickUp {
@@ -68,7 +68,7 @@ input[type='submit']:hover {
 }
 
 .decal h5 {
-	font-size: 40px;
+	font-size: 20px;
 	color: black;
 	margin: 0;
 }
@@ -149,4 +149,113 @@ button {
 
 .contactPage {
 	overflow-x: hidden;
+}
+
+@media only screen and (max-width: 2800px) {
+	.transform {
+		max-width: 70vw;
+		-webkit-transition: all 2s ease;
+		-moz-transition: all 2s ease;
+		-o-transition: all 2s ease;
+		-ms-transition: all 2s ease;
+		transition: all 2s ease;
+		position: absolute;
+		margin-right: auto;
+		margin-left: 30rem;
+		margin-top: 7rem;
+		left: 0;
+		right: 0;
+		text-align: center;
+	}
+
+	.transform-card {
+		max-width: 70vw;
+		-webkit-transition: all 2s ease;
+		-moz-transition: all 2s ease;
+		-o-transition: all 2s ease;
+		-ms-transition: all 2s ease;
+		transition: all 2s ease;
+		position: absolute;
+		margin-right: auto;
+		margin-left: 9rem;
+		margin-top: 7rem;
+		left: 0;
+		right: 0;
+		text-align: center;
+	}
+
+	.slider {
+		max-width: 60vw;
+		position: absolute;
+		margin-left: 17rem;
+		margin-right: 34rem;
+		margin-top: 7rem;
+	}
+
+	.formContainer {
+		margin: auto;
+		margin-top: rem;
+		width: 60%;
+		border-radius: 10px;
+		background-color: #233748;
+		padding: 20px;
+	}
+}
+
+@media only screen and (max-width: 1600px) {
+	.transform {
+		max-width: 70vw;
+		-webkit-transition: all 2s ease;
+		-moz-transition: all 2s ease;
+		-o-transition: all 2s ease;
+		-ms-transition: all 2s ease;
+		transition: all 2s ease;
+		position: absolute;
+		margin-right: auto;
+		margin-left: 25rem;
+		margin-top: 7rem;
+		left: 0;
+		right: 0;
+		text-align: center;
+	}
+
+	.transform-card {
+		max-width: 70vw;
+		-webkit-transition: all 2s ease;
+		-moz-transition: all 2s ease;
+		-o-transition: all 2s ease;
+		-ms-transition: all 2s ease;
+		transition: all 2s ease;
+		position: absolute;
+		margin-right: auto;
+		margin-left: 9rem;
+		margin-top: 7rem;
+		left: 0;
+		right: 0;
+		text-align: center;
+	}
+
+	.slider {
+		max-width: 60vw;
+		position: absolute;
+		margin-left: 10rem;
+		margin-right: 10rem;
+		margin-top: 7rem;
+	}
+
+	.contactPage .clickUp {
+		top: 135rem;
+		left: 63rem;
+		right: 0;
+		position: absolute;
+	}
+
+	.formContainer {
+		margin: auto;
+		margin-top: rem;
+		width: 70%;
+		border-radius: 10px;
+		background-color: #233748;
+		padding: 20px;
+	}
 }
