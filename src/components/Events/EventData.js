@@ -16,9 +16,9 @@ import Digital from '../../img/EventCards/Digital.png';
 import Jill from '../../img/EventCards/Jill.png';
 import Gene from '../../img/EventCards/Gene.png';
 import Travis from '../../img/EventCards/Travis.png';
+import Justin from '../../img/EventCards/Justin.png';
 
 export const eventData = [
-	
 	[
 		'C. Dixon Osburn',
 		'Executive Director of the Center for Justice and Accountability',
