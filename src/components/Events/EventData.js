@@ -18,7 +18,15 @@ import Gene from '../../img/EventCards/Gene.png';
 import Travis from '../../img/EventCards/Travis.png';
 
 export const eventData = [
-	
+	[
+		'Justin Chen',
+		'Executasdfasdfasfdasdfaof the Center for Justice and Accountability',
+		'January 23, 2019 | 6:00pm - 7:30pm | Bay View Room, Eshelman Hall, UC Berkeley',
+		'How can one NGO take on the world’s war criminals? Come listen to how San Francisco based Center for Justice and Accountability has been leading the charge for the past twenty years.',
+		Dixon,
+		'/facebook',
+		'https://calendar.google.com/event?action=TEMPLATE&tmeid=MnFtbWF2dWRuMDA2N3VvMmtncHN0Y2xoM20gbHM5OGJuMml0MGFqZWxxbThkdjdubm42ZTBAZw&tmsrc=ls98bn2it0ajelqm8dv7nnn6e0%40group.calendar.google.com',
+	],
 	[
 		'C. Dixon Osburn',
 		'Executive Director of the Center for Justice and Accountability',
