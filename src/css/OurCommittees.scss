@@ -1,0 +1,38 @@
+.committee-content {
+	padding: 5rem;
+	padding-bottom: 0;
+	.row {
+		margin-bottom: 4rem;
+	}
+	p {
+		margin: 0 5rem;
+		text-align: left;
+	}
+
+	p.link-text {
+		font-family: 'Karla', sans-serif;
+		border-radius: 6px;
+		background-color: #233748;
+		color: #ffffff;
+		font-style: normal;
+		font-weight: normal;
+		line-height: 35px;
+		text-align: center;
+		text-transform: uppercase;
+		border-color: transparent;
+		box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.18);
+		padding: 1vw 2vw 1vw 2vw;
+		font-size: 2vw;
+		margin: 0;
+		text-decoration: none;
+	}
+	a {
+		text-decoration: none;
+	}
+	.bottom-navbar {
+		display: flex;
+		justify-content: space-around;
+		margin-bottom: 5rem;
+		margin-top: 8rem;
+	}
+}

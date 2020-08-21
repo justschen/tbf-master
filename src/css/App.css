@@ -1,3 +1,65 @@
 .App {
 	text-align: center;
+	font-family: 'Karla', sans-serif;
+}
+
+p {
+	font-family: 'Karla', sans-serif;
+	color: black;
+	font-size: 27px;
+}
+
+h1 {
+	color: #ffffff;
+	font-family: 'Karla', sans-serif;
+	font-weight: bold;
+	font-size: 35px;
+	letter-spacing: 0.21em;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-style: normal;
+	font-family: 'Karla', sans-serif;
+	font-weight: bold;
+	font-size: 77px;
+	line-height: 90px;
+	text-align: center;
+	color: #ffffff;
+	text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.73);
+}
+
+h3,
+h4,
+h5 {
+	font-family: 'Karla', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 56px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #233748;
+}
+
+button {
+	font-family: 'Karla', sans-serif;
+	border-radius: 6px;
+	background-color: #233748;
+	color: #ffffff;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 35px;
+	text-align: center;
+	text-transform: uppercase;
+	border-color: transparent;
+	box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.18);
+	padding: 1vw;
+	font-size: 2vw;
+	text-decoration: none;
+}
+
+.scrolled {
+	height:0vh;
+	background-color: mediumaquamarine;
 }

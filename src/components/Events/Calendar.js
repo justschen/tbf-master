@@ -3,13 +3,46 @@ import { Link } from '@reach/router';
 
 import Button from 'react-bootstrap/Button';
 
+import '../../css/PastEvents.css';
+import PosterHeader from '../../img/pastEvents.png';
 
-const Calendar = () => {
+import Lloyd from '../../img/lloyd.png';
+
+import Header from '../A-WebElements/Header';
+import Footer from '../A-WebElements/Footer';
+
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
+import { currentEventData } from './CurrentEventData.js';
+import EventCard from './EventCard.js';
+
+const PastEvents = () => {
 	return (
-		<div className="calendar">
-			<h1>Calendar Page is that even how u spell it lol</h1>
+		<div className="past">
+			<Header name="calendar" image={PosterHeader} />
+
+			<h4>Current/Upcoming Events</h4>
+			{currentEventData.map((speaker) => (
+				<Row xs={1}>
+					<EventCard
+						name={speaker[0]}
+						title={speaker[1]}
+						date={speaker[2]}
+						content={speaker[3]}
+						image={speaker[4]}
+						link={speaker[5]}
+						google={speaker[6]}
+						extra={speaker[7]}
+						className="event-card"
+					/>
+				</Row>
+			))}
+
+			<Footer></Footer>
 		</div>
 	);
 };
 
-export default Calendar;
+export default PastEvents;

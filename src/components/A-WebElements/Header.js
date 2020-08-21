@@ -1,77 +1,132 @@
 import React from 'react';
-import { Link } from '@reach/router';
+import { Link as ReachRouterLink } from '@reach/router';
+import { Link as ReactScrollLink } from 'react-scroll';
 
-import '../../css/Header.css';
+import * as Scroll from 'react-scroll';
+import {
+	Element,
+	Events,
+	animateScroll as scroll,
+	scrollSpy,
+	scroller,
+} from 'react-scroll';
 
-import Nav from 'react-bootstrap/Nav';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import Navbar from 'react-bootstrap/Navbar';
+import '../../css/Header.scss';
+import Carousel from 'react-bootstrap/Carousel';
+
+import landingLinePhoto from '../../img/lineup-photo.png';
+import landingMailPhoto from '../../img/mailing-list-photo.png';
+
+import HeaderBar from './HeaderBar';
+import Scrolls from './Scroll';
 
 const Header = (props) => {
-    let middle;
-    const bg = {
-    backgroundImage:`url(${props.image})`,
-        background: props.image,
-    };
-    
-	return (
-        <div className="stuff" style={bg}>
-		    <div className="header">
-			<h1>The Berkeley Forum</h1>
-            <div class='bar'>
-            <Navbar collapseOnSelect expand="lg" >
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="mm">
-                    <div className="dropdown">
-                                <Link to="/about" className="link-tag">
-                                    <p className="nav-text">About Us</p>
-                                </Link>
-                                <div className="dropdown-content">
-                                    <Link to="/team" className="link-tag">
-                                        <p className="nav-text">Meet the Team</p>
-                                    </Link>
-                                </div>
-                    </div>
-                    <div className="dropdown">
-                                <Link to="/calendar" className="link-tag">
-                                    <p className="nav-text">Events</p>
-                                </Link>
-                                <div className="dropdown-content">
-                                    <Link to="/pastEvents" className="link-tag">
-                                        <p className="nav-text">Past Events</p>
-                                    </Link>
-                                    <Link to="/posters" className="link-tag">
-                                        <p className="nav-text">Speaker Posters</p>
-                                    </Link>
-                                </div>
-                    </div>
-                    <Link to="/join" class='link-tag'>
-                        <p className="nav-text">Join Us</p>
-                    </Link>
-                    <Link to="/convoBlocks" class='link-tag'>
-                        <p className="nav-text">Conversations</p>
-                        </Link>
-                    <Link to="/contact" class='link-tag'>
-                        <p className="nav-text">Contact</p>
-                    </Link>
-                    <Link to="/decal" class='link-tag'>
-                        <p className="nav-text">Decal</p>
-                    </Link> 
-                    
-                </Nav>
-    
-                </Navbar.Collapse>
-            </Navbar>
-            
-            </div>
-		</div>
+	let middle;
+	const bg = {
+		backgroundImage: `url(${props.image})`,
+		background: props.image,
+		backgroundPosition: props.position,
+	};
+	if (props.name.localeCompare('landing') == 0) {
+		return (
+			<div className="landing-header">
+				<HeaderBar />
 
+				<Carousel wrap={false} data-wrap={false}>
+					<Carousel.Item>
+						<img
+							className="d-block w-100"
+							src={landingLinePhoto}
+							alt="First slide"
+						/>
 
-        <h2 class="text">{props.name}</h2>
-     
-    </div>
-	);
+						<Carousel.Caption>
+							<h3>Fall 2020 Lineup</h3>
+							<ReachRouterLink to="/events">
+								<p className="link-text">See the Events</p>
+							</ReachRouterLink>
+						</Carousel.Caption>
+					</Carousel.Item>
+					<Carousel.Item>
+						<img
+							className="d-block w-100"
+							src={landingMailPhoto}
+							alt="Second slide"
+						/>
+						<Carousel.Caption>
+							<h3>Keep Up with the Forum</h3>
+							<ReachRouterLink to="">
+								<p className="link-text">Subscribe to Our Mailing List</p>
+							</ReachRouterLink>
+						</Carousel.Caption>
+					</Carousel.Item>
+				</Carousel>
+			</div>
+		);
+	} else if (props.name.localeCompare('blog') == 0) {
+		return (
+			<div className="space">
+				<HeaderBar />
+			</div>
+		);
+	} else if (props.name.localeCompare('calendar') == 0) {
+		return (
+			<div className="stuff" style={bg}>
+				<HeaderBar />
+				<iframe
+					src="https://calendar.google.com/calendar/embed?src=ls98bn2it0ajelqm8dv7nnn6e0%40group.calendar.google.com&ctz=America%2FLos_Angeles"
+					style={{
+						marginTop: '11rem',
+						border: '0',
+						width: '1200px',
+						height: '600px',
+						frameborder: '0',
+						scrolling: 'no',
+					}}
+				></iframe>
+			</div>
+		);
+	} else {
+		return (
+			<div>
+				<div className="stuff" style={bg}>
+					<HeaderBar />
+
+					<h2 className="text">{props.name}</h2>
+
+					<a type="button" class="btn-default">
+						<ReactScrollLink
+							className="scrolldown"
+							activeClass="active"
+							to="scrolls"
+							spy={true}
+							smooth={true}
+							offset={0}
+							duration={500}
+						>
+							<svg
+								width="1em"
+								height="1em"
+								viewBox="0 0 16 16"
+								class="bi bi-chevron-compact-down"
+								fill="currentColor"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"
+								/>
+							</svg>
+						</ReactScrollLink>
+					</a>
+				</div>
+
+				<div>
+					<Scrolls />
+				</div>
+			</div>
+		);
+	}
 };
 
 export default Header;

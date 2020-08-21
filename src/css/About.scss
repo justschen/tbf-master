@@ -1,0 +1,41 @@
+.about-content {
+	padding: 5rem;
+	padding-bottom: 0;
+	.row {
+		margin: 0;
+	}
+	.middle-row {
+		margin-top: 2rem;
+		margin-bottom: 10rem;
+	}
+	p {
+		margin: 0 6rem;
+	}
+	p.link-text {
+		font-family: 'Karla', sans-serif;
+		border-radius: 6px;
+		background-color: #233748;
+		color: #ffffff;
+		font-style: normal;
+		font-weight: normal;
+		line-height: 35px;
+		text-align: center;
+		text-transform: uppercase;
+		border-color: transparent;
+		box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.18);
+		padding: 1vw 2vw 1vw 2vw;
+		font-size: 2vw;
+		margin: 0;
+		text-decoration: none;
+	}
+	a {
+		text-decoration: none;
+	}
+	.bottom-navbar {
+		padding-left: 3rem;
+		padding-right: 3rem;
+		display: flex;
+		justify-content: space-around;
+		margin-bottom: 5rem;
+	}
+}

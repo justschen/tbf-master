@@ -1,0 +1,256 @@
+.convo-content {
+	padding: 4rem;
+	padding-bottom: 0;
+	text-align: center;
+	overflow: hidden;
+	margin-top: 2rem;
+}
+
+.convo-content h5 {
+	font-size: 40px;
+	color: black;
+	margin: 0;
+}
+
+.convo-content .row {
+	margin-top: 2rem;
+	margin-bottom: 3.5rem;
+	text-align: center;
+	margin: 0;
+}
+
+.convo-content p {
+	font-size: 170% !important;
+	font-weight: bold;
+	margin-top: 2rem !important;
+	margin-left: 1rem !important;
+	color: white;
+	text-align: left !important;
+	padding: 1rem;
+}
+
+.convo-content link {
+	margin-left: 2em !important;
+}
+
+.convo-content h6 {
+	position: relative;
+	font-size: 120% !important;
+	margin-top: -4rem !important;
+	margin-right: -0.7rem;
+	color: white;
+	text-align: right !important;
+	padding: 2.5rem;
+}
+
+.convo-content .blank {
+	background-position: center;
+	background-image: url(../img/blank.png);
+	background-size: 95%;
+	background-repeat: no-repeat;
+}
+
+.convo-content .fall2019 {
+	background-position: center;
+	background-image: url(../img/lineup1.png);
+	background-repeat: no-repeat;
+	background-size: 95%;
+}
+
+.convo-content .discourse {
+	background-position: center;
+	background-image: url(../img/discourse.png);
+	background-repeat: no-repeat;
+	background-size: 95%;
+}
+.convo-content .rand {
+	background-position: center;
+	background-position: center;
+	background-image: url(../img/rand.png);
+	background-size: 95%;
+	background-repeat: no-repeat;
+}
+
+.convo-content .ellen {
+	background-position: center;
+	background-image: url(../img/ellen.png);
+	background-size: 95%;
+	background-repeat: no-repeat;
+}
+.convo-content .homeland {
+	background-position: center;
+	background-image: url(../img/homeland.png);
+	background-size: 95%;
+	background-repeat: no-repeat;
+}
+.convo-content .feng {
+	background-position: center;
+	background-image: url(../img/feng.png);
+	background-size: 95%;
+	background-repeat: no-repeat;
+}
+.convo-content .politico {
+	background-position: center;
+	background-image: url(../img/politico.png);
+	background-size: 95%;
+	background-repeat: no-repeat;
+}
+.convo-content .host {
+	background-position: center;
+	background-image: url(../img/host.png);
+	background-size: 95%;
+	background-repeat: no-repeat;
+}
+.convo-content .hey-vsauce-michael-here {
+	background-position: center;
+	background-image: url(../img/vsauce.png);
+	background-size: 95%;
+	background-repeat: no-repeat;
+}
+.convo-content .josh {
+	background-position: center;
+	background-image: url(../img/josh.png);
+	background-size: 95%;
+	background-repeat: no-repeat;
+}
+.convo-content .spring2019 {
+	background-position: center;
+	background-image: url(../img/lineup2.png);
+	background-size: 95%;
+	background-repeat: no-repeat;
+}
+
+.convo-content a {
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 2800px) {
+	.convo-content {
+		padding: 4rem;
+		padding-bottom: 0;
+		text-align: center;
+		overflow: hidden;
+		margin-top: 2rem;
+	}
+	.convo-content .row {
+		margin-top: 0rem;
+		margin-bottom: 2rem;
+		text-align: center;
+	}
+
+	.convo-content p {
+		font-size: 170% !important;
+	}
+
+	.convo-content h6 {
+		font-size: 150% !important;
+	}
+}
+
+@media only screen and (max-width: 1600px) {
+	.convo-content {
+		padding: 4rem;
+		padding-bottom: 0;
+		text-align: center;
+		overflow: hidden;
+		margin-top: 2rem;
+	}
+}
+
+@media only screen and (max-width: 1366px) {
+}
+
+@media only screen and (max-width: 1145px) {
+	.convo-content h5 {
+		font-size: 20px;
+		color: black;
+		margin: 0;
+	}
+
+	.convo-content .row {
+		margin-top: 0rem;
+		margin-bottom: -1rem;
+		text-align: center;
+	}
+
+	.convo-content p {
+		font-size: 120% !important;
+	}
+
+	.convo-content h6 {
+		font-size: 90% !important;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	.convo-content {
+		margin-top: -30rem;
+	}
+	.convo-content h5 {
+		font-size: 14px;
+		color: black;
+	}
+
+	.convo-content .row {
+		margin-top: 0rem;
+		margin-bottom: -4rem;
+		text-align: center;
+	}
+
+	.convo-content p {
+		font-size: 80% !important;
+	}
+
+	.convo-content h6 {
+		font-size: 70% !important;
+	}
+}
+@media only screen and (max-width: 576px) {
+	.convo-content {
+		padding: 1.5rem;
+		padding-bottom: 0;
+		text-align: center;
+		overflow: hidden;
+	}
+	.convo-content .blank {
+		background-size: 100%;
+	}
+
+	.convo-content .fall2019 {
+		background-size: 100%;
+	}
+
+	.convo-content .discourse {
+		background-size: 100%;
+	}
+	.convo-content .rand {
+		background-size: 100%;
+	}
+
+	.convo-content .ellen {
+		background-size: 100%;
+	}
+	.convo-content .homeland {
+		background-size: 100%;
+	}
+	.convo-content .feng {
+		background-size: 100%;
+	}
+	.convo-content .politico {
+		background-size: 100%;
+	}
+	.convo-content .host {
+		background-size: 100%;
+	}
+	.convo-content .hey-vsauce-michael-here {
+		background-size: 100%;
+	}
+	.convo-content .josh {
+		background-size: 100%;
+	}
+	.convo-content .spring2019 {
+		background-size: 100%;
+	}
+}
+@media only screen and (max-width: 400px) {
+}

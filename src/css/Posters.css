@@ -1,0 +1,101 @@
+.poster-content {
+	padding: 4rem;
+	padding-bottom: 0;
+	text-align: center;
+}
+
+.poster-content .bottom-part {
+	padding: 0em 5rem 0em 5rem;
+}
+
+.poster-content h5 {
+	font-size: 38px !important;
+	color: black;
+	margin: 0;
+}
+.poster-content p {
+	font-size: 20px;
+	margin-left: 12rem;
+	margin-right: 12rem;
+	text-align: left;
+	margin-bottom: 2rem;
+}
+
+.poster-content .posterImg {
+	height: 80%;
+	margin-bottom: 0em;
+}
+.toggle-row {
+	display: flex;
+}
+
+.posterImg {
+	max-width: 70%;
+	margin-bottom: 1rem;
+}
+
+.card {
+	margin: auto;
+	justify-content: center !important;
+	display: flex !important;
+	text-align: center !important;
+	justify-self: center !important;
+	width: 80% !important;
+	border-bottom: 1px solid gray !important;
+
+	border: none;
+}
+
+.toggle {
+	background: transparent;
+}
+.toggle:hover {
+	cursor: pointer;
+}
+.toggle-top {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+.toggle-arrow {
+	margin: 0 2%;
+	margin-bottom: 0.3rem;
+	width: 28px;
+	height: 45px;
+}
+
+.toggle-arrow-down {
+	margin: 0 2%;
+	margin-bottom: 0.3rem;
+	width: 45px;
+	height: 28px;
+}
+
+@media only screen and (max-width: 2800px) {
+	.card {
+		margin: auto;
+		margin-top: 2rem;
+		justify-content: center !important;
+		display: flex !important;
+		text-align: center !important;
+		justify-self: center !important;
+		width: 60% !important;
+		border-bottom: 1px solid gray !important;
+
+		border: none;
+	}
+}
+@media only screen and (max-width: 1600px) {
+	.card {
+		margin: auto;
+		justify-content: center !important;
+		display: flex !important;
+		text-align: center !important;
+		justify-self: center !important;
+		width: 70% !important;
+		border-bottom: 1px solid gray !important;
+
+		border: none;
+	}
+}
