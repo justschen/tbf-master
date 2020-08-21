@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from '@reach/router';
 
-import '../../css/Header.css'
+import '../../css/Header.css';
 
-import {Nav, NavDropdown, Navbar} from 'react-bootstrap';
-
+import Nav from 'react-bootstrap/Nav';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import Navbar from 'react-bootstrap/Navbar';
 
 const Header = (props) => {
     let middle;
