@@ -39,7 +39,7 @@ const RandPaul = () => {
 				</Row>
 				<Row>
 					<p>
-						<strong>Rand Paul:</strong>I am supportive of all the other
+						<strong>Rand Paul: </strong>I am supportive of all the other
 						lawsuits, so it isn’t exclusive that mine is the best, but it is
 						slightly different. The ACLU lawsuit was ruled against. The judge
 						either threw it out or said that the program was constitutional. The
@@ -85,7 +85,7 @@ const RandPaul = () => {
 				</Row>
 				<Row>
 					<p>
-						<strong>Rand Paul:</strong>I think he should be. You don’t get sent
+						<strong>Rand Paul: </strong>I think he should be. You don’t get sent
 						to prison until you’re found guilty. So, we should have a trial. He
 						deserves a trial. But the interesting thing is I’m not an outlier on
 						this in the sense that I think seven members of the Intelligence
@@ -127,14 +127,14 @@ const RandPaul = () => {
 				</Row>
 				<Row>
 					<p>
-						<strong>Rand Paul:</strong> I think the ultimate decision of hero or
-						villain in history is going to sort out. And I think there are pros
-						and cons to a lot of it. And I know people have a strong feeling
-						about it. I think that his intentions were good. But here’s the
-						problem – let’s say we have 400, 500 people here, and let’s say you
-						all are… We’re talking to you, and you’re the new recruits for the
-						CIA or for the intelligence for our army. Should I tell all 500 of
-						you, “Just decide when you think it’s unconstitutional and just
+						<strong>Rand Paul: </strong> I think the ultimate decision of hero
+						or villain in history is going to sort out. And I think there are
+						pros and cons to a lot of it. And I know people have a strong
+						feeling about it. I think that his intentions were good. But here’s
+						the problem – let’s say we have 400, 500 people here, and let’s say
+						you all are… We’re talking to you, and you’re the new recruits for
+						the CIA or for the intelligence for our army. Should I tell all 500
+						of you, “Just decide when you think it’s unconstitutional and just
 						reveal secrets any time.” You could see how it could lead to chaos.
 						But at the same time, I’m very upset about what our intelligence
 						community is doing, and we might not have ever known about it had
@@ -165,18 +165,18 @@ const RandPaul = () => {
 
 				<Row>
 					<p>
-						<strong>Rand Paul:</strong> Well, see, here’s the interesting thing.
-						And this is worth everybody reading about. The way I understand it…
-						And this is what Senator Feinstein said in her speech. They came
-						across something… They were given access to the CIA computers by the
-						CIA. The search engine was created by the CIA. They say… And I’m
-						just going from what they’re telling me. They say they found a
-						report called the Pennetta Review which looked into some previous
-						activities in the CIA – interrogation and detention. And they got it
-						through the search engine. If that’s true, the CIA then may have
-						said, “Oh, whoops. We didn’t want you to read that.” But think about
-						that. If it was a mistake by the CIA, you can say, “Well, that was a
-						mistake.”
+						<strong>Rand Paul: </strong> Well, see, here’s the interesting
+						thing. And this is worth everybody reading about. The way I
+						understand it… And this is what Senator Feinstein said in her
+						speech. They came across something… They were given access to the
+						CIA computers by the CIA. The search engine was created by the CIA.
+						They say… And I’m just going from what they’re telling me. They say
+						they found a report called the Pennetta Review which looked into
+						some previous activities in the CIA – interrogation and detention.
+						And they got it through the search engine. If that’s true, the CIA
+						then may have said, “Oh, whoops. We didn’t want you to read that.”
+						But think about that. If it was a mistake by the CIA, you can say,
+						“Well, that was a mistake.”
 					</p>
 				</Row>
 
