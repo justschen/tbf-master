@@ -74,12 +74,13 @@ const Header = (props) => {
 			<div className="stuff" style={bg}>
 				<HeaderBar />
 				<iframe
+					className="calender-block"
 					src="https://calendar.google.com/calendar/embed?src=ls98bn2it0ajelqm8dv7nnn6e0%40group.calendar.google.com&ctz=America%2FLos_Angeles"
 					style={{
 						marginTop: '11rem',
 						border: '0',
-						width: '1200px',
-						height: '600px',
+						width: '80vw',
+						height: '40vw',
 						frameborder: '0',
 						scrolling: 'no',
 					}}

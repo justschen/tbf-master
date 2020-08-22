@@ -128,25 +128,25 @@ const Posters = () => {
 		rotate2('toggle-arrow-0', opened2019);
 		opened2019 = !opened2019;
 	};
-	const openStudent = () => {
+	const open1 = () => {
 		rotate('toggle-arrow-student', opened2018);
 		opened2018 = !opened2018;
 	};
-	const openDeveloper = () => {
+	const open2 = () => {
 		rotate('toggle-arrow-developer', opened2017);
 		opened2017 = !opened2017;
 	};
 	const open3 = () => {
-		rotate('toggle-arrow-3', opened2017);
-		opened2017 = !opened2017;
+		rotate('toggle-arrow-3', opened2016);
+		opened2016 = !opened2016;
 	};
 	const open4 = () => {
-		rotate('toggle-arrow-4', opened2017);
-		opened2017 = !opened2017;
+		rotate('toggle-arrow-4', opened2015);
+		opened2015 = !opened2015;
 	};
 	const open5 = () => {
-		rotate('toggle-arrow-5', opened2017);
-		opened2017 = !opened2017;
+		rotate('toggle-arrow-5', opened2014);
+		opened2014 = !opened2014;
 	};
 	const openTeacherMobile = () => {
 		rotate('toggle-arrow-teacher-mobile', opened2019Mobile);
@@ -208,7 +208,7 @@ const Posters = () => {
 								</Accordion.Toggle>
 								<Accordion.Collapse eventKey="0" class="show">
 									<Card.Body>
-										<Row>
+										<Row xs={1} md={2} lg={2} xl={2}>
 											<Col>
 												<img
 													src={S20P1}
@@ -224,7 +224,7 @@ const Posters = () => {
 												/>
 											</Col>
 										</Row>
-										<Row>
+										<Row xs={1} md={2} lg={2} xl={2}>
 											<Col>
 												<img
 													src={S20P3}
@@ -240,7 +240,7 @@ const Posters = () => {
 												/>
 											</Col>
 										</Row>
-										<Row>
+										<Row xs={1} md={2} lg={2} xl={2}>
 											<Col>
 												<img
 													src={S20P5}
@@ -256,7 +256,7 @@ const Posters = () => {
 												/>
 											</Col>
 										</Row>
-										<Row>
+										<Row xs={1} md={2} lg={2} xl={2}>
 											<Col>
 												<img
 													src={S20P7}
@@ -280,7 +280,7 @@ const Posters = () => {
 									as={Card.Header}
 									eventKey="0"
 									className="toggle"
-									onClick={openStudent}
+									onClick={open1}
 								>
 									<div className="toggle-top">
 										<h3 className="year">Fall 2019</h3>
@@ -295,7 +295,7 @@ const Posters = () => {
 								</Accordion.Toggle>
 								<Accordion.Collapse eventKey="0">
 									<Card.Body>
-										<Row>
+										<Row xs={1} md={2} lg={2} xl={2}>
 											<Col>
 												<img
 													src={F19P1}
@@ -311,7 +311,7 @@ const Posters = () => {
 												/>
 											</Col>
 										</Row>
-										<Row>
+										<Row xs={1} md={2} lg={2} xl={2}>
 											<Col>
 												<img
 													src={F19P3}
@@ -327,7 +327,7 @@ const Posters = () => {
 												/>
 											</Col>
 										</Row>
-										<Row>
+										<Row xs={1} md={2} lg={2} xl={2}>
 											<Col>
 												<img
 													src={F19P5}
@@ -343,7 +343,7 @@ const Posters = () => {
 												/>
 											</Col>
 										</Row>
-										<Row>
+										<Row xs={1} md={2} lg={2} xl={2}>
 											<Col>
 												<img
 													src={F19P7}
@@ -359,7 +359,7 @@ const Posters = () => {
 												/>
 											</Col>
 										</Row>
-										<Row>
+										<Row xs={1} md={2} lg={2} xl={2}>
 											<Col>
 												<img
 													src={F19P9}
@@ -375,7 +375,7 @@ const Posters = () => {
 												/>
 											</Col>
 										</Row>
-										<Row>
+										<Row xs={1} md={2} lg={2} xl={2}>
 											<Col>
 												<img
 													src={F19P11}
@@ -405,7 +405,7 @@ const Posters = () => {
 									as={Card.Header}
 									eventKey="0"
 									className="toggle"
-									onClick={openDeveloper}
+									onClick={open2}
 								>
 									<div className="toggle-top">
 										<h3 className="year">Spring 2019</h3>
@@ -420,7 +420,7 @@ const Posters = () => {
 								</Accordion.Toggle>
 								<Accordion.Collapse eventKey="0">
 									<Card.Body>
-										<Row>
+										<Row xs={1} md={2} lg={2} xl={2}>
 											<Col>
 												<img
 													src={S19P1}
@@ -436,7 +436,7 @@ const Posters = () => {
 												/>
 											</Col>
 										</Row>
-										<Row>
+										<Row xs={1} md={2} lg={2} xl={2}>
 											<Col>
 												<img
 													src={S19P3}
@@ -452,7 +452,7 @@ const Posters = () => {
 												/>
 											</Col>
 										</Row>
-										<Row>
+										<Row xs={1} md={2} lg={2} xl={2}>
 											<Col>
 												<img
 													src={S19P5}
@@ -468,7 +468,7 @@ const Posters = () => {
 												/>
 											</Col>
 										</Row>
-										<Row>
+										<Row xs={1} md={2} lg={2} xl={2}>
 											<Col>
 												<img
 													src={S19P7}
@@ -484,7 +484,7 @@ const Posters = () => {
 												/>
 											</Col>
 										</Row>
-										<Row>
+										<Row xs={1} md={2} lg={2} xl={2}>
 											<Col>
 												<img
 													src={S19P9}
@@ -500,7 +500,7 @@ const Posters = () => {
 												/>
 											</Col>
 										</Row>
-										<Row>
+										<Row xs={1} md={2} lg={2} xl={2}>
 											<Col>
 												<img
 													src={S19P11}
@@ -545,7 +545,7 @@ const Posters = () => {
 								</Accordion.Toggle>
 								<Accordion.Collapse eventKey="0">
 									<Card.Body>
-										<Row>
+										<Row xs={1} md={2} lg={2} xl={2}>
 											<Col>
 												<img
 													src={F18P1}
@@ -561,7 +561,7 @@ const Posters = () => {
 												/>
 											</Col>
 										</Row>
-										<Row>
+										<Row xs={1} md={2} lg={2} xl={2}>
 											<Col>
 												<img
 													src={F18P3}
@@ -577,7 +577,7 @@ const Posters = () => {
 												/>
 											</Col>
 										</Row>
-										<Row>
+										<Row xs={1} md={2} lg={2} xl={2}>
 											<Col>
 												<img
 													src={F18P5}
@@ -593,7 +593,7 @@ const Posters = () => {
 												/>
 											</Col>
 										</Row>
-										<Row>
+										<Row xs={1} md={2} lg={2} xl={2}>
 											<Col>
 												<img
 													src={F18P7}
@@ -609,7 +609,7 @@ const Posters = () => {
 												/>
 											</Col>
 										</Row>
-										<Row>
+										<Row xs={1} md={2} lg={2} xl={2}>
 											<Col>
 												<img
 													src={F18P9}
@@ -625,7 +625,7 @@ const Posters = () => {
 												/>
 											</Col>
 										</Row>
-										<Row>
+										<Row xs={1} md={2} lg={2} xl={2}>
 											<Col>
 												<img
 													src={F18P11}
@@ -641,7 +641,7 @@ const Posters = () => {
 												/>
 											</Col>
 										</Row>
-										<Row>
+										<Row xs={1} md={2} lg={2} xl={2}>
 											<Col>
 												<img
 													src={F18P13}
@@ -657,7 +657,7 @@ const Posters = () => {
 												/>
 											</Col>
 										</Row>
-										<Row>
+										<Row xs={1} md={2} lg={2} xl={2}>
 											<Col>
 												<img
 													src={F18P15}
@@ -696,7 +696,7 @@ const Posters = () => {
 								</Accordion.Toggle>
 								<Accordion.Collapse eventKey="0">
 									<Card.Body>
-										<Row>
+										<Row xs={1} md={2} lg={2} xl={2}>
 											<Col>
 												<img
 													src={S18P1}
@@ -712,7 +712,7 @@ const Posters = () => {
 												/>
 											</Col>
 										</Row>
-										<Row>
+										<Row xs={1} md={2} lg={2} xl={2}>
 											<Col>
 												<img
 													src={S18P3}
@@ -728,7 +728,7 @@ const Posters = () => {
 												/>
 											</Col>
 										</Row>
-										<Row>
+										<Row xs={1} md={2} lg={2} xl={2}>
 											<Col>
 												<img
 													src={S18P5}
@@ -744,7 +744,7 @@ const Posters = () => {
 												/>
 											</Col>
 										</Row>
-										<Row>
+										<Row xs={1} md={2} lg={2} xl={2}>
 											<Col>
 												<img
 													src={S18P7}
@@ -760,7 +760,7 @@ const Posters = () => {
 												/>
 											</Col>
 										</Row>
-										<Row>
+										<Row xs={1} md={2} lg={2} xl={2}>
 											<Col>
 												<img
 													src={S18P9}
@@ -776,7 +776,7 @@ const Posters = () => {
 												/>
 											</Col>
 										</Row>
-										<Row>
+										<Row xs={1} md={2} lg={2} xl={2}>
 											<Col>
 												<img
 													src={S18P11}
@@ -792,7 +792,7 @@ const Posters = () => {
 												/>
 											</Col>
 										</Row>
-										<Row>
+										<Row xs={1} md={2} lg={2} xl={2}>
 											<Col>
 												<img
 													src={S18P13}
@@ -831,7 +831,7 @@ const Posters = () => {
 								</Accordion.Toggle>
 								<Accordion.Collapse eventKey="0">
 									<Card.Body>
-										<Row>
+										<Row xs={1} md={2} lg={2} xl={2}>
 											<Col>
 												<img
 													src={F17P1}
@@ -847,7 +847,7 @@ const Posters = () => {
 												/>
 											</Col>
 										</Row>
-										<Row>
+										<Row xs={1} md={2} lg={2} xl={2}>
 											<Col>
 												<img
 													src={F17P3}
@@ -863,7 +863,7 @@ const Posters = () => {
 												/>
 											</Col>
 										</Row>
-										<Row>
+										<Row xs={1} md={2} lg={2} xl={2}>
 											<Col>
 												<img
 													src={F17P5}
@@ -879,7 +879,7 @@ const Posters = () => {
 												/>
 											</Col>
 										</Row>
-										<Row>
+										<Row xs={1} md={2} lg={2} xl={2}>
 											<Col>
 												<img
 													src={F17P7}
@@ -895,7 +895,7 @@ const Posters = () => {
 												/>
 											</Col>
 										</Row>
-										<Row>
+										<Row xs={1} md={2} lg={2} xl={2}>
 											<Col>
 												<img
 													src={F17P9}
@@ -911,7 +911,7 @@ const Posters = () => {
 												/>
 											</Col>
 										</Row>
-										<Row>
+										<Row xs={1} md={2} lg={2} xl={2}>
 											<Col>
 												<img
 													src={F17P11}
