@@ -3,18 +3,12 @@
 	margin-top: 4rem;
 	display: flex;
 	padding: 2.5rem;
-	.wdb-logo {
-		position: absolute;
-		top: 110px;
-		right: 58px;
-		height: 57px;
-		width: 212px;
-	}
 }
 
 .left-col {
 	display: flex;
 	padding: 0;
+	margin: 0;
 	.tbf-logo {
 		border: 2px solid #ffffff;
 		width: 146px;
@@ -60,61 +54,14 @@
 	}
 }
 
+.footer .wdb-logo {
+	position: absolute;
+	top: 110px;
+	right: 58px;
+	height: 57px;
+	width: 212px;
+}
+
 .footer-mobile {
 	display: none;
-}
-
-@media only screen and (max-width: 1600px) {
-	.header .nav-text {
-		color: white;
-		font-size: 16px;
-		text-transform: uppercase;
-		letter-spacing: 0.11em;
-		margin-left: 0rem;
-	}
-	.header .nav-background {
-		width: 690px;
-	}
-	.dropdown-arrow {
-		position: absolute;
-		margin-left: 5.8rem !important;
-		margin-top: 0.32rem !important;
-	}
-	.dropdown-arrow2 {
-		position: absolute;
-		margin-left: 4.4em !important;
-		margin-top: 0.32rem !important;
-	}
-}
-
-@media only screen and (max-width: 991px) {
-	// .header {
-	// 	width: 88% !important;
-	// 	margin-left: 6% !important;
-	// 	overflow: hidden;
-	// 	padding-bottom: 1.2rem;
-
-	// 	.navbar {
-	// 		margin-left: 0rem;
-	// 		margin-top: 1rem;
-	// 		font-size: 10px;
-	// 		padding: 0;
-	// 		padding-right: 2rem;
-	// 	}
-
-	// 	.nav-text {
-	// 		font-size: 13px;
-	// 		margin-bottom: -0.4rem;
-	// 	}
-	// }
-	.footer-mobile {
-		display: flex;
-
-		h1 {
-			font-size: 20px;
-		}
-	}
-	.footer-desktop {
-		display: none;
-	}
 }
