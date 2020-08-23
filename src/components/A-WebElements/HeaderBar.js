@@ -169,6 +169,20 @@ const HeaderBar = (props) => {
 								<Link to="/decal" class="link-tag">
 									<p className="nav-text">Decal</p>
 								</Link>
+								<div className="icons">
+									<a href={facebookURL}>
+										<img src={facebookIcon} />
+									</a>
+									<a href={instagramURL}>
+										<img src={instagramIcon} />
+									</a>
+									<a href={twitterURL}>
+										<img src={twitterIcon} />
+									</a>
+									<a href={linkedinURL}>
+										<img src={linkedinIcon} />
+									</a>
+								</div>
 							</Nav>
 						</Navbar.Collapse>
 					</Navbar>
