@@ -248,13 +248,23 @@
 @media only screen and (max-width: 1150px) {
 	.header .nav-text {
 		color: white;
-		font-size: 18px;
+		font-size: 16px;
 		text-transform: uppercase;
 		letter-spacing: 0.11em;
-		margin-left: 0.9rem;
+		margin-left: 0rem;
 	}
 	.header .nav-background {
 		width: 690px;
+	}
+	.dropdown-arrow {
+		position: absolute;
+		margin-left: 5.8rem !important;
+		margin-top: 0.32rem !important;
+	}
+	.dropdown-arrow2 {
+		position: absolute;
+		margin-left: 4.4em !important;
+		margin-top: 0.32rem !important;
 	}
 }
 
