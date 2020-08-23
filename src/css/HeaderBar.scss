@@ -260,8 +260,8 @@
 
 @media only screen and (max-width: 991px) {
 	.header {
-		width: 90%;
-		margin-left: 5%;
+		width: 88% !important;
+		margin-left: 6% !important;
 		overflow: hidden;
 		padding-bottom: 1.2rem;
 
@@ -269,7 +269,6 @@
 			margin-left: 0rem;
 			margin-top: 1rem;
 			font-size: 10px;
-
 			padding: 0;
 			padding-right: 2rem;
 		}
