@@ -266,8 +266,12 @@
 		padding-bottom: 1.2rem;
 
 		.navbar {
-			margin-left: 2.5rem;
+			margin-left: 0rem;
 			margin-top: 1rem;
+			font-size: 10px;
+
+			padding: 0;
+			padding-right: 2rem;
 		}
 
 		.nav-text {
@@ -287,8 +291,8 @@
 	}
 
 	.mr-auto {
-		margin-top: 2rem;
-		margin-left: -13rem;
+		margin-top: 0rem;
+		margin-left: -16rem;
 		.link-tag {
 			width: 80%;
 		}

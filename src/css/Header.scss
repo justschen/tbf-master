@@ -253,6 +253,13 @@
 	.header {
 		width: 95% !important;
 		margin-left: 2.5% !important;
+		h1 {
+			margin: 0.7rem 0 0 2rem !important;
+			margin-right: 9rem !important;
+			width: 100%;
+			font-size: 16px !important;
+			padding-bottom: 0;
+		}
 	}
 
 	.whole-comp {
@@ -260,6 +267,8 @@
 	}
 	.stuff {
 		margin-bottom: -40rem;
+		background-size: 140% !important;
+		background-position: 50% 0%;
 		h2.text {
 			font-size: 40px !important;
 			margin-top: 50vw !important;
