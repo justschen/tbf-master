@@ -89,7 +89,7 @@ const Header = (props) => {
 		);
 	} else {
 		return (
-			<div>
+			<div className="whole-comp">
 				<div className="stuff" style={bg}>
 					<HeaderBar />
 
@@ -122,7 +122,7 @@ const Header = (props) => {
 					</a>
 				</div>
 
-				<div>
+				<div className="scrolling-show">
 					<Scrolls />
 				</div>
 			</div>

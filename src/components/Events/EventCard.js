@@ -13,7 +13,7 @@ const EventCard = (props) => {
 		<div className="eventCard">
 			<section className="block">
 				<Container className="personBlock">
-					<Row>
+					<Row xs={1} md={2} lg={2}>
 						<Col>
 							<img
 								src={props.image}

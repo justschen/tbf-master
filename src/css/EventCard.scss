@@ -88,3 +88,35 @@
 		margin-top: 0rem;
 	}
 }
+
+@media only screen and (max-width: 400px) {
+	.past .block .personPic {
+		background-image: none;
+		height: 40vw;
+		margin: auto;
+	}
+
+	.past .block {
+		.content {
+			margin: auto;
+		}
+		.title {
+			margin: auto;
+		}
+		.date {
+			margin: auto;
+		}
+		h3 {
+			margin: auto;
+		}
+		hr {
+			width: 100%;
+			margin: auto;
+		}
+		u {
+			margin-left: 4rem;
+			margin-right: 2rem;
+			text-align: center;
+		}
+	}
+}

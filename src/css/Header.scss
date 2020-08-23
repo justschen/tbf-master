@@ -1,3 +1,7 @@
+.whole-comp {
+	margin-bottom: 0rem;
+}
+
 .stuff {
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -8,11 +12,19 @@
 	display: inline-block;
 }
 
+.scrolling-show {
+	display: flex;
+}
+
 .header-mobile {
 	display: none;
 }
 .header-desktop {
 	display: block;
+}
+
+.scrolldown {
+	display: flex;
 }
 
 .stuff h2 {
@@ -235,11 +247,30 @@
 }
 
 @media only screen and (max-wdith: 991px) {
-	.header-mobile {
-		display: flex;
+}
+
+@media only screen and (max-width: 400px) {
+	.header {
+		width: 95% !important;
+		margin-left: 2.5% !important;
 	}
 
-	.header-desktop {
+	.whole-comp {
+		margin-bottom: -15rem;
+	}
+	.stuff {
+		margin-bottom: -40rem;
+		h2.text {
+			font-size: 40px !important;
+			margin-top: 50vw !important;
+		}
+	}
+
+	.scrolldown {
+		display: none;
+	}
+
+	.scrolling-show {
 		display: none;
 	}
 }
