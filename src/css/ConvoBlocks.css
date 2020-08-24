@@ -170,6 +170,9 @@
 }
 
 @media only screen and (max-width: 1366px) {
+	.conversations h3 {
+		margin-top: -5em !important;
+	}
 }
 
 @media only screen and (max-width: 1145px) {
@@ -340,12 +343,21 @@
 
 	.convo-content p {
 		font-size: 80% !important;
-		margin-top: 1rem !important;
+		margin-top: 1.4rem !important;
 		margin-left: -1rem !important;
 	}
 
 	.convo-content h6 {
 		font-size: 70% !important;
 		margin-right: -2rem !important;
+		padding: 3rem;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	.convo-content h6 {
+		font-size: 70% !important;
+		margin-right: -2rem !important;
+		padding: 2rem;
 	}
 }

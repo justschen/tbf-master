@@ -152,7 +152,8 @@ const ConvoBlocks = () => {
 					<Col className="spring">
 						<Link to="/spring-2019-lineup">
 							<p>
-								The Berkeley Forum Announces Spring 2019 <br></br>Event Lineup
+								The Berkeley Forum Announces the Spring 2019 Semester Event
+								Lineup
 							</p>
 							<h6>January 21, 2019</h6>
 						</Link>

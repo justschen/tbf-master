@@ -72,10 +72,10 @@
 	}
 }
 
-@media only screen and (max-width: 1346px) {
+@media only screen and (max-width: 1400px) {
 	.join .bottom {
-		margin-top: 10rem;
-		width: 100%;
+		margin-top: -10rem;
+		width: 80%;
 		justify-content: center;
 		display: flex;
 		text-align: center;
@@ -84,7 +84,7 @@
 
 @media only screen and (max-width: 1145px) {
 	.join .bottom {
-		margin-top: 14rem;
+		margin-top: 27rem;
 		width: 80%;
 		justify-content: center;
 		display: flex;
@@ -94,7 +94,7 @@
 
 @media only screen and (max-width: 992px) {
 	.join .bottom {
-		margin-top: 15rem;
+		margin-top: 20rem;
 		width: 80%;
 		justify-content: center;
 		display: flex;
