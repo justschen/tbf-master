@@ -246,15 +246,14 @@
 	}
 }
 
-@media only screen and (max-width: 1150px) {
-	.header {
-		h1 {
-			margin: 0 0 0 1.7rem !important;
-		}
+@media only screen and (max-width: 1100px) {
+	.scrolldown {
+		display: none;
 	}
-}
 
-@media only screen and (max-wdith: 991px) {
+	.scrolling-show {
+		display: none;
+	}
 }
 
 @media only screen and (max-width: 430px) {
@@ -263,9 +262,9 @@
 		margin-left: 2.5% !important;
 		h1 {
 			margin: 0.4rem 0 0 1.3rem !important;
-			margin-right: 9rem !important;
+			margin-right: 10rem !important;
 			width: 100%;
-			font-size: 16px !important;
+			font-size: 20px !important;
 			padding-bottom: 0;
 		}
 	}
@@ -280,6 +279,7 @@
 		margin-bottom: -40rem;
 		background-size: 140% !important;
 		background-position: 50% 0%;
+		height: 100vw !important;
 		h2.text {
 			font-size: 40px !important;
 			margin-top: 50vw !important;

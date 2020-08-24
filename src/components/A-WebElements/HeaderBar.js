@@ -16,6 +16,11 @@ import instagramIcon from '../../img/social-tassle/Instagram.png';
 import twitterIcon from '../../img/social-tassle/Twitter.png';
 import linkedinIcon from '../../img/social-tassle/LinkedIN.png';
 
+import facebookWhite from '../../img/social-tassle/facebook-white.png';
+import instagramWhite from '../../img/social-tassle/instagram-white.png';
+import twitterWhite from '../../img/social-tassle/twitter-white.png';
+import linkedinWhite from '../../img/social-tassle/linkedin-white.png';
+
 import DropdownArrow from '../../img/dropdown-arrow.png';
 
 const facebookURL = 'http://facebook.com/berkeleyforum';
@@ -174,32 +179,26 @@ const HeaderBar = (props) => {
 								<Link to="/decal" class="link-tag">
 									<p className="nav-text">Decal</p>
 								</Link>
-
-								<Container>
-									<Row>
-										<Col>
-											<a href={facebookURL}>
-												<img className="icon-image" src={facebookIcon} />
-											</a>
-										</Col>
-										<Col>
-											<a href={instagramURL}>
-												<img className="icon-image" src={instagramIcon} />
-											</a>
-										</Col>
-										<Col>
-											<a href={twitterURL}>
-												<img className="icon-image" src={twitterIcon} />
-											</a>
-										</Col>
-										<Col>
-											<a href={linkedinURL}>
-												<img className="icon-image" src={linkedinIcon} />
-											</a>
-										</Col>
-									</Row>
-								</Container>
 							</Nav>
+							<div className="mobile-tassle">
+								<Container className="icon-pic">
+									<a href={facebookURL}>
+										<img className="icon-image" src={facebookWhite} />
+									</a>
+
+									<a href={instagramURL}>
+										<img className="icon-image" src={instagramWhite} />
+									</a>
+
+									<a href={twitterURL}>
+										<img className="icon-image" src={twitterWhite} />
+									</a>
+
+									<a href={linkedinURL}>
+										<img className="icon-image" src={linkedinWhite} />
+									</a>
+								</Container>
+							</div>
 						</Navbar.Collapse>
 					</Navbar>
 				</div>

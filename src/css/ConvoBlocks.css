@@ -178,6 +178,14 @@
 		color: black;
 		margin: 0;
 	}
+	.conversations h3 {
+		margin-top: 0em !important;
+		margin-bottom: 2rem !important;
+		font-size: 30px !important;
+		line-height: 40px !important ;
+		margin-right: 5rem !important;
+		margin-left: 5rem !important;
+	}
 
 	.convo-content .row {
 		margin-top: 0rem;
@@ -190,13 +198,22 @@
 	}
 
 	.convo-content h6 {
-		font-size: 90% !important;
+		font-size: 80% !important;
 	}
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 996px) {
+	.conversations h3 {
+		margin-top: -1em !important;
+		margin-bottom: 6rem !important;
+		font-size: 30px !important;
+		line-height: 40px !important ;
+		margin-right: 3rem !important;
+		margin-left: 3rem !important;
+	}
+
 	.convo-content {
-		margin-top: -30rem;
+		margin-top: -10rem;
 	}
 	.convo-content h5 {
 		font-size: 14px;
@@ -205,16 +222,18 @@
 
 	.convo-content .row {
 		margin-top: 0rem;
-		margin-bottom: -4rem;
+		margin-bottom: -2rem;
 		text-align: center;
 	}
 
 	.convo-content p {
 		font-size: 80% !important;
+		margin-top: 2rem !important;
+		margin-left: 1rem !important;
 	}
-
 	.convo-content h6 {
 		font-size: 70% !important;
+		margin-right: -2rem !important;
 	}
 }
 @media only screen and (max-width: 576px) {
@@ -264,5 +283,69 @@
 		background-size: 100%;
 	}
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 440px) {
+	.conversations h3 {
+		margin-top: 2rem !important;
+		margin-bottom: 0rem !important;
+		font-size: 20px !important;
+		line-height: 40px !important ;
+		margin-right: 3rem !important;
+		margin-left: 3rem !important;
+	}
+	.convo-content {
+		margin-top: -30rem;
+	}
+	.convo-content h5 {
+		font-size: 14px;
+		color: black;
+	}
+
+	.convo-content .row {
+		margin-top: 0rem;
+		margin-bottom: -4rem;
+		text-align: center;
+	}
+
+	.convo-content p {
+		font-size: 100% !important;
+		margin-top: 2rem !important;
+		margin-left: 3rem !important;
+	}
+
+	.convo-content h6 {
+		font-size: 70% !important;
+		margin-right: -2rem !important;
+	}
+
+	.conversations .medium {
+		font-size: 16px;
+		margin: auto;
+		margin-left: 2rem;
+		margin-right: 2rem;
+		margin-top: 1rem;
+		line-height: 26px;
+	}
+
+	.conversations .row {
+		margin: -1rem 0 1rem 0;
+	}
+
+	.conversations .col {
+		margin: -1rem 0 -2rem 0;
+	}
+
+	.convo-content {
+		margin-top: 0rem;
+	}
+
+	.convo-content p {
+		font-size: 80% !important;
+		margin-top: 1rem !important;
+		margin-left: -1rem !important;
+	}
+
+	.convo-content h6 {
+		font-size: 70% !important;
+		margin-right: -2rem !important;
+	}
 }

@@ -123,9 +123,10 @@
 		margin-bottom: -1rem;
 	}
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 440px) {
 	.join .bottom {
-		margin-top: 13rem;
+		margin-top: 10rem;
+		margin-bottom: 1rem;
 		width: 85%;
 		justify-content: center;
 		display: flex;

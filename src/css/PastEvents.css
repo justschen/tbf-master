@@ -2,6 +2,13 @@
 	overflow-x: hidden;
 }
 
-@media only screen and (max-width: 400px) {
-	
+@media only screen and (max-width: 440px) {
+	.past h4 {
+		font-size: 20px;
+		margin-bottom: 0rem;
+		margin-top: 10rem !important;
+	}
+	.past {
+		margin-bottom: 2rem;
+	}
 }

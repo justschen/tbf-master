@@ -23,7 +23,7 @@ const PastEvents = () => {
 		<div className="past">
 			<Header name="calendar" image={PosterHeader} />
 
-			<h4>Current/Upcoming Events</h4>
+			<h4 className="currentEvents">Current/Upcoming Events</h4>
 			{currentEventData.map((speaker) => (
 				<Row xs={1}>
 					<EventCard
@@ -39,6 +39,9 @@ const PastEvents = () => {
 					/>
 				</Row>
 			))}
+			<Row>
+				<p></p>
+			</Row>
 
 			<Footer></Footer>
 		</div>

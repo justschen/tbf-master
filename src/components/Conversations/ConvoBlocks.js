@@ -20,7 +20,7 @@ const ConvoBlocks = () => {
 			</h3>
 
 			<Container fluid className="convo-content">
-				<Row classname="top-row">
+				<Row classname="top-row" xs={1} md={2} lg={2}>
 					<Col className="blank">
 						<Link to="/spring-2020-lineup">
 							<p>
@@ -38,7 +38,7 @@ const ConvoBlocks = () => {
 						</Link>
 					</Col>
 				</Row>
-				<Row>
+				<Row classname="top-row" xs={1} md={2} lg={2}>
 					<Col className="blank">
 						<Link to="/statement-marianne-williamson">
 							<p>
@@ -57,7 +57,7 @@ const ConvoBlocks = () => {
 						</Link>
 					</Col>
 				</Row>
-				<Row className="top-row">
+				<Row classname="top-row" xs={1} md={2} lg={2}>
 					<Col className="discourse">
 						<Link to="/discourse-at-berkeley-decal">
 							<p>"Discourse at Berkeley": The Berkeley Forum DeCal</p>
@@ -73,7 +73,7 @@ const ConvoBlocks = () => {
 						</Link>
 					</Col>
 				</Row>
-				<Row className="top-row">
+				<Row classname="top-row" xs={1} md={2} lg={2}>
 					<Col className="ellen">
 						<Link to="/ellen-pao-at-the-berkeley-forum">
 							<p>
@@ -94,7 +94,7 @@ const ConvoBlocks = () => {
 					</Col>
 				</Row>
 
-				<Row className="top-row">
+				<Row classname="top-row" xs={1} md={2} lg={2}>
 					<Col className="feng">
 						<Link to="/feng-zhang-at-the-berkeley-forum">
 							<p>CRISPR Pioneer Feng Zhang at the Berkeley Forum</p>
@@ -111,8 +111,7 @@ const ConvoBlocks = () => {
 						</Link>
 					</Col>
 				</Row>
-
-				<Row className="top-row">
+				<Row classname="top-row" xs={1} md={2} lg={2}>
 					<Col className="blank">
 						<Link to="/statement-cards-against-humanity">
 							<p>
@@ -131,7 +130,7 @@ const ConvoBlocks = () => {
 					</Col>
 				</Row>
 
-				<Row className="top-row">
+				<Row classname="top-row" xs={1} md={2} lg={2}>
 					<Col className="hey-vsauce-michael-here">
 						<Link to="/hey-vsauce-michael-here">
 							<p>VSauce Creator Michael Stevens at the Berkeley Forum</p>
@@ -149,7 +148,7 @@ const ConvoBlocks = () => {
 					</Col>
 				</Row>
 
-				<Row className="top-row">
+				<Row classname="top-row" xs={1} md={2} lg={2}>
 					<Col className="spring">
 						<Link to="/spring-2019-lineup">
 							<p>

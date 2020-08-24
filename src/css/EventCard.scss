@@ -94,29 +94,40 @@
 		background-image: none;
 		height: 40vw;
 		margin: auto;
+		margin-bottom: 0rem;
 	}
 
+	.col {
+		padding-top: 1rem !important;
+	}
 	.past .block {
 		.content {
 			margin: auto;
+			font-size: 12px;
 		}
 		.title {
 			margin: auto;
+			font-size: 15px;
 		}
 		.date {
 			margin: auto;
+			font-size: 14px;
 		}
 		h3 {
 			margin: auto;
+			font-size: 30px;
 		}
 		hr {
 			width: 100%;
 			margin: auto;
+			margin-top: -0.2rem;
 		}
 		u {
-			margin-left: 4rem;
-			margin-right: 2rem;
+			font-size: 14px;
+			margin-left: 5rem;
+			margin-right: 0rem;
 			text-align: center;
+			justify-content: center;
 		}
 	}
 }
