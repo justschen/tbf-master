@@ -219,7 +219,6 @@
 				font-size: 77px;
 				line-height: 90px;
 				/* identical to box height */
-
 				color: #ffffff;
 				text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.73);
 			}
@@ -266,6 +265,26 @@
 			width: 100%;
 			font-size: 20px !important;
 			padding-bottom: 0;
+		}
+	}
+	.landing-header {
+		z-index: -1;
+		.carousel {
+			height: inherit;
+
+			z-index: 0;
+			.carousel-caption {
+				z-index: 0;
+				justify-content: space-around;
+				h3 {
+					font-size: 5vw;
+					height: 2rem;
+				}
+				p {
+					padding: 0;
+					height: 2rem;
+				}
+			}
 		}
 	}
 

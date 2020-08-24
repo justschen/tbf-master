@@ -4,6 +4,7 @@ import { Link } from '@reach/router';
 import '../../css/Footer.scss';
 import tbfLogoPath from '../../img/footerlogo.png';
 import wdbLogoPath from '../../img/wdblogo.png';
+import tbfLogoMobilePath from '../../img/footerlogo-mobile.png';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -129,7 +130,7 @@ const Footer = (props) => {
 				</Row>
 				<Row className="logo-row">
 					<Col>
-						<img src={tbfLogoPath} alt="tbf-logo" className="tbf-logo" />
+						<img src={tbfLogoMobilePath} alt="tbf-logo" className="tbf-logo" />
 						<img src={wdbLogoPath} alt="wdb-logo" className="wdb-logo" />
 					</Col>
 					<Col>
