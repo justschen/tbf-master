@@ -64,19 +64,21 @@
 
 @media only screen and (max-width: 991px) {
 	.footer-mobile {
+		padding-top: 2rem;
 		background-color: #233748;
 		display: flex;
 		flex-direction: column;
 		.row {
-			margin: 2rem 3rem;
+			margin: 1.5rem 3rem;
 		}
 		.logo-row {
 			border-top: 2px solid #ffffff;
-			padding-top: 2rem;
+			padding-top: 4rem;
 		}
 		p {
-			font-size: 10px;
+			font-size: 3vw !important;
 			color: white;
+			margin-bottom: 0.5rem;
 		}
 		.tbf-logo {
 			border: 2px solid #ffffff;
