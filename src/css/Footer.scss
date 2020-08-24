@@ -69,14 +69,18 @@
 		display: flex;
 		flex-direction: column;
 		.row {
-			margin: 1.5rem 3rem;
+			margin: 1.5rem 1rem;
+		}
+		.col {
+			padding: 0;
 		}
 		.logo-row {
 			border-top: 2px solid #ffffff;
-			padding-top: 4rem;
+			padding-top: 3rem;
+			margin-top: 0;
 		}
 		p {
-			font-size: 3vw !important;
+			font-size: 4vw !important;
 			color: white;
 			margin-bottom: 0.5rem;
 		}

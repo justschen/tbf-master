@@ -269,6 +269,22 @@
 			padding-bottom: 0;
 		}
 	}
+	.landing-header {
+		.carousel {
+			height: inherit;
+			.carousel-caption {
+				justify-content: space-around;
+				h3 {
+					font-size: 5vw;
+					height: 2rem;
+				}
+				p {
+					padding: 0;
+					height: 2rem;
+				}
+			}
+		}
+	}
 
 	.navbar-toggler-icon {
 		font-size: 12px !important;
