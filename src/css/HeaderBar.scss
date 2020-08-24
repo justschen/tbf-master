@@ -268,7 +268,7 @@
 	}
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 440px) {
 	.header {
 		width: 88% !important;
 		margin-left: 6% !important;
@@ -301,9 +301,44 @@
 
 	.mr-auto {
 		margin-top: 0rem;
-		margin-left: -16rem;
+		margin-left: -15rem;
 		.link-tag {
 			width: 80%;
+		}
+	}
+
+	.social-links {
+		display: flex;
+		width: 10px;
+		border-radius: 6px;
+		height: 10px;
+		position: absolute;
+		right: 50px;
+		top: -3px;
+		justify-content: center;
+		.socials-tassle {
+			position: initial;
+			width: 10px;
+			border-radius: 6px;
+			height: 10px;
+			object-fit: fill;
+		}
+		.icons {
+			margin-right: 1px;
+			position: absolute;
+			top: 0;
+			display: flex;
+			flex-direction: column;
+			a {
+				z-index: 2;
+				top: 1px;
+				left: 1px;
+				margin-top: 0px;
+			}
+			img {
+				width: 20px !important;
+				border: white;
+			}
 		}
 	}
 }

@@ -6,6 +6,10 @@ import '../../css/HeaderBar.scss';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/NavBar';
 
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 import tasslePath from '../../img/social-tassle/tassle.png';
 import facebookIcon from '../../img/social-tassle/Facebook.png';
 import instagramIcon from '../../img/social-tassle/Instagram.png';
@@ -129,6 +133,7 @@ const HeaderBar = (props) => {
 				<Link to="/" className="landing-link">
 					<h1>The Berkeley Forum</h1>
 				</Link>
+
 				<div className="bar">
 					<Navbar
 						className="landing-navbar selectDisable site-navbar-mobile"
@@ -169,20 +174,31 @@ const HeaderBar = (props) => {
 								<Link to="/decal" class="link-tag">
 									<p className="nav-text">Decal</p>
 								</Link>
-								<div className="icons">
-									<a href={facebookURL}>
-										<img src={facebookIcon} />
-									</a>
-									<a href={instagramURL}>
-										<img src={instagramIcon} />
-									</a>
-									<a href={twitterURL}>
-										<img src={twitterIcon} />
-									</a>
-									<a href={linkedinURL}>
-										<img src={linkedinIcon} />
-									</a>
-								</div>
+
+								<Container>
+									<Row>
+										<Col>
+											<a href={facebookURL}>
+												<img className="icon-image" src={facebookIcon} />
+											</a>
+										</Col>
+										<Col>
+											<a href={instagramURL}>
+												<img className="icon-image" src={instagramIcon} />
+											</a>
+										</Col>
+										<Col>
+											<a href={twitterURL}>
+												<img className="icon-image" src={twitterIcon} />
+											</a>
+										</Col>
+										<Col>
+											<a href={linkedinURL}>
+												<img className="icon-image" src={linkedinIcon} />
+											</a>
+										</Col>
+									</Row>
+								</Container>
 							</Nav>
 						</Navbar.Collapse>
 					</Navbar>

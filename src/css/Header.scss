@@ -246,7 +246,7 @@
 	}
 }
 
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1150px) {
 	.header {
 		h1 {
 			margin: 0 0 0 1.7rem !important;
@@ -257,12 +257,12 @@
 @media only screen and (max-wdith: 991px) {
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 430px) {
 	.header {
 		width: 95% !important;
 		margin-left: 2.5% !important;
 		h1 {
-			margin: 0.4rem 0 0 1rem !important;
+			margin: 0.4rem 0 0 1.3rem !important;
 			margin-right: 9rem !important;
 			width: 100%;
 			font-size: 16px !important;
