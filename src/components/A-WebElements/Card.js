@@ -30,7 +30,7 @@ const Card = () => {
 					<p>
 						The Berkeley Forum at the <br></br>University of California
 					</p>
-
+					
 					<p>
 						432 Eshelman Hall, <br></br>Berkeley, CA, 94720-4520
 					</p>

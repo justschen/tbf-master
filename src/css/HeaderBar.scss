@@ -268,6 +268,57 @@
 	}
 }
 
+@media only screen and (max-width: 1400px) {
+	.header .bar {
+		width: 50% !important;
+		margin-left: 2.5% !important;
+	}
+
+	.header-mobile {
+		display: flex;
+
+		h1 {
+			font-size: 20px;
+			margin: 0.4rem 0 0 3rem !important;
+			margin-right: 5.6rem !important;
+			width: 100%;
+			font-size: 20px !important;
+			padding-bottom: 0;
+		}
+	}
+
+	.mr-auto {
+		margin-top: 2rem;
+		margin-left: -26.3rem;
+		.link-tag {
+			width: 80%;
+		}
+		.nav-text {
+			margin-right: 1rem;
+			font-size: 13px;
+		}
+	}
+	.mobile-tassle {
+		display: inline-block;
+		margin-left: 0rem;
+		margin-top: -2rem;
+		.icon-pic {
+			margin-right: 4rem;
+		}
+	}
+
+	.header-desktop {
+		display: none;
+	}
+
+	.header .navbar {
+		padding-right: 2rem;
+	}
+	.stuff {
+		height: 40vh;
+	}
+}
+
 @media only screen and (max-width: 1100px) {
 	.header .bar {
 		width: 50% !important;
@@ -453,15 +504,14 @@
 	}
 	.header-mobile {
 		display: flex;
-
 		h1 {
 			font-size: 20px;
-
 			margin: 0.4rem 0 0 1.3rem !important;
 			margin-right: 9rem !important;
 			width: 100%;
 			font-size: 16px !important;
 			padding-bottom: 0;
+			text-align: left;
 		}
 	}
 	.header-desktop {
@@ -471,6 +521,7 @@
 	.mr-auto {
 		margin-top: 0rem;
 		margin-left: -15rem;
+		text-align: left;
 		.link-tag {
 			width: 80%;
 		}
@@ -478,8 +529,9 @@
 
 	.mobile-tassle {
 		display: inline-block;
-		margin-left: -15rem;
-		margin-top: 1rem;
+		margin-left: -16rem;
+		margin-top: 1.4rem;
+		margin-bottom: -0.1rem;
 		.icon-pic {
 			margin-right: 10rem;
 		}

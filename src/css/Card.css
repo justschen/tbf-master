@@ -38,7 +38,8 @@
 		font-size: 20px;
 	}
 }
-@media only screen and (max-width: 1100px) {
+
+@media only screen and (max-width: 1400px) {
 	.cardStuff {
 		display: none;
 	}
@@ -48,17 +49,19 @@
 	}
 
 	.contact-mobile .image {
-		width: 100vw;
-		height: 68vw;
+		width: 60vw;
+		height: 40vw;
 		z-index: -1;
+		margin: auto;
+		margin-left: 18rem;
 	}
 
 	.contact-mobile p {
 		color: #233748 !important;
 		z-index: 1 !important;
 		margin-top: 4rem;
-		margin-left: -38rem !important;
-		font-size: 35px;
+		margin-left: -31rem !important;
+		font-size: 26px;
 	}
 	.bottom-space {
 		padding-bottom: 2rem;
@@ -95,6 +98,64 @@
 	}
 }
 
+@media only screen and (max-width: 1100px) {
+	.cardStuff {
+		display: none;
+	}
+	.contact-mobile {
+		display: flex;
+		margin-top: 1rem;
+	}
+
+	.contact-mobile .image {
+		width: 100vw;
+		height: 68vw;
+		z-index: -1;
+		margin: 0;
+	}
+
+	.contact-mobile p {
+		color: #233748 !important;
+		z-index: 1 !important;
+		margin-top: 5rem;
+		margin-left: -38rem !important;
+		font-size: 35px !important;
+	}
+	.bottom-space {
+		padding-bottom: 2rem;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.cardStuff {
+		display: none;
+	}
+	.contact-mobile {
+		display: flex;
+		margin-top: 1rem;
+	}
+
+	.contact-mobile .image {
+		width: 100vw;
+		height: 68vw;
+		z-index: -1;
+	}
+
+	.cardBack {
+		margin-top: 2rem;
+	}
+	.contact-mobile p {
+		color: #233748 !important;
+		z-index: 1 !important;
+		margin-top: 3rem;
+		margin-left: -27rem !important;
+		font-size: 25px !important;
+	}
+	.bottom-space {
+		padding-bottom: 2rem;
+	}
+}
+
 @media only screen and (max-width: 440px) {
 	.cardStuff {
 		display: none;
@@ -118,7 +179,7 @@
 		z-index: 1 !important;
 		margin-top: 1rem;
 		margin-left: -14rem !important;
-		font-size: 13px;
+		font-size: 13px !important;
 	}
 	.bottom-space {
 		padding-bottom: 2rem;

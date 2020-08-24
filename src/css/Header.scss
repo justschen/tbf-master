@@ -253,6 +253,36 @@
 	.scrolling-show {
 		display: none;
 	}
+	.stuff {
+		margin-bottom: -40rem;
+		background-size: 140% !important;
+		background-position: 50% 0%;
+		height: 100vw !important;
+		h2.text {
+			font-size: 40px !important;
+			margin-top: 40vw !important;
+		}
+	}
+}
+
+@media only screen and (max-width: 1100px) {
+	.scrolldown {
+		display: none;
+	}
+
+	.scrolling-show {
+		display: none;
+	}
+	.stuff {
+		margin-bottom: -40rem;
+		background-size: 140% !important;
+		background-position: 50% 0%;
+		height: 100vw !important;
+		h2.text {
+			font-size: 50px !important;
+			margin-top: 55vw !important;
+		}
+	}
 }
 
 @media only screen and (max-width: 430px) {
