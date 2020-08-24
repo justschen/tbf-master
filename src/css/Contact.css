@@ -150,6 +150,12 @@ button {
 .contactPage {
 	overflow-x: hidden;
 }
+.contact-desktop {
+	display: flex;
+}
+.contact-mobile {
+	display: none;
+}
 
 @media only screen and (max-width: 2800px) {
 	.transform {
@@ -258,4 +264,11 @@ button {
 		background-color: #233748;
 		padding: 20px;
 	}
+}
+
+.contact-desktop {
+	display: none;
+}
+.contact-mobile {
+	display: flex;
 }

@@ -12,6 +12,7 @@ import Col from 'react-bootstrap/Col';
 
 import Slider from '../img/Slider.png';
 import Card from './A-WebElements/Card';
+import MobileCard from '../img/card-mobile.png';
 
 const Contact = () => {
 	const ToggleClass = () => {
@@ -89,20 +90,25 @@ const Contact = () => {
 						</form>
 					</div>
 				</div>
+				<div className="contact-desktop">
+					<div className="clickUp">
+						<p>
+							Click on the blue sleeve <br></br>for our business card!
+						</p>
+					</div>
 
-				<div className="clickUp">
-					<p>
-						Click on the blue sleeve <br></br>for our business card!
-					</p>
+					<div id="test" className="transform-card">
+						<Card />
+					</div>
+
+					<button className="hidbutton" onClick={ToggleClass}>
+						<img src={Slider} alt="BusinessCard" className="slider" />
+					</button>
 				</div>
 
-				<div id="test" className="transform-card">
+				<div className="contact-mobile">
 					<Card />
 				</div>
-
-				<button className="hidbutton" onClick={ToggleClass}>
-					<img src={Slider} alt="BusinessCard" className="slider" />
-				</button>
 
 				<Row className="bottom-space">
 					<p></p>
