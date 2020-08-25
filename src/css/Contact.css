@@ -107,11 +107,11 @@ button {
 
 .transform {
 	max-width: 70vw;
-	-webkit-transition: all 2s ease;
-	-moz-transition: all 2s ease;
-	-o-transition: all 2s ease;
-	-ms-transition: all 2s ease;
-	transition: all 2s ease;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
 	position: absolute;
 	margin-right: auto;
 	margin-left: 23rem;
@@ -123,11 +123,11 @@ button {
 
 .transform-card {
 	max-width: 70vw;
-	-webkit-transition: all 2s ease;
-	-moz-transition: all 2s ease;
-	-o-transition: all 2s ease;
-	-ms-transition: all 2s ease;
-	transition: all 2s ease;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
 	position: absolute;
 	margin-right: auto;
 	margin-left: 8rem;
@@ -160,11 +160,11 @@ button {
 @media only screen and (max-width: 2800px) {
 	.transform {
 		max-width: 70vw;
-		-webkit-transition: all 2s ease;
-		-moz-transition: all 2s ease;
-		-o-transition: all 2s ease;
-		-ms-transition: all 2s ease;
-		transition: all 2s ease;
+		-webkit-transition: all 1s ease;
+		-moz-transition: all 1s ease;
+		-o-transition: all 1s ease;
+		-ms-transition: all 1s ease;
+		transition: all 1s ease;
 		position: absolute;
 		margin-right: auto;
 		margin-left: 30rem;
@@ -176,11 +176,11 @@ button {
 
 	.transform-card {
 		max-width: 70vw;
-		-webkit-transition: all 2s ease;
-		-moz-transition: all 2s ease;
-		-o-transition: all 2s ease;
-		-ms-transition: all 2s ease;
-		transition: all 2s ease;
+		-webkit-transition: all 1s ease;
+		-moz-transition: all 1s ease;
+		-o-transition: all 1s ease;
+		-ms-transition: all 1s ease;
+		transition: all 1s ease;
 		position: absolute;
 		margin-right: auto;
 		margin-left: 9rem;
@@ -211,11 +211,11 @@ button {
 @media only screen and (max-width: 1600px) {
 	.transform {
 		max-width: 70vw;
-		-webkit-transition: all 2s ease;
-		-moz-transition: all 2s ease;
-		-o-transition: all 2s ease;
-		-ms-transition: all 2s ease;
-		transition: all 2s ease;
+		-webkit-transition: all 1s ease;
+		-moz-transition: all 1s ease;
+		-o-transition: all 1s ease;
+		-ms-transition: all 1s ease;
+		transition: all 1s ease;
 		position: absolute;
 		margin-right: auto;
 		margin-left: 25rem;
@@ -227,11 +227,11 @@ button {
 
 	.transform-card {
 		max-width: 70vw;
-		-webkit-transition: all 2s ease;
-		-moz-transition: all 2s ease;
-		-o-transition: all 2s ease;
-		-ms-transition: all 2s ease;
-		transition: all 2s ease;
+		-webkit-transition: all 1s ease;
+		-moz-transition: all 1s ease;
+		-o-transition: all 1s ease;
+		-ms-transition: all 1s ease;
+		transition: all 1s ease;
 		position: absolute;
 		margin-right: auto;
 		margin-left: 9rem;
