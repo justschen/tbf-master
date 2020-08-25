@@ -83,8 +83,10 @@
 				}
 			}
 			.introduction {
-				padding: 5rem;
-				font-size: 100%;
+				p {
+					font-size: 100%;
+				}
+				padding: 10rem 0 0 0;
 			}
 		}
 	}
