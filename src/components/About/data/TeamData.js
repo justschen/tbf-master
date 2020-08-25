@@ -36,7 +36,7 @@ export const execData = [
 		'Cindy Tang is a third-year student studying Business Administration ' +
 			'and Sociology with a minor in Human Rights Interdisciplinary.' +
 			'Originally from Columbus, OH, Cindy has passions for inclusion' +
-			'and diversity, people, and education. In Cindy’s free time, she' +
+			'and diversity, people, and education. In Cindy’s free time, she ' +
 			'enjoys hiking, vintage shopping, and trying new restaurants.' +
 			'Cindy is currently an RA in Blackwell Hall and is a huge fan of' +
 			'the Ohio State Buckeyes.',

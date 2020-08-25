@@ -72,11 +72,6 @@ const Team = () => {
 				</Row>
 			</Container>
 			<Container fluid className="profiles-mobile">
-				<Row className="bottom-navbar">
-					<Link to="/advisory">Advisory Committee</Link>
-					<Link to="/committees">Our Committees</Link>
-					<Link to="/legacy">Legacy</Link>
-				</Row>
 				<Row>
 					<h1>Executive Committee</h1>
 				</Row>
@@ -116,6 +111,11 @@ const Team = () => {
 						/>
 					</Row>
 				))}
+				<Row className="bottom-navbar">
+					<Link to="/advisory">Advisory Committee</Link>
+					<Link to="/committees">Our Committees</Link>
+					<Link to="/legacy">Legacy</Link>
+				</Row>
 			</Container>
 			<Footer />
 		</div>
