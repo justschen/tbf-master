@@ -20,195 +20,301 @@ const RandPaul = () => {
 				</div>
 
 				<Row>
-					<p className="italics">
-						US Senator Rand Paul appeared at the Berkeley Forum on March 19,
-						2014. Senator Paul discussed the implications of NSA’s surveillance
-						activities on liberty and his potential plans to run for the 2016
-						Republican nomination for President. The event was moderated by
-						Matthew Freeman.
+					<p>The Berkeley Forum Announces Fall 2019 Event Lineup </p>
+				</Row>
+				<Row>
+					<p>September 4, 2019</p>
+				</Row>
+				<Row>
+					<p>
+						BERKELEY, California―Today, the Berkeley Forum announced a selection
+						of events from its Fall 2019 lineup, which includes 17 debates,
+						panels, and talks with leaders from various fields and disciplines.
 					</p>
 				</Row>
 				<Row>
 					<p>
-						<strong>Matthew Freeman:</strong> Conservative activist, Larry
-						Clayman, and the ACLU have also filed similar lawsuits against the
-						NSA. And both resulted in either failure or a stayed ruling. What
-						makes you think that you’ll have any more success than these groups
-						that have tried before you?
+						“I am very excited to announce the Berkeley Forum’s event lineup for
+						Fall 2019. Our members have gone above and beyond in curating a
+						well-rounded slate of speakers, including experts in indigenous
+						affairs, virtual reality, and graphic novels. My hope is for our
+						audiences to both relate to and be challenged by the unique
+						perspectives and lived experiences of our speakers,” said Tanya
+						Mahadwar, President of the Berkeley Forum. “We are honored to host
+						speakers such as Karen Diver, Sanjay Dastoor, and Jill Tarter. I am
+						incredibly proud of our organization for contributing to the larger
+						ideas-driven culture of Berkeley.””
 					</p>
 				</Row>
 				<Row>
 					<p>
-						<strong>Rand Paul:</strong>I am supportive of all the other
-						lawsuits, so it isn’t exclusive that mine is the best, but it is
-						slightly different. The ACLU lawsuit was ruled against. The judge
-						either threw it out or said that the program was constitutional. The
-						Clayman suit is in the same court that mine will go to. And the
-						judges previously ruled it unconstitutional, stayed the ruling, and
-						I think it will be appealed. So, I think the Clayman suit is still
-						active. Ours is going to the same court because it has a similar
-						subject. Our case is slightly different, and we think, for some
-						legal reasons, that it may have a change of going all the way to the
-						Supreme Court.
+						Registration is required. You can view more details about the
+						announced events and sign up to receive notifications when tickets
+						become available on our “Events” page. All events are open to the
+						public and free for UC Berkeley students, faculty, and staff.
+					</p>
+				</Row>
+
+				<Row>
+					<p
+						className="italics"
+						style={{ borderTop: 'solid', paddingTop: '1rem' }}
+					>
+						<strong>Fall 2019 Lineup</strong>
+					</p>
+				</Row>
+				<Row>
+					<p className="underline">
+						<strong>September:</strong>
+					</p>
+				</Row>
+				<Row>
+					<p>
+						<strong>
+							Jill Tarter, astronomer and former Director of the Center for SETI
+							Research (Search for Extraterrestrial Intelligence)
+						</strong>
 						<br></br>
-						<br></br>
-						To me, it’s not so much that my case has to go, but I think a case
-						needs to go to the Supreme Court. Because currently, many people
-						believe that the Fourth Amendment doesn’t apply to all. They think
-						that the reason why you can give a single warrant to Verizon is that
-						you don’t own those records. I think they’re jointly held. I think
-						if you sign a privacy agreement, Verizon agrees not to tell your
-						neighbor who you’re calling. So, they kind of acknowledge that. I
-						think it’s acknowledging that you still have an interest in those
-						records.
-						<br></br>
-						<br></br>
-						But to me, the most important thing is… And there’s at least, we
-						think, four or five Supreme Court justices that have indicated that
-						in this digital age, think about it, it’s a lot different than 1975.
-						That’s when the last case, Smith versus Maryland, was held on
-						records. It’s also different. That was about one suspect’s phone
-						tap. We’re now talking about 300 million Americans’ phones. So, I
-						think it’s a big deal, and it is different than what we’ve ever had
-						before. So, I’m hoping that we will get all the way to the Supreme
-						Court.
+						“Technosignatures: What Are They, And How Might We Find Them?”
+						<br />
+						September 16, 2019
+					</p>
+				</Row>
+				<Row>
+					<p>
+						<strong>Fiona Ma, California State Treasurer</strong>
+						<br />
+						“Bank with California State Treasurer Fiona Ma” – In collaboration
+						with the Goldman School of Public Policy
+						<br />
+						September 16, 2019
+					</p>
+				</Row>
+				<Row>
+					<p>
+						<strong>
+							Gene Luen Yang, graphic novelist and author of{' '}
+							<i>American Born Chinese</i>
+							<br></br>
+							“Asian and Asian-American Representation through Creative Mediums”
+						</strong>
+						<br />
+						September 19, 2019,
+					</p>
+				</Row>
+				<Row>
+					<p>
+						<strong>Travis Rosbach, founder of Hydroflask</strong>
+						<br />
+						“Engineering a Refreshing Solution”
+						<br />
+						September 24, 2019
+					</p>
+				</Row>
+				<Row>
+					<p>
+						<strong>
+							Marianne Williamson, author, activist, and spiritual leader
+						</strong>
+						<br />
+						“Renewing the Spirituality of Democracy”
+						<br />
+						September 25, 2019
+					</p>
+				</Row>
+				<Row>
+					<p>
+						<strong>
+							Alexandra Waterbury, ballerina, model and #MeToo activist
+						</strong>
+						<br />
+						“Breaking the #MeToo Silence in Ballet: Alexandra Waterbury at the
+						Berkeley Forum”
+						<br />
+						September 26, 2019
+					</p>
+				</Row>
+
+				<Row>
+					<p className="underline">
+						<strong>October:</strong>
+					</p>
+				</Row>
+				<Row>
+					<p>
+						<strong>
+							Kristin Kirkpatrick, award-winning dietitian and best-selling
+							author
+						</strong>
+						<br />
+						“The Impact of Social Media on Wellness”
+						<br />
+						October 3, 2019
+					</p>
+				</Row>
+				<Row>
+					<p>
+						<strong>
+							Michele Lamont, Harvard professor of Sociology, African-American
+							Studies, and European Studies
+						</strong>
+						<br />
+						“Evaluating Current Society with a Sociological Lens”
+						<br />
+						October 4, 2019
+					</p>
+				</Row>
+				<Row>
+					<p>
+						<strong>
+							Kyle Hanagami, internationally-renowned choreographer
+						</strong>
+						<br />
+						“The Direction of the Dance Industry”
+						<br />
+						October 7, 2019
+					</p>
+				</Row>
+				<Row>
+					<p>
+						<strong>
+							Karen Diver, former Special Assistant to President Obama on Native
+							American Affairs
+						</strong>
+						<br />
+						“The State of Native Nations”
+						<br />
+						October 8, 2019
+					</p>
+				</Row>
+				<Row>
+					<p>
+						<strong>
+							Sanjay Dastoor, founder of Boosted and CEO/co-founder of Skip
+						</strong>
+						<br />
+						“The Evolution of the Transportation Industry”
+						<br />
+						October 14, 2019
+					</p>
+				</Row>
+				<Row>
+					<p>
+						<strong>
+							Jaron Lanier, founding father of VR and activist against social
+							media
+						</strong>
+						<br />
+						“Understanding BART”
+						<br />
+						October 21, 2019
+					</p>
+				</Row>
+
+				<Row>
+					<p className="underline">
+						<strong>November:</strong>
+					</p>
+				</Row>
+				<Row>
+					<p>
+						<strong>
+							A Debate on Breaking Up Big Tech at the Berkeley Forum
+						</strong>
+						<br />
+						November 12, 2019
+					</p>
+				</Row>
+				<Row>
+					<p>
+						<strong>
+							Discussing the Harsh Realities of Homelessness and Food Insecurity
+							in Bay Area: A Panel by the Berkeley Forum
+						</strong>
+						<br />
+						November 14, 2019
+					</p>
+				</Row>
+				<Row>
+					<p>
+						<strong>
+							Unchained? A Debate on Reparations for Slavery at the Berkeley
+							Forum
+						</strong>
+						<br />
+						November 21, 2019
+					</p>
+				</Row>
+				<Row>
+					<p className="underline">
+						<strong>December:</strong>
+					</p>
+				</Row>
+				<Row>
+					<p>
+						<strong>
+							Hasini Jayatilaka, Stanford researcher pioneering
+							metastasis-slowing technology
+						</strong>
+						<br />
+						“Slowing the Spread of Cancer”
+						<br />
+						December 4, 2019
 					</p>
 				</Row>
 
 				<Row>
 					<p>
-						<strong> Matthew Freeman:</strong> So, earlier, you condemned
-						director of National Intelligence, James Clapper, for allegedly
-						lying in front of Congress. You said he’s very explicitly broken the
-						law. Does that mean that you think he should be sent to prison?
+						<strong>About the Berkeley Forum</strong>
 					</p>
 				</Row>
 				<Row>
 					<p>
-						<strong>Rand Paul:</strong>I think he should be. You don’t get sent
-						to prison until you’re found guilty. So, we should have a trial. He
-						deserves a trial. But the interesting thing is I’m not an outlier on
-						this in the sense that I think seven members of the Intelligence
-						Committee or Judiciary Committee in the House have signed a letter
-						saying the same thing. And I think it hurts us because we do have to
-						rely on some things being secret. And it’s an extraordinary power.
-						It’s a power to capture people, incarcerate people. It’s even a
-						power to kill people. So, that power needs to be overseen, and they
-						have to be honest with us. If the people in charge of the
-						Intelligence Committee are not being honest to Congress, and they’re
-						actually spying on Congress, I have grave doubts about everything
-						they’re telling me.
-						<br></br>
-						<br></br>
-						So, yeah, I think it is important. And one of the reasons I bring it
-						up is that many of these people, they want to throw the book at
-						Snowden. And I have mixed feelings what should happen, because I
-						think you can’t release secrets all the time. That would lead to
-						chaos. But at the same time, I think he also wanted to reveal
-						something he thought was unconstitutional. But for all the people
-						that want to throw the book and the letter of the law at Snowden, I
-						like the contrast. They don’t want to do a thing…not a peep out of
-						them for Clapper. So, you’re not really being consistent if you want
-						to throw the book at Snowden, but you don’t want to do a thing to
-						Clapper. They both broke the law technically. And then you have to
-						decide what justice is. But yeah, I think Clapper should be tried
-						for perjury.
-					</p>
-				</Row>
-
-				<Row>
-					<p>
-						<strong>Matthew Freeman:</strong>Matthew Freeman: So, you say you’re
-						asked this all the time, but we want to get in here, too. Would you
-						classify Edward Snowden as on the one hand a hero or a traitor? And
-						to phrase that slightly differently maybe, if there were another
-						Edward Snowden out there, would you encourage him to speak up?
+						The Berkeley Forum is a non-partisan, student-run organization at
+						the University of California, Berkeley. Established in 2012, the
+						Forum hosts debates, panels, and talks by leading experts from a
+						variety of fields. The Forum exists to provide the Berkeley
+						community with a space for the free expression and debate of a wide
+						range of viewpoints.
 					</p>
 				</Row>
 				<Row>
 					<p>
-						<strong>Rand Paul:</strong> I think the ultimate decision of hero or
-						villain in history is going to sort out. And I think there are pros
-						and cons to a lot of it. And I know people have a strong feeling
-						about it. I think that his intentions were good. But here’s the
-						problem – let’s say we have 400, 500 people here, and let’s say you
-						all are… We’re talking to you, and you’re the new recruits for the
-						CIA or for the intelligence for our army. Should I tell all 500 of
-						you, “Just decide when you think it’s unconstitutional and just
-						reveal secrets any time.” You could see how it could lead to chaos.
-						But at the same time, I’m very upset about what our intelligence
-						community is doing, and we might not have ever known about it had
-						Snowden not leaked it. Some say Snowden should have tried to become
-						a whistleblower.
-						<br></br>
-						<br></br>I don’t know if he did try or what the process is. But I
-						think on the one hand, you have chaos. Bradley Manning released 24
-						million pages. There’s a chance that people could die from that.
-						There’s a chance that intelligence could get out, and it could
-						endanger our agents. And I’m not against spying. We will have people
-						gathering intelligence around the world. And I don’t think that we
-						can allow willy-nilly indiscriminate release of documents. But at
-						the same time, I’m sympathetic to what was released, because I think
-						it’s a real problem. So, I have mixed feeling is the bottom line.
+						We have welcomed over 5,000 attendees to nearly 100 events. The
+						Forum’s events have been covered by many media outlets, including
+						the New York Times, Politico, CNN, the Associated Press, C-SPAN, and
+						the San Francisco Chronicle.
 					</p>
 				</Row>
 				<Row>
 					<p>
-						<strong>Matthew Freeman:</strong> So, you posed a very interesting
-						question during your address. You asked about potential CIA spying
-						on Senate computers. To quote you, “If the CIA is spying on
-						Congress, who exactly can or will stop them?” So, what would be your
-						answer to this question?
+						Since its founding, the Forum has hosted a number of distinguished
+						guests, including Senator Rand Paul, PayPal co-founder Peter Thiel,
+						ACLU President Susan Herman, Khan Academy founder Salman Khan,
+						Director of Saturday Night Live Don Roy King and U.S. Secretary of
+						Housing and Urban Development Julián Castro.
+					</p>
+				</Row>
+				<Row>
+					<p>
+						The Forum’s events are only possible because of the dedication and
+						hard work of our members. Learn more about our members on the Meet
+						Our Team page of our website.
 					</p>
 				</Row>
 
 				<Row>
 					<p>
-						<strong>Rand Paul:</strong> Well, see, here’s the interesting thing.
-						And this is worth everybody reading about. The way I understand it…
-						And this is what Senator Feinstein said in her speech. They came
-						across something… They were given access to the CIA computers by the
-						CIA. The search engine was created by the CIA. They say… And I’m
-						just going from what they’re telling me. They say they found a
-						report called the Pennetta Review which looked into some previous
-						activities in the CIA – interrogation and detention. And they got it
-						through the search engine. If that’s true, the CIA then may have
-						said, “Oh, whoops. We didn’t want you to read that.” But think about
-						that. If it was a mistake by the CIA, you can say, “Well, that was a
-						mistake.”
+						<strong>Press Contact</strong>
 					</p>
 				</Row>
-
 				<Row>
-					<p></p>
-				</Row>
-
-				<Row>
-					<p></p>
-				</Row>
-
-				<Row>
-					<p></p>
-				</Row>
-
-				<Row>
-					<p></p>
-				</Row>
-
-				<Row>
-					<p></p>
-				</Row>
-
-				<Row>
-					<p></p>
-				</Row>
-
-				<Row>
-					<p></p>
-				</Row>
-
-				<Row>
-					<p></p>
+					<p>
+						Ian Wong
+						<br />
+						Press Manager
+						<br /> press@forum.berkeley.edu
+					</p>
 				</Row>
 			</Container>
 			<Footer />
