@@ -18,7 +18,7 @@ const Legacy = () => {
 	return (
 		<div className="legacy">
 			<Header name="" image={LegacyHeader} position="50% 5%" />
-			<Container fluid className="profiles">
+			<Container fluid className="profiles-desktop">
 				<Row className="introduction">
 					<p>
 						The Berkeley Forum was founded in 2012 by Pierre Bourbonnais. The
@@ -45,6 +45,42 @@ const Legacy = () => {
 					))}
 				</Row>
 
+				<Row className="bottom-navbar">
+					<Link to="/advisory">
+						<p className="link-text">Advisory Committee</p>
+					</Link>
+					<Link to="/committees">
+						<p className="link-text">Our Committees</p>
+					</Link>
+					<Link to="/legacy">
+						<p className="link-text">Legacy</p>
+					</Link>
+				</Row>
+			</Container>
+			<Container fluid className="profiles-mobile">
+				<Row className="introduction">
+					<p>
+						The Berkeley Forum was founded in 2012 by Pierre Bourbonnais. The
+						Forum had its first event the following spring in 2013, a panel on
+						the Federal Budget.
+					</p>
+				</Row>
+				<Row>
+					<h1>Alumni & Associates</h1>
+				</Row>
+				{legacyData.map((member) => (
+					<Row>
+						<LegacyCard
+							major={member[2]}
+							name={member[0]}
+							graduation={member[1]}
+							memory={member[3]}
+							future={member[4]}
+							image={member[5]}
+							linkedIn={member[6]}
+						/>
+					</Row>
+				))}
 				<Row className="bottom-navbar">
 					<Link to="/advisory">
 						<p className="link-text">Advisory Committee</p>

@@ -10,7 +10,7 @@
 		position: relative;
 		display: flex;
 		flex-direction: column;
-		height: 55vh;
+		height: 30vw;
 		width: 23vw;
 		margin: 0;
 		.portrait {
@@ -41,7 +41,8 @@
 			opacity: 0.8;
 		}
 	}
-	h4 {
+	.name,
+	.graduation {
 		font-size: 2.5vmax;
 		margin: 0;
 		text-transform: none;
@@ -60,6 +61,26 @@
 			width: 25px;
 			height: 25px;
 			object-fit: fill;
+		}
+	}
+}
+
+@media only screen and (max-width: 430px) {
+	.legacy-card {
+		.headshot {
+			height: 100vw;
+			width: 75vw;
+			.bio {
+				font-size: 14px;
+			}
+		}
+		.name {
+			font-size: 2rem;
+			width: 100%;
+		}
+		.role {
+			font-size: 1.5rem;
+			margin: 0;
 		}
 	}
 }
