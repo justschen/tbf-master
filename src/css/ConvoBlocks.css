@@ -13,7 +13,7 @@
 	margin: 0;
 }
 
-.conversations .medium {
+.convos .medium {
 	font-size: 40px;
 	color: black;
 	margin: auto;
@@ -170,7 +170,7 @@
 }
 
 @media only screen and (max-width: 1366px) {
-	.conversations h3 {
+	.convos h3 {
 		margin-top: -5em !important;
 	}
 }
@@ -181,7 +181,7 @@
 		color: black;
 		margin: 0;
 	}
-	.conversations h3 {
+	.convos h3 {
 		margin-top: 0em !important;
 		margin-bottom: 2rem !important;
 		font-size: 30px !important;
@@ -206,7 +206,7 @@
 }
 
 @media only screen and (max-width: 996px) {
-	.conversations h3 {
+	.convos h3 {
 		margin-top: -1em !important;
 		margin-bottom: 6rem !important;
 		font-size: 30px !important;
@@ -287,7 +287,7 @@
 	}
 }
 @media only screen and (max-width: 440px) {
-	.conversations h3 {
+	.convos h3 {
 		margin-top: 2rem !important;
 		margin-bottom: 0rem !important;
 		font-size: 20px !important;
@@ -320,7 +320,7 @@
 		margin-right: -2rem !important;
 	}
 
-	.conversations .medium {
+	.convos .medium {
 		font-size: 16px;
 		margin: auto;
 		margin-left: 2rem;
@@ -329,11 +329,11 @@
 		line-height: 26px;
 	}
 
-	.conversations .row {
+	.convo-content .row {
 		margin: -1rem 0 1rem 0;
 	}
 
-	.conversations .col {
+	.convo-content .col {
 		margin: -1rem 0 -2rem 0;
 	}
 

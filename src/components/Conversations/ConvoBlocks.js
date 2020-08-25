@@ -12,7 +12,7 @@ import Col from 'react-bootstrap/Col';
 
 const ConvoBlocks = () => {
 	return (
-		<div className="conversations">
+		<div className="convos">
 			<Header name="Conversations" image={AboutHeader} />
 			<h3 className="medium">
 				We're now on Medium! Check us out here or read our past transcripts down
