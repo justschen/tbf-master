@@ -17,7 +17,7 @@ import { legacyData } from './data/LegacyData.js';
 const Legacy = () => {
 	return (
 		<div className="legacy">
-			<Header name="Legacy" image={LegacyHeader} position="50% 5%" />
+			<Header name="Legacy" image={LegacyHeader} />
 			<Container fluid className="profiles-desktop">
 				<Row className="introduction">
 					<p>
