@@ -88,14 +88,11 @@ const OurCommittees = () => {
 				</Row>
 				<Row className="bottom-navbar">
 					<Link to="/team">
-						<p className="link-text">Meet Our Team</p>
+						{/* <p className="link-text">Meet Our Team</p> */}
+						Meet Our Team
 					</Link>
-					<Link to="/advisory">
-						<p className="link-text">Advisory Committee</p>
-					</Link>
-					<Link to="/legacy">
-						<p className="link-text">Legacy</p>
-					</Link>
+					<Link to="/advisory">Advisory Committee</Link>
+					<Link to="/legacy">Legacy</Link>
 				</Row>
 			</Container>
 			<Footer />

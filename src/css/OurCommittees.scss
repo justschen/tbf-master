@@ -9,7 +9,7 @@
 		text-align: left;
 	}
 
-	p.link-text {
+	a {
 		font-family: 'Karla', sans-serif;
 		border-radius: 6px;
 		background-color: #233748;
@@ -26,13 +26,30 @@
 		margin: 0;
 		text-decoration: none;
 	}
-	a {
-		text-decoration: none;
-	}
 	.bottom-navbar {
 		display: flex;
 		justify-content: space-around;
 		margin-bottom: 5rem;
 		margin-top: 8rem;
+	}
+}
+
+@media only screen and (max-width: 430px) {
+	.committee-content {
+		p {
+			font-size: 100%;
+			margin: 0;
+		}
+		a {
+			font-size: 100%;
+		}
+		.bottom-navbar {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			height: 50vw;
+			margin-bottom: 5rem;
+			margin-top: 4rem;
+		}
 	}
 }

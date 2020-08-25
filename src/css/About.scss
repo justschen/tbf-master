@@ -27,12 +27,32 @@
 	}
 	a {
 		text-decoration: none;
+		margin-bottom: 1rem;
 	}
 	.bottom-navbar {
-		padding-left: 3rem;
-		padding-right: 3rem;
 		display: flex;
-		justify-content: space-around;
+		justify-content: space-between;
+		align-content: center;
 		margin-bottom: 5rem;
+	}
+}
+
+@media only screen and (max-width: 430px) {
+	.about-content {
+		p {
+			font-size: 100%;
+		}
+		.bottom-navbar {
+			display: flex;
+			justify-content: space-around;
+			.link-text {
+				font-size: 100%;
+				padding: 1rem;
+				line-height: 100%;
+			}
+		}
+		.middle-row {
+			margin-bottom: 1rem;
+		}
 	}
 }
