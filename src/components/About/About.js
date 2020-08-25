@@ -13,7 +13,6 @@ const About = () => {
 	return (
 		<div className="about">
 			<Header name="About Us" image={AboutHeader} />
-
 			<Container fluid className="about-content">
 				<Row>
 					<p>

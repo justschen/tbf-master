@@ -3,21 +3,22 @@
 	flex-direction: column;
 	align-items: center;
 	.introduction {
-		width: 75%;
+		width: 100%;
 		margin: 0 0 3rem 0;
 	}
 	.committee-info {
-		width: 80%;
+		width: 100%;
+		margin: 0;
 		border: solid #233748 5px;
 		p {
 			text-align: left;
-			padding: 1rem 0 1rem 4rem;
+			padding: 2rem 2rem 1rem 4rem;
 		}
 	}
 	.bottom-navbar {
 		display: flex;
-		justify-content: space-around;
-
+		justify-content: space-between;
+		width: 100%;
 		align-content: center;
 		margin-bottom: 5rem;
 		margin-top: 8rem;
@@ -42,29 +43,27 @@
 }
 
 @media only screen and (max-width: 430px) {
-	.advisory {
-		.advisory-content {
+	.advisory-content {
+		padding: 5rem;
+		p {
+			font-size: 100%;
+		}
+		.committee-info {
+			border: solid #233748 5px;
 			p {
-				font-size: 100% !important;
+				text-align: left;
+				padding: 1rem 1rem;
 			}
-			.committee-info {
-				width: 80%;
-				border: solid #233748 5px;
-				p {
-					text-align: left;
-					padding: 1rem 1rem;
-				}
-			}
-			.bottom-navbar {
-				display: flex;
-				flex-direction: column;
-				justify-content: space-between;
-				height: 50vw;
-				margin-bottom: 5rem;
-				margin-top: 4rem;
-				a {
-					font-size: 100%;
-				}
+		}
+		.bottom-navbar {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			height: 50vw;
+			margin-bottom: 5rem;
+			margin-top: 4rem;
+			a {
+				font-size: 100%;
 			}
 		}
 	}
