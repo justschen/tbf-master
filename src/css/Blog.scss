@@ -284,14 +284,6 @@
 	}
 }
 @media only screen and (max-width: 440px) {
-	h2 {
-		line-height: 19px !important;
-		text-align: left !important;
-		margin-left: -7rem !important;
-		font-size: 11px !important;
-		padding-left: 2rem !important;
-	}
-
 	.header-rand {
 		width: 100%;
 		background-image: url(../img/smallText.png);
@@ -388,6 +380,13 @@
 	}
 	.blog-content {
 		padding: 4rem;
+		h2 {
+			line-height: 19px !important;
+			text-align: left !important;
+			margin-left: -7rem !important;
+			font-size: 11px !important;
+			padding-left: 2rem !important;
+		}
 
 		h2 {
 			line-height: 4rem;
