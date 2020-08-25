@@ -15,11 +15,11 @@
 		.member-label {
 			margin-top: -4rem;
 		}
-	}
-
-	.row {
-		justify-content: space-around;
-		margin-top: 2rem;
+		.row {
+			justify-content: space-around;
+			margin-top: 2rem;
+			width: 100%;
+		}
 	}
 
 	.section-divider {
@@ -76,6 +76,7 @@
 			}
 			.row {
 				max-width: 100%;
+				width: auto;
 			}
 			.bottom-navbar {
 				display: flex;
