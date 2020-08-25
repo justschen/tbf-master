@@ -18,7 +18,7 @@ const Team = () => {
 	return (
 		<div className="team">
 			<Header name="Meet Our Team" image={TeamHeader} />
-			<Container fluid className="profiles">
+			<Container fluid className="profiles-desktop">
 				<Row>
 					<h1>Executive Committee</h1>
 				</Row>
@@ -66,16 +66,56 @@ const Team = () => {
 					))}
 				</Row>
 				<Row className="bottom-navbar">
-					<Link to="/advisory">
-						<p className="link-text">Advisory Committee</p>
-					</Link>
-					<Link to="/committees">
-						<p className="link-text">Our Committees</p>
-					</Link>
-					<Link to="/legacy">
-						<p className="link-text">Legacy</p>
-					</Link>
+					<Link to="/advisory">Advisory Committee</Link>
+					<Link to="/committees">Our Committees</Link>
+					<Link to="/legacy">Legacy</Link>
 				</Row>
+			</Container>
+			<Container fluid className="profiles-mobile">
+				<Row className="bottom-navbar">
+					<Link to="/advisory">Advisory Committee</Link>
+					<Link to="/committees">Our Committees</Link>
+					<Link to="/legacy">Legacy</Link>
+				</Row>
+				<Row>
+					<h1>Executive Committee</h1>
+				</Row>
+				{execData.map((member) => (
+					<Row xs={4}>
+						<TeamCard
+							bio={member[2]}
+							name={member[0]}
+							role={member[1]}
+							image={member[3]}
+						/>
+					</Row>
+				))}
+				<Row>
+					<h1>Directors</h1>
+				</Row>
+				{directorData.map((member) => (
+					<Row xs={4}>
+						<TeamCard
+							bio={member[2]}
+							name={member[0]}
+							role={member[1]}
+							image={member[3]}
+						/>
+					</Row>
+				))}
+				<Row>
+					<h1>Members</h1>
+				</Row>
+				{memberData.map((member) => (
+					<Row xs={4}>
+						<TeamCard
+							bio={member[2]}
+							name={member[0]}
+							role={member[1]}
+							image={member[3]}
+						/>
+					</Row>
+				))}
 			</Container>
 			<Footer />
 		</div>

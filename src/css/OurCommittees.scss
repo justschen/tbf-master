@@ -9,30 +9,50 @@
 		text-align: left;
 	}
 
-	p.link-text {
-		font-family: 'Karla', sans-serif;
-		border-radius: 6px;
-		background-color: #233748;
-		color: #ffffff;
-		font-style: normal;
-		font-weight: normal;
-		line-height: 35px;
-		text-align: center;
-		text-transform: uppercase;
-		border-color: transparent;
-		box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.18);
-		padding: 1vw 2vw 1vw 2vw;
-		font-size: 2vw;
-		margin: 0;
-		text-decoration: none;
-	}
-	a {
-		text-decoration: none;
-	}
 	.bottom-navbar {
 		display: flex;
 		justify-content: space-around;
+
+		align-content: center;
 		margin-bottom: 5rem;
 		margin-top: 8rem;
+		a {
+			font-family: 'Karla', sans-serif;
+			border-radius: 6px;
+			background-color: #233748;
+			color: #ffffff;
+			font-style: normal;
+			font-weight: normal;
+			line-height: 35px;
+			text-align: center;
+			text-transform: uppercase;
+			border-color: transparent;
+			box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.18);
+			padding: 1vw 2vw 1vw 2vw;
+			font-size: 2vw;
+			margin: 0;
+			text-decoration: none;
+		}
+	}
+}
+
+@media only screen and (max-width: 430px) {
+	.committee-content {
+		p {
+			font-size: 100%;
+			margin: 0;
+		}
+
+		.bottom-navbar {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			height: 50vw;
+			margin-bottom: 5rem;
+			margin-top: 4rem;
+			a {
+				font-size: 100%;
+			}
+		}
 	}
 }

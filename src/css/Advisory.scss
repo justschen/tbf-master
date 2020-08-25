@@ -1,8 +1,10 @@
-.advisory {
+.advisory-content {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 	.introduction {
-		margin: 4rem 12rem 2rem 12rem;
+		width: 75%;
+		margin: 0 0 3rem 0;
 	}
 	.committee-info {
 		width: 80%;
@@ -13,12 +15,13 @@
 		}
 	}
 	.bottom-navbar {
-		margin-top: 4rem;
 		display: flex;
-		flex-direction: row;
 		justify-content: space-around;
-		padding: 0 10rem;
-		p.link-text {
+
+		align-content: center;
+		margin-bottom: 5rem;
+		margin-top: 8rem;
+		a {
 			font-family: 'Karla', sans-serif;
 			border-radius: 6px;
 			background-color: #233748;
@@ -35,8 +38,34 @@
 			margin: 0;
 			text-decoration: none;
 		}
-		a {
-			text-decoration: none;
+	}
+}
+
+@media only screen and (max-width: 430px) {
+	.advisory {
+		.advisory-content {
+			p {
+				font-size: 100% !important;
+			}
+			.committee-info {
+				width: 80%;
+				border: solid #233748 5px;
+				p {
+					text-align: left;
+					padding: 1rem 1rem;
+				}
+			}
+			.bottom-navbar {
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				height: 50vw;
+				margin-bottom: 5rem;
+				margin-top: 4rem;
+				a {
+					font-size: 100%;
+				}
+			}
 		}
 	}
 }
