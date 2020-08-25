@@ -1,5 +1,5 @@
 .team {
-	.profiles {
+	.profiles-desktop {
 		margin-top: 2rem;
 		display: flex;
 		align-items: center;
@@ -27,31 +27,66 @@
 		margin-top: 7rem;
 	}
 
-	p.link-text {
-		font-family: 'Karla', sans-serif;
-		border-radius: 6px;
-		background-color: #233748;
-		color: #ffffff;
-		font-style: normal;
-		font-weight: normal;
-		line-height: 35px;
-		text-align: center;
-		text-transform: uppercase;
-		border-color: transparent;
-		box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.18);
-		padding: 1vw 2vw 1vw 2vw;
-		font-size: 2vw;
-		margin: 0;
-		text-decoration: none;
-	}
-	a {
-		text-decoration: none;
-	}
 	.bottom-navbar {
-		padding: 0 10rem;
 		display: flex;
 		justify-content: space-around;
-		margin: 15rem 0 5rem 0;
-		text-decoration: none;
+		align-content: center;
+		margin-bottom: 1rem;
+		margin-top: 8rem;
+		width: 75%;
+		a {
+			font-family: 'Karla', sans-serif;
+			border-radius: 6px;
+			background-color: #233748;
+			color: #ffffff;
+			font-style: normal;
+			font-weight: normal;
+			line-height: 35px;
+			text-align: center;
+			text-transform: uppercase;
+			border-color: transparent;
+			box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.18);
+			padding: 1vw 2vw 1vw 2vw;
+			font-size: 2vw;
+			margin: 0;
+			text-decoration: none;
+		}
+	}
+	.profiles-mobile {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 430px) {
+	.team {
+		.profiles-desktop {
+			display: none;
+		}
+		.profiles-mobile {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			h1 {
+				padding: 1rem;
+				width: 100%;
+				color: #233748;
+				letter-spacing: 2px;
+				border-bottom: solid 3px;
+				border-bottom-color: #e9e9e9;
+				font-size: 8vw;
+			}
+			.row {
+				max-width: 100%;
+			}
+			.bottom-navbar {
+				display: flex;
+				flex-direction: column;
+				justify-content: space-evenly;
+				height: 80vw;
+				a {
+					font-size: 100%;
+				}
+			}
+		}
 	}
 }
