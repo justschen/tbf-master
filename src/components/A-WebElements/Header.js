@@ -53,7 +53,7 @@ const Header = (props) => {
 						/>
 						<Carousel.Caption>
 							<h3>Keep Up with the Forum</h3>
-							<ReachRouterLink to="">
+							<ReachRouterLink to="/mailing-list">
 								Subscribe to Our Mailing List
 							</ReachRouterLink>
 						</Carousel.Caption>

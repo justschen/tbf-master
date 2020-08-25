@@ -4,8 +4,13 @@ import { Router } from '@reach/router';
 import './css/App.css';
 
 import Landing from './components/Landing';
+import MailingList from './components/MailingList';
+
 import About from './components/About/About';
 import Team from './components/About/Team';
+import OurCommittees from './components/About/OurCommittees';
+import Legacy from './components/About/Legacy';
+import Advisory from './components/About/Advisory';
 
 import Calendar from './components/Events/Calendar';
 import PastEvents from './components/Events/PastEvents';
@@ -13,10 +18,6 @@ import Posters from './components/Events/Posters';
 import Contact from './components/Contact';
 import Decal from './components/Decal';
 import JoinUs from './components/JoinUs';
-import Advisory from './components/About/Advisory';
-
-import OurCommittees from './components/About/OurCommittees';
-import Legacy from './components/About/Legacy';
 
 import ConvoBlocks from './components/Conversations/ConvoBlocks';
 import Cancellation from './components/Conversations/Cancellation';
@@ -48,6 +49,7 @@ const App = () => {
 					<Landing path="/" class />
 					<About path="/about" />
 					<Team path="/team" />
+					<MailingList path="/mailing-list" />
 
 					<ConvoBlocks path="/conversations" />
 					<Cancellation path="/statement-marianne-williamson" />
