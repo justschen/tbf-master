@@ -222,7 +222,7 @@
 				color: #ffffff;
 				text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.73);
 			}
-			p {
+			a {
 				font-family: 'Karla', sans-serif;
 				border-radius: 6px;
 				background-color: #233748;
@@ -238,12 +238,11 @@
 				margin: 0;
 				text-decoration: none;
 			}
-			a {
-				text-decoration: none;
-			}
 		}
 	}
 }
+
+/* RESPONSIVE SCROLL LINKS */
 
 @media only screen and (max-width: 1400px) {
 	.scrolldown {
@@ -295,6 +294,8 @@
 	}
 }
 
+/* RESPONSIVE HEADER*/
+
 @media only screen and (max-width: 430px) {
 	.header {
 		width: 95% !important;
@@ -310,19 +311,26 @@
 	.landing-header {
 		z-index: -1;
 		.carousel {
-			height: inherit;
+			height: 100vw;
 
 			z-index: 0;
 			.carousel-caption {
 				z-index: 0;
 				justify-content: space-around;
 				h3 {
-					font-size: 5vw;
-					height: 2rem;
+					font-size: 6vw;
 				}
-				p {
-					padding: 0;
-					height: 2rem;
+				a {
+					line-height: 100%;
+					font-size: 4vw;
+					padding: 0.5rem;
+				}
+			}
+			.carousel-inner {
+				height: 100vw;
+				img {
+					height: 100vw;
+					object-fit: cover;
 				}
 			}
 		}

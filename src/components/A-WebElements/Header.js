@@ -42,9 +42,7 @@ const Header = (props) => {
 
 						<Carousel.Caption>
 							<h3>Fall 2020 Lineup</h3>
-							<ReachRouterLink to="/events">
-								<p className="link-text">See the Events</p>
-							</ReachRouterLink>
+							<ReachRouterLink to="/events">See the Events</ReachRouterLink>
 						</Carousel.Caption>
 					</Carousel.Item>
 					<Carousel.Item>
@@ -56,7 +54,7 @@ const Header = (props) => {
 						<Carousel.Caption>
 							<h3>Keep Up with the Forum</h3>
 							<ReachRouterLink to="">
-								<p className="link-text">Subscribe to Our Mailing List</p>
+								Subscribe to Our Mailing List
 							</ReachRouterLink>
 						</Carousel.Caption>
 					</Carousel.Item>
