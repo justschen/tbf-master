@@ -77,9 +77,17 @@
 		.name {
 			font-size: 2rem;
 			width: 100%;
+			line-height: 100%;
+			margin: 1vw 0;
 		}
 		.role {
 			font-size: 1.5rem;
+			margin: 0;
+		}
+		.graduation {
+			line-height: 100%;
+		}
+		.major {
 			margin: 0;
 		}
 	}

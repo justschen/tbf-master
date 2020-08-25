@@ -1,5 +1,6 @@
 .legacy {
 	.profiles-desktop {
+		margin-top: 2rem;
 		display: flex;
 		align-items: center;
 		flex-direction: column;
@@ -14,36 +15,33 @@
 		}
 	}
 	.row {
-		width: 100%;
 		justify-content: space-around;
 		margin-top: 2rem;
 	}
-	p.link-text {
-		font-family: 'Karla', sans-serif;
-		border-radius: 6px;
-		background-color: #233748;
-		color: #ffffff;
-		font-style: normal;
-		font-weight: normal;
-		line-height: 35px;
-		text-align: center;
-		text-transform: uppercase;
-		border-color: transparent;
-		box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.18);
-		padding: 1vw 2vw 1vw 2vw;
-		font-size: 2vw;
-		margin: 0;
-		text-decoration: none;
-	}
-	a {
-		text-decoration: none;
-	}
+
 	.bottom-navbar {
-		padding: 0 10rem;
 		display: flex;
 		justify-content: space-around;
 		margin: 15rem 0 5rem 0;
 		text-decoration: none;
+		width: 75%;
+		a {
+			font-family: 'Karla', sans-serif;
+			border-radius: 6px;
+			background-color: #233748;
+			color: #ffffff;
+			font-style: normal;
+			font-weight: normal;
+			line-height: 35px;
+			text-align: center;
+			text-transform: uppercase;
+			border-color: transparent;
+			box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.18);
+			padding: 1vw 2vw 1vw 2vw;
+			font-size: 2vw;
+			margin: 0;
+			text-decoration: none;
+		}
 	}
 	.introduction {
 		padding: 5rem;
@@ -79,9 +77,14 @@
 				flex-direction: column;
 				justify-content: space-evenly;
 				height: 80vw;
+				margin: 4rem 0;
 				a {
 					font-size: 100%;
 				}
+			}
+			.introduction {
+				padding: 5rem;
+				font-size: 100%;
 			}
 		}
 	}

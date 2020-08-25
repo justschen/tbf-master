@@ -46,15 +46,9 @@ const Legacy = () => {
 				</Row>
 
 				<Row className="bottom-navbar">
-					<Link to="/advisory">
-						<p className="link-text">Advisory Committee</p>
-					</Link>
-					<Link to="/committees">
-						<p className="link-text">Our Committees</p>
-					</Link>
-					<Link to="/legacy">
-						<p className="link-text">Legacy</p>
-					</Link>
+					<Link to="/advisory">Advisory Committee</Link>
+					<Link to="/committees">Our Committees</Link>
+					<Link to="/legacy">Legacy</Link>
 				</Row>
 			</Container>
 			<Container fluid className="profiles-mobile">
@@ -82,15 +76,9 @@ const Legacy = () => {
 					</Row>
 				))}
 				<Row className="bottom-navbar">
-					<Link to="/advisory">
-						<p className="link-text">Advisory Committee</p>
-					</Link>
-					<Link to="/committees">
-						<p className="link-text">Our Committees</p>
-					</Link>
-					<Link to="/legacy">
-						<p className="link-text">Legacy</p>
-					</Link>
+					<Link to="/advisory">Advisory Committee</Link>
+					<Link to="/committees">Our Committees</Link>
+					<Link to="/legacy">Legacy</Link>
 				</Row>
 			</Container>
 			<Footer />

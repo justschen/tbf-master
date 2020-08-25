@@ -81,7 +81,7 @@ const Team = () => {
 					<h1>Executive Committee</h1>
 				</Row>
 				{execData.map((member) => (
-					<Row xs={4}>
+					<Row>
 						<TeamCard
 							bio={member[2]}
 							name={member[0]}
@@ -94,7 +94,7 @@ const Team = () => {
 					<h1>Directors</h1>
 				</Row>
 				{directorData.map((member) => (
-					<Row xs={4}>
+					<Row>
 						<TeamCard
 							bio={member[2]}
 							name={member[0]}
@@ -107,7 +107,7 @@ const Team = () => {
 					<h1>Members</h1>
 				</Row>
 				{memberData.map((member) => (
-					<Row xs={4}>
+					<Row>
 						<TeamCard
 							bio={member[2]}
 							name={member[0]}
