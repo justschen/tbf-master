@@ -1,7 +1,5 @@
 import React from 'react';
-import { Link } from '@reach/router';
 
-import linkedIn from '../../img/bios/LinkedIN.png';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -15,11 +13,7 @@ const EventCard = (props) => {
 				<Container className="personBlock">
 					<Row xs={1} md={2} lg={2}>
 						<Col>
-							<img
-								src={props.image}
-								alt="Picture of stuff"
-								className="personPic"
-							/>
+							<img src={props.image} alt="Event Person" className="personPic" />
 						</Col>
 
 						<Col>

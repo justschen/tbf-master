@@ -1,7 +1,4 @@
 import React from 'react';
-import { Link } from '@reach/router';
-
-import linkedIn from '../../img/bios/LinkedIN.png';
 
 import '../../css/LegacyCard.scss';
 

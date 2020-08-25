@@ -10,8 +10,6 @@ const JoinUs = () => {
 		<div class="join">
 			<section class="top">
 				<Header name="Join Us" image={bigPic} />
-
-				<h1 class="join"></h1>
 			</section>
 			<section class="bottom">
 				<p>

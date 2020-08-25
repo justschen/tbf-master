@@ -35,7 +35,6 @@ const MailingList = () => {
 					novalidate
 				>
 					<div id="mc_embed_signup_scroll">
-						<h2>Subscribe</h2>
 						<div className="indicates-required">
 							<span className="asterisk">*</span> indicates required
 						</div>
@@ -57,12 +56,6 @@ const MailingList = () => {
 						<div className="mc-field-group">
 							<label for="mce-LNAME">Last Name </label>
 							<input type="text" name="LNAME" className="" id="mce-LNAME" />
-						</div>
-						<div className="mc-field-group size1of2">
-							<label for="mce-BIRTHDAY-month">Birthday </label>
-							<div className="datefield">
-								<span className="small-meta nowrap">( mm / dd )</span>
-							</div>
 						</div>
 						<div id="mce-responses" className="clear">
 							<div

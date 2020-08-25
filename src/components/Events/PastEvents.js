@@ -1,7 +1,4 @@
 import React from 'react';
-import { Link } from '@reach/router';
-
-import Button from 'react-bootstrap/Button';
 
 import '../../css/PastEvents.css';
 import PosterHeader from '../../img/pastEvents.png';
@@ -9,13 +6,10 @@ import PosterHeader from '../../img/pastEvents.png';
 import Header from '../A-WebElements/Header';
 import Footer from '../A-WebElements/Footer';
 
-import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 
 import { eventData } from './EventData.js';
 import EventCard from './EventCard.js';
-import Popup from './Popup.js';
 
 const PastEvents = () => {
 	return (

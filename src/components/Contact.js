@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from '@reach/router';
 import { useState } from 'react';
 
 import '../css/Contact.css';
@@ -8,11 +7,9 @@ import Footer from './A-WebElements/Footer';
 import contactHeader from '../img/contactPic.png';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 
 import Slider from '../img/Slider.png';
 import Card from './A-WebElements/Card';
-import MobileCard from '../img/card-mobile.png';
 
 const Contact = () => {
 	const ToggleClass = () => {

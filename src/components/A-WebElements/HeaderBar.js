@@ -7,8 +7,6 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/NavBar';
 
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 
 import tasslePath from '../../img/social-tassle/tassle.png';
 import facebookIcon from '../../img/social-tassle/Facebook.png';
@@ -46,16 +44,16 @@ const HeaderBar = (props) => {
 					/>
 					<div className="icons">
 						<a href={facebookURL}>
-							<img src={facebookIcon} />
+							<img alt="facebook" src={facebookIcon} />
 						</a>
 						<a href={instagramURL}>
-							<img src={instagramIcon} />
+							<img alt="instagram" src={instagramIcon} />
 						</a>
 						<a href={twitterURL}>
-							<img src={twitterIcon} />
+							<img alt="twitter" src={twitterIcon} />
 						</a>
 						<a href={linkedinURL}>
-							<img src={linkedinIcon} />
+							<img alt="linkedin" src={linkedinIcon} />
 						</a>
 					</div>
 				</div>

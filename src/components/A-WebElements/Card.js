@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 import CardImage from '../../img/BusinessCard.png';
 import MobileCard from '../../img/card-mobile.png';
 
-import '../../css/Card.css';
+import '../../css/Card.scss';
 
 const Card = () => {
 	return (
 		<div>
-			<div className="cardStuff">
-				<img className="image" src={CardImage}></img>
-				<div className="cardBack">
+			<div className="card-content">
+				<img className="image" alt="card" src={CardImage}></img>
+				<div className="card-back">
 					<p>
 						The Berkeley Forum at the <br></br>University of California
 					</p>
@@ -25,12 +25,12 @@ const Card = () => {
 			</div>
 
 			<div className="contact-mobile">
-				<img className="image" src={MobileCard}></img>
-				<div className="cardBack">
+				<img className="image" alt="card" src={MobileCard}></img>
+				<div className="card-back">
 					<p>
 						The Berkeley Forum at the <br></br>University of California
 					</p>
-					
+
 					<p>
 						432 Eshelman Hall, <br></br>Berkeley, CA, 94720-4520
 					</p>

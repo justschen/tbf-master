@@ -1,14 +1,11 @@
 import React from 'react';
-import { Link } from '@reach/router';
 
 import '../../css/Blog.scss';
-import AboutHeader from '../../img/aboutUsJPG.JPG';
 import Header from '../A-WebElements/Header';
 import Footer from '../A-WebElements/Footer';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 
 const RandPaul = () => {
 	return (

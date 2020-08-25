@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from '@reach/router';
 
 import '../../css/Posters.css';
 import PosterHeader from '../../img/PosterPic.png';
@@ -212,14 +211,14 @@ const Posters = () => {
 											<Col>
 												<img
 													src={S20P1}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
 											<Col>
 												<img
 													src={S20P2}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
@@ -228,14 +227,14 @@ const Posters = () => {
 											<Col>
 												<img
 													src={S20P3}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
 											<Col>
 												<img
 													src={S20P4}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
@@ -244,14 +243,14 @@ const Posters = () => {
 											<Col>
 												<img
 													src={S20P5}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
 											<Col>
 												<img
 													src={S20P6}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
@@ -260,7 +259,7 @@ const Posters = () => {
 											<Col>
 												<img
 													src={S20P7}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
@@ -299,14 +298,14 @@ const Posters = () => {
 											<Col>
 												<img
 													src={F19P1}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
 											<Col>
 												<img
 													src={F19P2}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
@@ -315,14 +314,14 @@ const Posters = () => {
 											<Col>
 												<img
 													src={F19P3}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
 											<Col>
 												<img
 													src={F19P4}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
@@ -331,14 +330,14 @@ const Posters = () => {
 											<Col>
 												<img
 													src={F19P5}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
 											<Col>
 												<img
 													src={F19P6}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
@@ -347,14 +346,14 @@ const Posters = () => {
 											<Col>
 												<img
 													src={F19P7}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
 											<Col>
 												<img
 													src={F19P8}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
@@ -363,14 +362,14 @@ const Posters = () => {
 											<Col>
 												<img
 													src={F19P9}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
 											<Col>
 												<img
 													src={F19P10}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
@@ -379,14 +378,14 @@ const Posters = () => {
 											<Col>
 												<img
 													src={F19P11}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
 											<Col>
 												<img
 													src={F19P12}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
@@ -424,14 +423,14 @@ const Posters = () => {
 											<Col>
 												<img
 													src={S19P1}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
 											<Col>
 												<img
 													src={S19P2}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
@@ -440,14 +439,14 @@ const Posters = () => {
 											<Col>
 												<img
 													src={S19P3}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
 											<Col>
 												<img
 													src={S19P4}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
@@ -456,14 +455,14 @@ const Posters = () => {
 											<Col>
 												<img
 													src={S19P5}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
 											<Col>
 												<img
 													src={S19P6}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
@@ -472,14 +471,14 @@ const Posters = () => {
 											<Col>
 												<img
 													src={S19P7}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
 											<Col>
 												<img
 													src={S19P8}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
@@ -488,14 +487,14 @@ const Posters = () => {
 											<Col>
 												<img
 													src={S19P9}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
 											<Col>
 												<img
 													src={S19P10}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
@@ -504,14 +503,14 @@ const Posters = () => {
 											<Col>
 												<img
 													src={S19P11}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
 											<Col>
 												<img
 													src={S19P12}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
@@ -549,14 +548,14 @@ const Posters = () => {
 											<Col>
 												<img
 													src={F18P1}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
 											<Col>
 												<img
 													src={F18P2}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
@@ -565,14 +564,14 @@ const Posters = () => {
 											<Col>
 												<img
 													src={F18P3}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
 											<Col>
 												<img
 													src={F18P4}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
@@ -581,14 +580,14 @@ const Posters = () => {
 											<Col>
 												<img
 													src={F18P5}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
 											<Col>
 												<img
 													src={F18P6}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
@@ -597,14 +596,14 @@ const Posters = () => {
 											<Col>
 												<img
 													src={F18P7}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
 											<Col>
 												<img
 													src={F18P8}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
@@ -613,14 +612,14 @@ const Posters = () => {
 											<Col>
 												<img
 													src={F18P9}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
 											<Col>
 												<img
 													src={F18P10}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
@@ -629,14 +628,14 @@ const Posters = () => {
 											<Col>
 												<img
 													src={F18P11}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
 											<Col>
 												<img
 													src={F18P12}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
@@ -645,14 +644,14 @@ const Posters = () => {
 											<Col>
 												<img
 													src={F18P13}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
 											<Col>
 												<img
 													src={F18P14}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
@@ -661,7 +660,7 @@ const Posters = () => {
 											<Col>
 												<img
 													src={F18P15}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
@@ -700,14 +699,14 @@ const Posters = () => {
 											<Col>
 												<img
 													src={S18P1}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
 											<Col>
 												<img
 													src={S18P2}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
@@ -716,14 +715,14 @@ const Posters = () => {
 											<Col>
 												<img
 													src={S18P3}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
 											<Col>
 												<img
 													src={S18P4}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
@@ -732,14 +731,14 @@ const Posters = () => {
 											<Col>
 												<img
 													src={S18P5}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
 											<Col>
 												<img
 													src={S18P6}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
@@ -748,14 +747,14 @@ const Posters = () => {
 											<Col>
 												<img
 													src={S18P7}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
 											<Col>
 												<img
 													src={S18P8}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
@@ -764,14 +763,14 @@ const Posters = () => {
 											<Col>
 												<img
 													src={S18P9}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
 											<Col>
 												<img
 													src={S18P10}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
@@ -780,14 +779,14 @@ const Posters = () => {
 											<Col>
 												<img
 													src={S18P11}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
 											<Col>
 												<img
 													src={S18P12}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
@@ -796,7 +795,7 @@ const Posters = () => {
 											<Col>
 												<img
 													src={S18P13}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
@@ -835,14 +834,14 @@ const Posters = () => {
 											<Col>
 												<img
 													src={F17P1}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
 											<Col>
 												<img
 													src={F17P2}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
@@ -851,14 +850,14 @@ const Posters = () => {
 											<Col>
 												<img
 													src={F17P3}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
 											<Col>
 												<img
 													src={F17P4}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
@@ -867,14 +866,14 @@ const Posters = () => {
 											<Col>
 												<img
 													src={F17P5}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
 											<Col>
 												<img
 													src={F17P6}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
@@ -883,14 +882,14 @@ const Posters = () => {
 											<Col>
 												<img
 													src={F17P7}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
 											<Col>
 												<img
 													src={F17P8}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
@@ -899,14 +898,14 @@ const Posters = () => {
 											<Col>
 												<img
 													src={F17P9}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
 											<Col>
 												<img
 													src={F17P10}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
@@ -915,14 +914,14 @@ const Posters = () => {
 											<Col>
 												<img
 													src={F17P11}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>
 											<Col>
 												<img
 													src={F17P12}
-													alt="Picture of stuff"
+													alt="Display of stuff"
 													className="posterImg"
 												/>
 											</Col>

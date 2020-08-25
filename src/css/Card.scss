@@ -1,46 +1,46 @@
-.cardStuff .image {
+.card-content .image {
 	z-index: -1;
 }
 
-.cardStuff {
+.card-content {
 	border: none !important;
 }
 
-.cardStuff p {
+.card-content p {
 	text-align: right !important;
 	margin-right: 4.5em;
 	font-size: 25px;
 	background-color: white;
 }
 
-.cardStuff .background {
+.card-content .background {
 	background-color: white;
 }
 
-.cardStuff .cardBack p {
+.card-content .card-back p {
 	color: #233748;
 	z-index: 1;
 }
-.cardStuff .cardBack {
+.card-content .card-back {
 	margin-top: -20rem;
 }
 
 @media only screen and (max-width: 2800px) {
-	.cardStuff p {
+	.card-content p {
 		margin-right: 17rem;
 		font-size: 25px;
 	}
 }
 
 @media only screen and (max-width: 1600px) {
-	.cardStuff p {
+	.card-content p {
 		margin-right: 7rem;
 		font-size: 20px;
 	}
 }
 
 @media only screen and (max-width: 1400px) {
-	.cardStuff {
+	.card-content {
 		display: none;
 	}
 	.contact-mobile {
@@ -69,7 +69,7 @@
 }
 
 @media only screen and (max-width: 800px) {
-	.cardStuff {
+	.card-content {
 		display: none;
 	}
 	.contact-mobile {
@@ -83,7 +83,7 @@
 		z-index: -1;
 	}
 
-	.cardBack {
+	.card-back {
 		margin-top: 2rem;
 	}
 	.contact-mobile p {
@@ -99,7 +99,7 @@
 }
 
 @media only screen and (max-width: 1100px) {
-	.cardStuff {
+	.card-content {
 		display: none;
 	}
 	.contact-mobile {
@@ -127,7 +127,7 @@
 }
 
 @media only screen and (max-width: 800px) {
-	.cardStuff {
+	.card-content {
 		display: none;
 	}
 	.contact-mobile {
@@ -141,7 +141,7 @@
 		z-index: -1;
 	}
 
-	.cardBack {
+	.card-back {
 		margin-top: 2rem;
 	}
 	.contact-mobile p {
@@ -157,7 +157,7 @@
 }
 
 @media only screen and (max-width: 440px) {
-	.cardStuff {
+	.card-content {
 		display: none;
 	}
 	.contact-mobile {
@@ -170,7 +170,7 @@
 		height: 68vw;
 		z-index: -1;
 	}
-	.cardBack {
+	.card-back {
 		margin-top: 1.8rem;
 	}
 

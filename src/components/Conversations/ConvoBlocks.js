@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from '@reach/router';
 
 import '../../css/ConvoBlocks.css';
-import AboutHeader from '../../img/conversationsPic.png';
+import ConvoHeader from '../../img/conversationsPic.png';
 import Header from '../A-WebElements/Header';
 import Footer from '../A-WebElements/Footer';
 
@@ -13,7 +13,7 @@ import Col from 'react-bootstrap/Col';
 const ConvoBlocks = () => {
 	return (
 		<div className="convos">
-			<Header name="Conversations" image={AboutHeader} />
+			<Header name="Conversations" image={ConvoHeader} />
 			<h3 className="medium">
 				We're now on Medium! Check us out here or read our past transcripts down
 				below.
