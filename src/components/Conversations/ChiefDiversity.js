@@ -17,8 +17,8 @@ const RandPaul = () => {
 			<Container fluid className="blog-content">
 				<div className="header-ellen">
 					<h2>
-						Chief Diversity Officer for the Kapor Center Ellen Pao <br></br>at
-						the Berkeley Forum
+						Chief Diversity Officer for the Kapor Center Ellen Pao at the
+						Berkeley Forum
 					</h2>
 				</div>
 

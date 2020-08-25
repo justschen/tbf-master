@@ -17,7 +17,7 @@ const RandPaul = () => {
 			<Container fluid className="blog-content">
 				<div className="header-none">
 					<h2>
-						Statemenet Regarding the Cancellation of the Marianne Williamson
+						Statement Regarding the Cancellation of the Marianne Williamson
 						Event
 					</h2>
 				</div>

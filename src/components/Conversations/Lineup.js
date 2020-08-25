@@ -18,7 +18,12 @@ const Lineup = () => {
 				<div className="header-2020lineup">
 					<h2>Introducing the Berkeley Forum’s Spring 2020 Lineup</h2>
 				</div>
-
+				<Row>
+					<p>The Berkeley Forum Announces Spring 2020 Event Lineup </p>
+				</Row>
+				<Row>
+					<p>January 21, 2020</p>
+				</Row>
 				<Row>
 					<p>
 						BERKELEY, California ― Today, the Berkeley Forum announced that it
@@ -55,135 +60,143 @@ const Lineup = () => {
 				</Row>
 
 				<Row>
-					<p className="italics">
-						*The Spring lineup is tentative and subject to minor changes. For
-						more information and the latest updates, please visit our website.
+					<p
+						className="italics"
+						style={{ borderTop: 'solid', paddingTop: '1rem' }}
+					>
+						<strong>Spring 2020 Lineup</strong>
+					</p>
+				</Row>
+				<Row>
+					<p className="underline">
+						<strong>February:</strong>
 					</p>
 				</Row>
 				<Row>
 					<p>
-						_________________________________________________________________
+						<strong>Rebecca Nagle, Two-spirit Cherokee activist</strong>
+						<br />
+						January 23, 2019
+					</p>
+				</Row>
+				<Row>
+					<p>
+						<strong>Ien Chi, Creative Director of Jubilee</strong>
+						<br />
+						January 23, 2019
+					</p>
+				</Row>
+				<Row>
+					<p>
+						<strong>Tim Chau, Owner of 3.14 (pi) on Instagram</strong>
+						<br />
+						February 25, 2020
+					</p>
+				</Row>
+				<Row>
+					<p>
+						<strong>
+							Christian Picciolini, Founder of the Free Radicals Project
+						</strong>
+						<br />
+						February 27, 2020
+					</p>
+				</Row>
+				<Row>
+					<p className="underline">
+						<strong>March:</strong>
+					</p>
+				</Row>
+				<Row>
+					<p>
+						<strong>Bias in Machine Learning Panel</strong>
+						<br />
+						March 2, 2020
+					</p>
+				</Row>
+				<Row>
+					<p>
+						<strong>Affirmative Action Debate</strong>
+						<br />
+						March 5, 2020
+					</p>
+				</Row>
+				<Row>
+					<p>
+						<strong>Andrew Kortina, Co-founder of Venmo</strong>
+						<br />
+						March 11, 2020
+					</p>
+				</Row>
+				<Row>
+					<p>
+						<strong>Doug Freeman, COO of Patagonia</strong>
+						<br />
+						March 17, 2020
+					</p>
+				</Row>
+				<Row>
+					<p className="underline">
+						<strong>April:</strong>
 					</p>
 				</Row>
 
-				<Row
-					style={{
-						justifyContent: 'flex-start',
-					}}
-				>
+				<Row>
 					<p>
 						<strong>
-							<u>FEBRUARY</u>
-						</strong>
-						<br></br>
-						<br></br>
-						<strong> - Rebecca Nagle, two-spirit Cherokee activist</strong> -
-						Thursday, February 6
-					</p>
-
-					<p>
-						<strong>- Ien Chi, Creative Director of Jubilee</strong> - Monday,
-						February 10
-					</p>
-					<p>
-						<strong>- Tim Chau, Owner of 3.14 (pi) on Instagram</strong> -
-						Tuesday, February 25
-					</p>
-					<p>
-						<strong>
-							- Christian Picciolini, Founder of the Free Radicals Project
-						</strong>{' '}
-						- Thursday, February 27
-					</p>
-				</Row>
-				<Row
-					style={{
-						justifyContent: 'flex-start',
-					}}
-				>
-					<p>
-						<strong>
-							<u>MARCH</u>
-						</strong>
-						<br></br>
-						<br></br>
-						<strong>- Bias in Machine Learning Panel</strong> - Monday, March 2
-					</p>
-
-					<p>
-						<strong>- Affirmative Action Debate</strong> - Thursday, March 5
-						&nbsp
-					</p>
-					<p>
-						<strong>- Andrew Kortina, Co-founder of Venmo</strong> - Wednesday,
-						March 11
-					</p>
-					<p>
-						<strong>- Doug Freeman, COO of Patagonia</strong> - Tuesday, March
-						17
-					</p>
-				</Row>
-
-				<Row
-					style={{
-						justifyContent: 'flex-start',
-					}}
-				>
-					<p>
-						<strong>
-							<u>APRIL</u>
-						</strong>
-						<br></br>
-						<br></br>
-						<strong>
-							- Alice Wong, Founder & Director of the Disability Visibility
+							Alice Wong, Founder & Director of the Disability Visibility
 							Project
-						</strong>{' '}
-						- Monday, April 6
-					</p>
-					<p>
-						<strong>- Hong Kong Protests Panel</strong> - Thursday, April 23
-					</p>
-					<p>
-						<strong>
-							- Barry Levenson, Founder & Curator of the National Mustard Museum
-						</strong>{' '}
-						- Tuesday, April 28
-					</p>
-				</Row>
-				<Row
-					style={{
-						justifyContent: 'left',
-					}}
-				>
-					<p>
-						<strong>
-							<u>TENTATIVE</u>
 						</strong>
-						<br></br>
-						<br></br>
-						<strong>- Steven Lim, Buzzfeed Producer</strong> - TBA
+						<br />
+						April 6, 2020
 					</p>
+				</Row>
+				<Row>
+					<p>
+						<strong>Hong Kong Protests Panel</strong>
+						<br />
+						April 23, 2020
+					</p>
+				</Row>
 
+				<Row>
 					<p>
 						<strong>
-							- Alaleh Kianerci, District Attorney of People v. Brock Turner
-							(2016)
-						</strong>{' '}
-						- TBA
+							Barry Levenson, Founder & Curator of the National Mustard Museum
+						</strong>
+						<br />
+						April 28, 2020
 					</p>
 				</Row>
 				<Row>
-					<p>
-						_________________________________________________________________
+					<p className="underline">
+						<strong>TBA/Tentative:</strong>
 					</p>
-				</Row>
-				<Row>
-					<h3>
-						<strong>About The Berkeley Forum</strong>
-					</h3>
 				</Row>
 
+				<Row>
+					<p>
+						<strong>Steven Lim, Buzzfeed Producer</strong>
+						<br />
+						TBA
+					</p>
+				</Row>
+
+				<Row>
+					<p>
+						<strong>
+							Alaleh Kianerci, District Attorney of People v. Brock Turner
+						</strong>
+						<br />
+						TBA
+					</p>
+				</Row>
+
+				<Row>
+					<p>
+						<strong>About the Berkeley Forum</strong>
+					</p>
+				</Row>
 				<Row>
 					<p>
 						The Berkeley Forum is a non-partisan, student-run organization at
@@ -194,7 +207,6 @@ const Lineup = () => {
 						range of viewpoints.
 					</p>
 				</Row>
-
 				<Row>
 					<p>
 						We have welcomed over 5,000 attendees to nearly 100 events. The
@@ -203,7 +215,6 @@ const Lineup = () => {
 						the San Francisco Chronicle.
 					</p>
 				</Row>
-
 				<Row>
 					<p>
 						Since its founding, the Forum has hosted a number of distinguished
@@ -213,7 +224,6 @@ const Lineup = () => {
 						Housing and Urban Development Julián Castro.
 					</p>
 				</Row>
-
 				<Row>
 					<p>
 						The Forum’s events are only possible because of the dedication and
@@ -222,22 +232,17 @@ const Lineup = () => {
 					</p>
 				</Row>
 
-				<Row
-					style={{
-						justifyContent: 'flex-start',
-					}}
-				>
+				<Row>
 					<p>
 						<strong>Press Contact</strong>
-						<br></br>
-						<br></br>
+					</p>
+				</Row>
+				<Row>
+					<p>
 						Da Eun Jung
-						<br></br>
-						<br></br>
+						<br />
 						Communications Project Manager
-						<br></br>
-						<br></br>
-						da-eun.jung@berkeley.edu
+						<br /> da-eun.jung@berkeley.edu
 					</p>
 				</Row>
 			</Container>

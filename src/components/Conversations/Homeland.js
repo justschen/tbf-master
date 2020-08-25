@@ -17,8 +17,8 @@ const RandPaul = () => {
 			<Container fluid className="blog-content">
 				<div className="header-homeland">
 					<h2>
-						Former Secretary of Homeland Security Jeh Johnson <br></br>at the
-						Berkeley Forum
+						Former Secretary of Homeland Security Jeh Johnson at the Berkeley
+						Forum
 					</h2>
 				</div>
 

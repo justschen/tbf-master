@@ -16,9 +16,7 @@ const RandPaul = () => {
 			<Header name="blog" />
 			<Container fluid className="blog-content">
 				<div className="header-2019spring">
-					<h2>
-						The Berkeley Forum Announces Spring 2019 <br></br>Event Lineup
-					</h2>
+					<h2>The Berkeley Forum Announces Spring 2019 Event Lineup</h2>
 				</div>
 				<Row>
 					<p>The Berkeley Forum Announces Spring 2019 Event Lineup </p>

@@ -17,8 +17,8 @@ const RandPaul = () => {
 			<Container fluid className="blog-content">
 				<div className="header-press">
 					<h2>
-						Former White House Press Secretary Josh Earnest <br></br>at the
-						Berkeley Forum
+						Former White House Press Secretary Josh Earnest at the Berkeley
+						Forum
 					</h2>
 				</div>
 
@@ -557,7 +557,9 @@ const RandPaul = () => {
 						end or a step towards something greater?
 					</p>
 				</Row>
-				<Row>[Laughter]</Row>
+				<Row>
+					<p>[Laughter]</p>
+				</Row>
 				<Row>
 					<p>
 						<strong>Josh Earnest:</strong> You have learned something that many

@@ -251,24 +251,24 @@
 		font-size: 16px;
 		text-transform: uppercase;
 		letter-spacing: 0.11em;
-		margin-left: 0rem;
+		margin-left: 2.7rem;
 	}
 	.header .nav-background {
 		width: 690px;
 	}
 	.dropdown-arrow {
 		position: absolute;
-		margin-left: 5.8rem !important;
+		margin-left: 8.5rem !important;
 		margin-top: 0.32rem !important;
 	}
 	.dropdown-arrow2 {
 		position: absolute;
-		margin-left: 4.4em !important;
+		margin-left: 7.3em !important;
 		margin-top: 0.32rem !important;
 	}
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1366px) {
 	.header .bar {
 		width: 50% !important;
 		margin-left: 2.5% !important;
@@ -285,6 +285,13 @@
 			font-size: 20px !important;
 			padding-bottom: 0;
 		}
+	}
+	.header .nav-text {
+		color: white;
+		font-size: 16px;
+		text-transform: uppercase;
+		letter-spacing: 0.11em;
+		margin-left: 1rem;
 	}
 
 	.mr-auto {
@@ -315,7 +322,7 @@
 		padding-right: 2rem;
 	}
 	.stuff {
-		height: 40vh;
+		height: 60vh;
 	}
 }
 
@@ -337,10 +344,17 @@
 			padding-bottom: 0;
 		}
 	}
+	.header .nav-text {
+		color: white;
+		font-size: 16px;
+		text-transform: uppercase;
+		letter-spacing: 0.11em;
+		margin-left: 0.3rem;
+	}
 
 	.mr-auto {
 		margin-top: 2rem;
-		margin-left: -26.3rem;
+		margin-left: -27.3rem;
 		.link-tag {
 			width: 80%;
 		}

@@ -16,10 +16,7 @@ const RandPaul = () => {
 			<Header name="blog" />
 			<Container fluid className="blog-content">
 				<div className="header-cohost">
-					<h2>
-						Co-Host of the Young Trks Ana Kasparian at <br></br>the Berkeley
-						Forum
-					</h2>
+					<h2>Co-Host of the Young Trks Ana Kasparian at the Berkeley Forum</h2>
 				</div>
 
 				<Row>

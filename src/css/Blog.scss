@@ -139,3 +139,149 @@
 .blog-content .right-column {
 	margin-left: -25rem;
 }
+
+@media only screen and (max-width: 2800px) {
+	.blog-content {
+		padding: 4rem;
+
+		h2 {
+			line-height: 4rem;
+			text-align: left !important;
+			margin-left: 0rem;
+			padding: none;
+			margin-right: 2rem;
+		}
+		p {
+			margin-left: 10rem;
+			margin-right: 10rem;
+			margin-top: 2rem;
+		}
+	}
+}
+@media only screen and (max-width: 1600px) {
+}
+@media only screen and (max-width: 1366px) {
+	.blog-content {
+		h2 {
+			padding-bottom: -5rem;
+			margin-top: -3rem;
+		}
+	}
+}
+@media only screen and (max-width: 1110px) {
+	.blog-content {
+		h2 {
+			margin-top: -8rem;
+			font-size: 37px;
+			line-height: 40px;
+		}
+
+		p {
+			margin-left: 3rem;
+			margin-right: 3rem;
+		}
+
+		.header-rand {
+			background-position: 50% 69%;
+		}
+
+		.header-2020lineup {
+			background-position: 50% 69%;
+		}
+
+		.header-ellen {
+			background-position: 50% 69%;
+		}
+		.header-cohost {
+			background-position: 50% 69%;
+		}
+		.header-feng {
+			background-position: 50% 69%;
+		}
+		.header-discourse {
+			background-position: 50% 69%;
+		}
+		.header-fall2019 {
+			background-position: 50% 82%;
+		}
+		.header-vsauce {
+			background-position: 50% 69%;
+		}
+		.header-homeland {
+			background-position: 50% 69%;
+		}
+		.header-politico {
+			background-position: 50% 69%;
+		}
+
+		.header-press {
+			background-position: 50% 69%;
+		}
+		.header-2019spring {
+			background-position: 50% 69%;
+		}
+		.header-none {
+			background-position: 50% 82%;
+		}
+	}
+}
+@media only screen and (max-width: 800px) {
+	.blog-content {
+		h2 {
+			margin-top: -15rem;
+			font-size: 30px;
+			line-height: 40px;
+			margin-left: -1rem;
+		}
+
+		p {
+			margin-left: 3rem;
+			margin-right: 3rem;
+		}
+
+		.header-rand {
+			background-position: 50% 80%;
+		}
+
+		.header-2020lineup {
+			background-position: 50% 80%;
+		}
+
+		.header-ellen {
+			background-position: 50% 80%;
+		}
+		.header-cohost {
+			background-position: 50% 80%;
+		}
+		.header-feng {
+			background-position: 50% 80%;
+		}
+		.header-discourse {
+			background-position: 50% 80%;
+		}
+		.header-fall2019 {
+			background-position: 50% 91%;
+		}
+		.header-vsauce {
+			background-position: 50% 80%;
+		}
+		.header-homeland {
+			background-position: 50% 80%;
+		}
+		.header-politico {
+			background-position: 50% 80%;
+		}
+
+		.header-press {
+			background-position: 50% 80%;
+		}
+		.header-2019spring {
+			background-position: 50% 80%;
+		}
+		.header-none {
+			background-position: 50% 91%;
+		}
+	}
+}
+@media only screen and (max-width: 440px) {
+}

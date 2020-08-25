@@ -17,8 +17,8 @@ const RandPaul = () => {
 			<Container fluid className="blog-content">
 				<div className="header-none">
 					<h2>
-						Statement Regarding the Cancellation of the <br></br>Co-Founders of
-						Cards Against Humanity Event
+						Statement Regarding the Cancellation of the Co-Founders of Cards
+						Against Humanity Event
 					</h2>
 				</div>
 

@@ -17,8 +17,7 @@ const RandPaul = () => {
 			<Container fluid className="blog-content">
 				<div className="header-politico">
 					<h2>
-						Co-Founder of Axios and Polticio Jim VandeHei <br></br>at the
-						Berkeley Forum
+						Co-Founder of Axios and Polticio Jim VandeHei at the Berkeley Forum
 					</h2>
 				</div>
 
