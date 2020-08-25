@@ -13,7 +13,7 @@ const About = () => {
 	return (
 		<div className="about">
 			<Header name="About Us" image={AboutHeader} />
-			
+
 			<Container fluid className="about-content">
 				<Row>
 					<p>
@@ -37,18 +37,10 @@ const About = () => {
 					</p>
 				</Row>
 				<Row className="bottom-navbar">
-					<Link to="/team">
-						<p className="link-text">Meet Our Team</p>
-					</Link>
-					<Link to="/advisory">
-						<p className="link-text">Advisory Committee</p>
-					</Link>
-					<Link to="/committees">
-						<p className="link-text">Our Committees</p>
-					</Link>
-					<Link to="/legacy">
-						<p className="link-text">Legacy</p>
-					</Link>
+					<Link to="/team">Meet Our Team</Link>
+					<Link to="/advisory">Advisory Committee</Link>
+					<Link to="/committees">Our Committees</Link>
+					<Link to="/legacy">Legacy</Link>
 				</Row>
 			</Container>
 			<Footer />
