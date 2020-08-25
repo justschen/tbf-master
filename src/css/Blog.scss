@@ -374,7 +374,7 @@
 	.header-none {
 		width: 100%;
 		background-image: url(../img/blank-blog.png);
-		background-position: 50% 40%;
+		background-position: 40% 80% !important;
 		background-repeat: no-repeat;
 		background-size: 98%;
 	}
@@ -383,22 +383,26 @@
 		h2 {
 			line-height: 19px !important;
 			text-align: left !important;
-			margin-left: -7rem !important;
+			margin-left: -1rem !important;
 			font-size: 11px !important;
 			padding-left: 2rem !important;
-		}
-
-		h2 {
 			line-height: 4rem;
 			text-align: left !important;
 			margin-left: 0rem;
 			padding: none;
 			margin-right: 2rem;
+			margin-top: -17rem;
+			margin-bottom: -3rem;
 		}
 		p {
-			margin-left: 0.5rem;
-			margin-right: 0.5rem;
+			font-size: 14px;
+			margin-left: 0rem !important;
+			margin-right: 0rem !important;
 			margin-top: 2rem;
+		}
+
+		.italics {
+			margin-top: 0rem;
 		}
 	}
 }
