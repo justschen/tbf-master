@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactPlayer from 'react-player';
 
 import '../css/Join.css';
 import bigPic from '../img/join.png';
