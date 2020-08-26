@@ -13,11 +13,13 @@ import facebookIcon from '../../img/social-tassle/Facebook.png';
 import instagramIcon from '../../img/social-tassle/Instagram.png';
 import twitterIcon from '../../img/social-tassle/Twitter.png';
 import linkedinIcon from '../../img/social-tassle/LinkedIN.png';
+import spotifyIcon from '../../img/social-tassle/spotify-icon.png';
 
 import facebookWhite from '../../img/social-tassle/facebook-white.png';
 import instagramWhite from '../../img/social-tassle/instagram-white.png';
 import twitterWhite from '../../img/social-tassle/twitter-white.png';
 import linkedinWhite from '../../img/social-tassle/linkedin-white.png';
+import spotifyWhite from '../../img/social-tassle/spotify-icon-white.png';
 
 import DropdownArrow from '../../img/dropdown-arrow.png';
 
@@ -26,6 +28,8 @@ const instagramURL = 'http://instagram.com/berkeleyforum';
 const twitterURL = 'https://twitter.com/berkeleyforum';
 const linkedinURL =
 	'https://www.linkedin.com/company/the-berkeley-forum/about/';
+const spotifyURL =
+	'https://open.spotify.com/show/1EhFT7urj3aA6oxQ2DDL3S?si=o8BHNKekTY-unIuggK6nFg';
 
 const HeaderBar = (props) => {
 	let middle;
@@ -52,8 +56,8 @@ const HeaderBar = (props) => {
 						<a href={twitterURL}>
 							<img alt="twitter" src={twitterIcon} />
 						</a>
-						<a href={linkedinURL}>
-							<img alt="linkedin" src={linkedinIcon} />
+						<a href={spotifyURL}>
+							<img alt="spotify" src={spotifyIcon} />
 						</a>
 					</div>
 				</div>
@@ -192,8 +196,8 @@ const HeaderBar = (props) => {
 										<img className="icon-image" src={twitterWhite} />
 									</a>
 
-									<a href={linkedinURL}>
-										<img className="icon-image" src={linkedinWhite} />
+									<a href={spotifyURL}>
+										<img className="icon-image" src={spotifyWhite} />
 									</a>
 								</Container>
 							</div>

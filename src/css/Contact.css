@@ -199,8 +199,8 @@ button {
 	}
 
 	.formContainer {
-		margin: auto;
-		margin-top: rem;
+		margin: 40rem auto auto;
+
 		width: 60%;
 		border-radius: 10px;
 		background-color: #233748;
