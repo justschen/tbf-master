@@ -21,6 +21,12 @@
 	font-size: 130%;
 }
 
+@media only screen and (max-width: 2900px) {
+	.decal h5 {
+		margin-bottom: 2.5rem;
+	}
+}
+
 @media only screen and (max-width: 1400px) {
 	.decal {
 		margin-top: 0rem;
@@ -38,7 +44,7 @@
 
 @media only screen and (max-width: 800px) {
 	.decal {
-		margin-top: -45rem !important;
+		margin-top: -36rem !important;
 		margin-bottom: 2rem;
 	}
 	.decal p {
