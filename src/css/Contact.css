@@ -157,7 +157,7 @@ button {
 	display: none;
 }
 
-@media only screen and (max-width: 2800px) {
+@media only screen and (max-width: 2900px) {
 	.transform {
 		max-width: 70vw;
 		-webkit-transition: all 1s ease;
@@ -199,8 +199,7 @@ button {
 	}
 
 	.formContainer {
-		margin: 40rem auto auto;
-
+		margin: auto !important;
 		width: 60%;
 		border-radius: 10px;
 		background-color: #233748;
@@ -345,7 +344,7 @@ button {
 	}
 	.formContainer {
 		margin: auto;
-		margin-top: 40rem;
+
 		width: 70%;
 		border-radius: 10px;
 		background-color: #233748;
@@ -374,7 +373,7 @@ button {
 		padding-bottom: 0rem !important;
 	}
 	.decal .top-row {
-		margin-top: 48rem !important;
+		margin-top: 37rem !important;
 		margin-bottom: -7rem !important;
 		padding-bottom: 0rem !important;
 	}
