@@ -356,7 +356,7 @@ button {
 	}
 
 	.formContainer {
-		margin-top: 0rem;
+		margin-top: 3rem !important;
 	}
 
 	.formContainer p {
@@ -374,7 +374,7 @@ button {
 		padding-bottom: 0rem !important;
 	}
 	.decal .top-row {
-		margin-top: 38rem !important;
+		margin-top: 48rem !important;
 		margin-bottom: -7rem !important;
 		padding-bottom: 0rem !important;
 	}
@@ -427,7 +427,7 @@ button {
 		padding-bottom: 0rem !important;
 	}
 	.decal .top-row {
-		margin-top: 39rem !important;
+		margin-top: 40em !important;
 		padding-bottom: 0rem !important;
 	}
 
@@ -438,6 +438,7 @@ button {
 	input[type='text'],
 	select,
 	textarea {
+		font-size: 13px;
 		width: 90%; /* Full width */
 		padding: 10px; /* Some padding */
 		border: 1px solid black; /* Gray border */

@@ -77,7 +77,7 @@ const Contact = () => {
 									placeholder="Please enter your message."
 									class="big"
 									style={{
-										height: '200px',
+										height: '120px',
 									}}
 								/>
 							</p>

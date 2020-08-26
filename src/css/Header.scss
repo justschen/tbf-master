@@ -262,7 +262,6 @@
 }
 
 @media only screen and (max-width: 1400px) {
-	
 	.btn-default {
 		display: none !important;
 	}
@@ -284,7 +283,7 @@
 		display: none;
 	}
 	.stuff {
-		margin-bottom: -40rem;
+		margin-bottom: -8rem !important;
 		background-size: 140% !important;
 		background-position: 50% 0%;
 		height: 100vw !important;
