@@ -273,8 +273,8 @@ button {
 		display: flex;
 	}
 	.decal .top-row {
-		margin-top: -20rem !important;
-		margin-bottom: -10rem !important;
+		margin-top: 0rem !important;
+		margin-bottom: -4rem !important;
 		padding-bottom: 0rem !important;
 	}
 }
@@ -288,7 +288,7 @@ button {
 	}
 	.formContainer {
 		margin: auto;
-		margin-top: 40rem;
+		margin-top: 20rem;
 		width: 70%;
 		border-radius: 10px;
 		background-color: #233748;
@@ -317,7 +317,7 @@ button {
 		padding-bottom: 0rem !important;
 	}
 	.decal .top-row {
-		margin-top: 35rem !important;
+		margin-top: 0rem !important;
 		margin-bottom: -2rem !important;
 		padding-bottom: 0rem !important;
 	}
@@ -374,8 +374,8 @@ button {
 		padding-bottom: 0rem !important;
 	}
 	.decal .top-row {
-		margin-top: 20rem !important;
-		margin-bottom: -2rem !important;
+		margin-top: 38rem !important;
+		margin-bottom: -7rem !important;
 		padding-bottom: 0rem !important;
 	}
 
@@ -427,8 +427,12 @@ button {
 		padding-bottom: 0rem !important;
 	}
 	.decal .top-row {
-		margin-top: 10rem !important;
+		margin-top: 39rem !important;
 		padding-bottom: 0rem !important;
+	}
+
+	.decal .top-row p {
+		font-size: 15px !important;
 	}
 
 	input[type='text'],
