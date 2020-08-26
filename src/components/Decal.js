@@ -13,8 +13,11 @@ const About = () => {
 			<Header name="Decal" image={decalHeader} />
 
 			<Container fluid className="decal">
-				<h5>Discourse at Berkeley: the Berkeley Forum DeCal</h5>
-				<Row className="top-row">
+				<Row>
+					<h5>Discourse at Berkeley: the Berkeley Forum DeCal</h5>
+				</Row>
+
+				<Row>
 					<p>
 						Since 2012, the Forum has worked to increase discourse for the
 						Berkeley community through our semesterly events lineup, hosting
@@ -25,7 +28,7 @@ const About = () => {
 					</p>
 				</Row>
 
-				<Row className="middle-row">
+				<Row>
 					<p>
 						Through this course, students will discuss and further engage with
 						topics presented in our events, as well as learn what it takes to
@@ -34,10 +37,10 @@ const About = () => {
 						opinions challenged, learn about new topics, embrace new
 						perspectives, and leave with new interests. [Note: This DeCal is
 						intended for students who are not members of the Berkeley Forum, and
-						the course will not be open to members of the Berkeley Forum.
+						the course will not be open to members of the Berkeley Forum.]
 					</p>
 				</Row>
-				<Row className="bottom-row">
+				<Row>
 					<p>
 						The deadline to apply to this DeCal is Friday, February 7 at 11:59
 						pm. Please check back later for more information about the Fall 2020
