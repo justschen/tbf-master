@@ -9,6 +9,67 @@
 			justify-content: left;
 		}
 	}
+
+	.youtube {
+		display: flex;
+		justify-content: center;
+		margin: auto;
+		margin-top: 2rem !important;
+		margin-bottom: -30rem !important;
+		position: relative;
+		overflow: hidden;
+		width: 100%;
+		padding-top: 56.25%;
+		.youtube-player {
+			position: absolute;
+			top: 0;
+			margin-left: auto;
+			margin-right: auto;
+			left: 0;
+			right: 0;
+			text-align: center;
+			justify-content: center;
+			width: 50%;
+			height: 50%;
+		}
+	}
+}
+
+@media only screen and (max-width: 1500px) {
+	.landing {
+		.youtube-player {
+			width: 70%;
+			height: 70%;
+		}
+		.youtube {
+			margin-top: 2rem !important;
+			margin-bottom: -20rem !important;
+		}
+	}
+}
+@media only screen and (max-width: 1145px) {
+	.landing {
+		.youtube-player {
+			width: 80%;
+			height: 80%;
+		}
+		.youtube {
+			margin-top: -1rem !important;
+			margin-bottom: -10rem !important;
+		}
+	}
+	@media only screen and (max-width: 700px) {
+		.landing {
+			.youtube-player {
+				width: 80% !important;
+				height: 80% !important;
+			}
+			.youtube {
+				margin-top: -2rem !important;
+				margin-bottom: -3rem !important;
+			}
+		}
+	}
 }
 
 @media only screen and (max-width: 430px) {
@@ -17,6 +78,17 @@
 			p {
 				font-size: 100%;
 			}
+		}
+	}
+
+	.landing {
+		.youtube-player {
+			width: 80% !important;
+			height: 80% !important;
+		}
+		.youtube {
+			margin-top: -2rem !important;
+			margin-bottom: 0rem !important;
 		}
 	}
 }

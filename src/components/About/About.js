@@ -42,6 +42,8 @@ const About = () => {
 					<Link to="/legacy">Legacy</Link>
 				</Row>
 			</Container>
+
+		
 			<Footer />
 		</div>
 	);

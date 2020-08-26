@@ -77,6 +77,21 @@ const Landing = () => {
 					<p>President, The Berkeley Forum</p>
 				</Row>
 			</Container>
+			<div className="youtube">
+				<iframe
+					className="youtube-player"
+					src="https://www.youtube.com/embed/videoseries?list=PL3rvbrmWmhfuCqZ0IpdpwV9BpXOTqUWVK"
+					frameborder="0"
+					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen="allowfullscreen"
+					mozallowfullscreen="mozallowfullscreen"
+					msallowfullscreen="msallowfullscreen"
+					oallowfullscreen="oallowfullscreen"
+					webkitallowfullscreen="webkitallowfullscreen"
+					title="video"
+				></iframe>
+			</div>
+
 			<Footer />
 		</div>
 	);
