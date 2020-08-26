@@ -19,33 +19,48 @@ const About = () => {
 
 				<Row>
 					<p>
-						Since 2012, the Forum has worked to increase discourse for the
-						Berkeley community through our semesterly events lineup, hosting
-						debates, panels, and talks by leading experts from a wide variety of
-						fields. This semester, we are excited to announce that as a
-						complement to this lineup, we are offering a 2-unit DeCal (ISF 198)
-						sponsored by the Interdisciplinary Studies department.
+						Discourse at Berkeley is a DeCal intended for students who are
+						interested in exploring the rich history of discourse, activism, and
+						political movements at UC Berkeley, all of which are particularly
+						relevant to campus today. This includes dissecting and understanding
+						the Free Speech Movement, Third World Liberation Front, a discussion
+						of the role of the ASUC, and more.
 					</p>
 				</Row>
 
 				<Row>
 					<p>
-						Through this course, students will discuss and further engage with
-						topics presented in our events, as well as learn what it takes to
-						bring a speaker with a valuable perspective to campus. We hope that
-						by the completion of the course, students are able to have their
-						opinions challenged, learn about new topics, embrace new
-						perspectives, and leave with new interests. [Note: This DeCal is
-						intended for students who are not members of the Berkeley Forum, and
-						the course will not be open to members of the Berkeley Forum.]
+						Discourse at Berkeley is a discussion-based class in which students
+						are expected to attend at least 6 of the approximately 15 virtual
+						events hosted by the Berkeley Forum throughout the F20 semester, and
+						submit proof of their attendance to the course instructors. Students
+						can expect to be exposed to a wide range of disciplines as event
+						speakers generally come from various fields (for example, this
+						semester we are hosting Dr. Anthony Fauci of the NIAID, a Panel on
+						the Sustainability of the Gig Economy, and Joanna Calo, a television
+						writer and producer).
 					</p>
 				</Row>
 				<Row>
 					<p>
-						The deadline to apply to this DeCal is Friday, February 7 at 11:59
-						pm. Please check back later for more information about the Fall 2020
-						DeCal. Please feel free to email any questions to
-						decal@forum.berkeley.edu.
+						Class activities will include debates, a history of discourse at
+						Berkeley, and in-depth discussions on the questions posed by
+						speakers at the weekly events. Students may miss up to two classes
+						without it impacting their grade. There are no other assignments
+						required for the class except the final exam, which consists
+						primarily of free-response questions.
+					</p>
+				</Row>
+				<Row>
+					<p>
+						The deadline to apply to this DeCal is Wednesday, September 9 at
+						11:59pm. For more information, visit the course page:
+						<a href="https://decal.berkeley.edu/courses/5371">
+							{' '}
+							https://decal.berkeley.edu/courses/5371
+						</a>
+						{'. '}
+						Please feel free to email any questions to decal@forum.berkeley.edu.
 					</p>
 				</Row>
 			</Container>
