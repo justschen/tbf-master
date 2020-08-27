@@ -96,7 +96,7 @@ input[type='submit']:hover {
 	padding-bottom: 40rem;
 }
 
-button {
+.contactPage button {
 	background-color: white !important;
 	border-radius: 0px;
 	line-height: 0px;
