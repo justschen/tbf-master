@@ -22,8 +22,9 @@ const MailingList = () => {
 					</p>
 				</Row>
 			</Container>
-
 			<div>
+				{/* Begin Sendinblue Form */}
+				{/* START - We recommend to place the below code in head tag of your website html  */}
 				<style
 					dangerouslySetInnerHTML={{
 						__html:
@@ -34,6 +35,8 @@ const MailingList = () => {
 					rel="stylesheet"
 					href="https://sibforms.com/forms/end-form/build/sib-styles.css"
 				/>
+				{/*  END - We recommend to place the above code in head tag of your website html */}
+				{/* START - We recommend to place the below code where you want the form in your website html  */}
 				<div
 					className="sib-form"
 					style={{ textAlign: 'center', backgroundColor: '#EFF2F7' }}
@@ -43,14 +46,14 @@ const MailingList = () => {
 							id="error-message"
 							className="sib-form-message-panel"
 							style={{
-								fontSize: '16px',
+								fontSize: 16,
 								textAlign: 'left',
 								fontFamily: '"Helvetica", sans-serif',
 								color: '#661d1d',
 								backgroundColor: '#ffeded',
-								borderRadius: '3px',
+								borderRadius: 3,
 								borderColor: '#ff4949',
-								maxWidth: '540px',
+								maxWidth: 540,
 							}}
 						>
 							<div className="sib-form-message-panel__text sib-form-message-panel__text--center">
@@ -70,14 +73,14 @@ const MailingList = () => {
 							id="success-message"
 							className="sib-form-message-panel"
 							style={{
-								fontSize: '16px',
+								fontSize: 16,
 								textAlign: 'left',
 								fontFamily: '"Helvetica", sans-serif',
 								color: '#085229',
 								backgroundColor: '#e7faf0',
-								borderRadius: '3px',
+								borderRadius: 3,
 								borderColor: '#13ce66',
-								maxWidth: '540px',
+								maxWidth: 540,
 							}}
 						>
 							<div className="sib-form-message-panel__text sib-form-message-panel__text--center">
@@ -100,9 +103,9 @@ const MailingList = () => {
 							style={{
 								textAlign: 'center',
 								backgroundColor: 'rgba(255,255,255,1)',
-								maxWidth: '540px',
-								borderRadius: '3px',
-								borderWidth: '1px',
+								maxWidth: 540,
+								borderRadius: 3,
+								borderWidth: 1,
 								borderColor: '#C0CCD9',
 								borderStyle: 'solid',
 							}}
@@ -110,14 +113,14 @@ const MailingList = () => {
 							<form
 								id="sib-form"
 								method="POST"
-								action="https://sibforms.com/serve/MUIEAIIJIYjKYTavtsaswHBVyk61KDbrYW88lZLBiH0Sh0Fyoon2CIM1sXtmGbZc-BH8qPpH0aqfFLUrCxkxbKuViivA01DQNRaIB2GOKma9ZYfsD3-Pv_o0mL5OlpPQISZmAmcpsRRqDTQeHAQKhizoIn0jYl8-LXs4c2adIYpLafjyIM0AglpZp9CJUWare7QG4mL-6A5-03bI"
+								action="https://sibforms.com/serve/MUIEAGlv0jlHoxtcSFze5DBJwUklJz-BwfXtUpNXpQbJbQuDHMlNrqBwTzNmOa3hYHooKwGMg1eAcp5IX1T1-LCB5nZbOb6JJ5Y2PivrsW57CjDOFLN909l05mdo-HS8dyXJDEmZj9JmueV4CwEPLs1GDjJtvIqv9_zBAVk9zEqsDNccfA_Pzb1FzK1ZSyB5qaURNYq9zNws8xiG"
 								data-type="subscription"
 							>
 								<div style={{ padding: '16px 0' }}>
 									<div
 										className="sib-form-block"
 										style={{
-											fontSize: '32px',
+											fontSize: 32,
 											textAlign: 'left',
 											fontWeight: 700,
 											fontFamily: '"Helvetica", sans-serif',
@@ -142,7 +145,7 @@ const MailingList = () => {
 												<label
 													className="entry__label"
 													style={{
-														fontSize: '16px',
+														fontSize: 16,
 														textAlign: 'left',
 														fontWeight: 700,
 														fontFamily: '"Helvetica", sans-serif',
@@ -170,12 +173,12 @@ const MailingList = () => {
 											<label
 												className="entry__error entry__error--primary"
 												style={{
-													fontSize: '16px',
+													fontSize: 16,
 													textAlign: 'left',
 													fontFamily: '"Helvetica", sans-serif',
 													color: '#661d1d',
 													backgroundColor: '#ffeded',
-													borderRadius: '3px',
+													borderRadius: 3,
 													borderColor: '#ff4949',
 												}}
 											></label>
@@ -189,7 +192,7 @@ const MailingList = () => {
 												<label
 													className="entry__label"
 													style={{
-														fontSize: '16px',
+														fontSize: 16,
 														textAlign: 'left',
 														fontWeight: 700,
 														fontFamily: '"Helvetica", sans-serif',
@@ -217,12 +220,12 @@ const MailingList = () => {
 											<label
 												className="entry__error entry__error--primary"
 												style={{
-													fontSize: '16px',
+													fontSize: 16,
 													textAlign: 'left',
 													fontFamily: '"Helvetica", sans-serif',
 													color: '#661d1d',
 													backgroundColor: '#ffeded',
-													borderRadius: '3px',
+													borderRadius: 3,
 													borderColor: '#ff4949',
 												}}
 											></label>
@@ -236,7 +239,7 @@ const MailingList = () => {
 												<label
 													className="entry__label"
 													style={{
-														fontSize: '16px',
+														fontSize: 16,
 														textAlign: 'left',
 														fontWeight: 700,
 														fontFamily: '"Helvetica", sans-serif',
@@ -263,12 +266,12 @@ const MailingList = () => {
 											<label
 												className="entry__error entry__error--primary"
 												style={{
-													fontSize: '16px',
+													fontSize: 16,
 													textAlign: 'left',
 													fontFamily: '"Helvetica", sans-serif',
 													color: '#661d1d',
 													backgroundColor: '#ffeded',
-													borderRadius: '3px',
+													borderRadius: 3,
 													borderColor: '#ff4949',
 												}}
 											></label>
@@ -280,14 +283,14 @@ const MailingList = () => {
 										<button
 											className="sib-form-block__button sib-form-block__button-with-loader"
 											style={{
-												fontSize: '16px',
+												fontSize: 16,
 												textAlign: 'left',
 												fontWeight: 700,
 												fontFamily: '"Helvetica", sans-serif',
 												color: '#FFFFFF',
 												backgroundColor: '#3E4857',
-												borderRadius: '3px',
-												borderWidth: '0px',
+												borderRadius: 3,
+												borderWidth: 0,
 											}}
 											form="sib-form"
 											type="submit"
@@ -306,7 +309,7 @@ const MailingList = () => {
 									<div
 										className="sib-form-block"
 										style={{
-											fontSize: '14px',
+											fontSize: 14,
 											textAlign: 'center',
 											fontFamily: '"Helvetica", sans-serif',
 											color: '#333',
@@ -315,11 +318,7 @@ const MailingList = () => {
 									>
 										<div className="sib-text-form-block">
 											<p>
-												<a
-													href="https://sendinblue.com"
-													style={{ fontSize: '14px' }}
-													target="_blank"
-												>
+												<a href="https://sendinblue.com" target="_blank">
 													Terms &amp; Privacy policy
 												</a>
 											</p>
@@ -337,29 +336,15 @@ const MailingList = () => {
 						</div>
 					</div>
 				</div>
+				{/* END - We recommend to place the below code where you want the form in your website html  */}
+				{/* START - We recommend to place the below code in footer or bottom of your website html  */}
+				{/* END - We recommend to place the above code in footer or bottom of your website html  */}
+				{/* End Sendinblue Form */}
 			</div>
+			;
 			<Footer />
 		</div>
 	);
 };
-
-window.REQUIRED_CODE_ERROR_MESSAGE = 'Please choose a country code';
-
-window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE =
-	'The information provided is invalid. Please review the field format and try again.';
-
-window.REQUIRED_ERROR_MESSAGE = 'This field cannot be left blank. ';
-
-window.GENERIC_INVALID_MESSAGE =
-	'The information provided is invalid. Please review the field format and try again.';
-
-window.translation = {
-	common: {
-		selectedList: '{quantity} list selected',
-		selectedLists: '{quantity} lists selected',
-	},
-};
-
-var AUTOHIDE = Boolean(1);
 
 export default MailingList;
