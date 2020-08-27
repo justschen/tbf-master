@@ -174,6 +174,12 @@ const HeaderBar = (props) => {
 
 								<Link to="/team" className="link-tag">
 									<p className="nav-text">Meet&nbsp;the&nbsp;Team</p>
+								</Link>	
+								<Link to="/committees" className="link-tag">
+									<p className="nav-text">Committees</p>
+								</Link>	
+								<Link to="/legacy" className="link-tag">
+									<p className="nav-text">Legacy</p>
 								</Link>
 
 								<Link to="/events" className="link-tag">

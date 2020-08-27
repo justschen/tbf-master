@@ -297,7 +297,7 @@
 
 	.mr-auto {
 		margin-top: 2rem;
-		margin-left: -26.3rem;
+		margin-left: -28.3rem;
 		.link-tag {
 			width: 80%;
 		}
@@ -308,7 +308,7 @@
 	}
 	.mobile-tassle {
 		display: inline-block;
-		margin-left: 0rem;
+		margin-left: -7rem;
 		margin-top: -2rem;
 		.icon-pic {
 			margin-right: 4rem;
@@ -406,7 +406,7 @@
 	}
 	.header .nav-text {
 		color: white;
-		font-size: 16px;
+		font-size: 10.4px !important;
 		text-transform: uppercase;
 		letter-spacing: 0.11em;
 		margin-left: 0.3rem;
@@ -445,6 +445,13 @@
 }
 
 @media only screen and (max-width: 991px) {
+	.header .nav-text {
+		color: white;
+		font-size: 12px !important;
+		text-transform: uppercase;
+		letter-spacing: 0.11em;
+		margin-left: 0.3rem;
+	}
 	.header .bar {
 		width: 90% !important;
 		margin-left: 2.5% !important;
