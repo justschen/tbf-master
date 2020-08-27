@@ -11,6 +11,8 @@ import Row from 'react-bootstrap/Row';
 import Slider from '../img/Slider.png';
 import Card from './A-WebElements/Card';
 
+import RGF from 'react-google-forms';
+
 const Contact = () => {
 	const ToggleClass = () => {
 		const oldClassName = document.getElementById('test').className;
@@ -82,7 +84,13 @@ const Contact = () => {
 								/>
 							</p>
 							<p>
-								<input id="submit" type="submit" value="Send message" />
+								<input
+									onclick="window.location.href = 'google.com';"
+									id="submit"
+									type="submit"
+									target="_blank"
+									value="Send message"
+								/>
 							</p>
 						</form>
 					</div>

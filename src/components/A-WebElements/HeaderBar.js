@@ -79,13 +79,25 @@ const HeaderBar = (props) => {
 											/>
 										</div>
 									</Link>
-									<div className="dropdown-content-about">
+									<div className="dropdown-content-events">
 										<Link to="/team" className="link-tag">
 											<p className="nav-text">
 												Meet the
 												<br />
 												Team
 											</p>
+										</Link>
+										<Link to="/committees" className="link-tag">
+											<p className="nav-text">Committees</p>
+										</Link>
+										<Link
+											to="/legacy"
+											className="link-tag"
+											style={{
+												marginBottom: '1rem',
+											}}
+										>
+											<p className="nav-text">Legacy</p>
 										</Link>
 									</div>
 								</div>
@@ -110,7 +122,13 @@ const HeaderBar = (props) => {
 												Events
 											</p>
 										</Link>
-										<Link to="/posters" className="link-tag">
+										<Link
+											to="/posters"
+											className="link-tag"
+											style={{
+												marginBottom: '1rem',
+											}}
+										>
 											<p className="nav-text">
 												Speaker
 												<br />
