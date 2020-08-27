@@ -77,7 +77,9 @@ const Footer = (props) => {
 						</Col>
 					</Row>
 					<Row className="logo">
-						<img src={wdbLogoPath} alt="wdb-logo" className="wdb-logo" />
+						<a href="https://webatberkeley.org/">
+							<img src={wdbLogoPath} alt="wdb-logo" className="wdb-logo" />
+						</a>
 					</Row>
 				</Col>
 			</Container>
@@ -131,7 +133,9 @@ const Footer = (props) => {
 				<Row className="logo-row">
 					<Col>
 						<img src={tbfLogoMobilePath} alt="tbf-logo" className="tbf-logo" />
-						<img src={wdbLogoPath} alt="wdb-logo" className="wdb-logo" />
+						<a href="https://webatberkeley.org/">
+							<img src={wdbLogoPath} alt="wdb-logo" className="wdb-logo" />
+						</a>
 					</Col>
 					<Col>
 						<div className="contact-info">
