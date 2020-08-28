@@ -447,4 +447,8 @@ input[type='submit']:hover {
 		margin-bottom: 10px; /* Bottom margin */
 		resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
 	}
+
+	.formContainer {
+		width: 85% !important;
+	}
 }
