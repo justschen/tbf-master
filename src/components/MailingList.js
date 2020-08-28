@@ -11,6 +11,12 @@ import Row from 'react-bootstrap/Row';
 import '../css/MailingList.scss';
 
 class MailingList extends React.Component {
+	constructor() {
+		super();
+
+		this.handleSubmit = this.handleSubmit.bind(this);
+	}
+
 	render() {
 		window.REQUIRED_CODE_ERROR_MESSAGE = 'Please choose a country code';
 
@@ -388,40 +394,16 @@ class MailingList extends React.Component {
 		// extract form data
 		const formdata = new FormData(event.target);
 
-		// convert FormData to json object
-		// SOURCE: https://stackoverflow.com/a/46774073
-		const json = {};
-		formdata.forEach(function (value, prop) {
-			json[prop] = value;
-		});
-
-		// convert json to urlencoded query string
-		// SOURCE: https://stackoverflow.com/a/37562814 (comments)
-		const formBody = Object.keys(json)
-			.map(
-				(key) => encodeURIComponent(key) + '=' + encodeURIComponent(json[key])
-			)
-			.join('&');
-
-		// POST the request to Staticman's API endpoint
-		const response = await fetch(
+		await fetch(
 			'https://sibforms.com/serve/MUIEAOpeQRpRJEO9OwioiGNL-tePSf3qhGzbgg59Fsl2AypVl03CNeWBkBw-SqnQysY6iOrsN2FElW8eb7pwKWYt9qhBxct8vjqoex6XPYwNEkQg1X2FTv_cw-O34YHPPxtNgJGze8Fr9y3L4D569GblVAIFCYpsbkjLQvDfwfkjXsRnwQXzX6XqRp_o_8enPrm1stpe_G6N1c46',
 			{
 				method: 'POST',
-				headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-				body: formBody,
+				headers: {
+					'Content-Type': 'application/json',
+				},
+				body: JSON.stringify(formdata),
 			}
-		)
-			.then((response) => {
-				// reset form
-				document.getElementById('comment-form').reset();
-				// display success message
-				document.getElementById('success').style.display = 'block';
-			})
-			.catch((error) => {
-				console.log(error);
-				document.getElementById('failure').style.display = 'block';
-			});
+		).then((response) => console.log(response));
 	}
 }
 

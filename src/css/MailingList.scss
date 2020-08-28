@@ -1,9 +1,16 @@
+.mailing {
+	button {
+		background-color: #3e4857 !important;
+	}
+}
+
 .mailing-content {
 	padding: 5rem;
 	padding-bottom: 0;
 	.row {
 		margin-bottom: 1rem;
 	}
+
 	@font-face {
 		font-display: block;
 		font-family: Roboto;
