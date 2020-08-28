@@ -12,6 +12,11 @@
 	display: inline-block;
 }
 
+.bar button {
+	background-color: white !important;
+	outline: none !important;
+}
+
 .scrolling-show {
 	display: flex;
 }
