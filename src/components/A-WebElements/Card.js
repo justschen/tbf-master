@@ -19,7 +19,7 @@ const Card = () => {
 					</p>
 
 					<p>
-						General Inquiries <br></br>inquries@berkeley.edu
+						General Inquiries <br></br>info@forum.berkeley.edu
 					</p>
 				</div>
 			</div>
@@ -36,7 +36,7 @@ const Card = () => {
 					</p>
 
 					<p>
-						General Inquiries <br></br>inquries@berkeley.edu
+						General Inquiries <br></br>info@forum.berkeley.edu
 					</p>
 				</div>
 			</div>
