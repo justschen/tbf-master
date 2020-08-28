@@ -3,12 +3,33 @@ import coverPhoto from '../img/mailing-header.jpg';
 import Header from './A-WebElements/Header';
 import Footer from './A-WebElements/Footer';
 
+import useScript from './Hooks/useScript';
+
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
 import '../css/MailingList.scss';
 
 const MailingList = () => {
+	useScript('https://sibforms.com/forms/end-form/build/main.js');
+	window.REQUIRED_CODE_ERROR_MESSAGE = 'Please choose a country code';
+
+	window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE =
+		'The information provided is invalid. Please review the field format and try again.';
+
+	window.REQUIRED_ERROR_MESSAGE = 'This field cannot be left blank. ';
+
+	window.GENERIC_INVALID_MESSAGE =
+		'The information provided is invalid. Please review the field format and try again.';
+
+	window.translation = {
+		common: {
+			selectedList: '{quantity} list selected',
+			selectedLists: '{quantity} lists selected',
+		},
+	};
+
+	var AUTOHIDE = Boolean(1);
 	return (
 		<div className="mailing">
 			<Header name="Mailing List" image={coverPhoto} />
@@ -113,7 +134,7 @@ const MailingList = () => {
 							<form
 								id="sib-form"
 								method="POST"
-								action="https://sibforms.com/serve/MUIEAGlv0jlHoxtcSFze5DBJwUklJz-BwfXtUpNXpQbJbQuDHMlNrqBwTzNmOa3hYHooKwGMg1eAcp5IX1T1-LCB5nZbOb6JJ5Y2PivrsW57CjDOFLN909l05mdo-HS8dyXJDEmZj9JmueV4CwEPLs1GDjJtvIqv9_zBAVk9zEqsDNccfA_Pzb1FzK1ZSyB5qaURNYq9zNws8xiG"
+								action="https://sibforms.com/serve/MUIEAOpeQRpRJEO9OwioiGNL-tePSf3qhGzbgg59Fsl2AypVl03CNeWBkBw-SqnQysY6iOrsN2FElW8eb7pwKWYt9qhBxct8vjqoex6XPYwNEkQg1X2FTv_cw-O34YHPPxtNgJGze8Fr9y3L4D569GblVAIFCYpsbkjLQvDfwfkjXsRnwQXzX6XqRp_o_8enPrm1stpe_G6N1c46"
 								data-type="subscription"
 							>
 								<div style={{ padding: '16px 0' }}>
@@ -341,7 +362,6 @@ const MailingList = () => {
 				{/* END - We recommend to place the above code in footer or bottom of your website html  */}
 				{/* End Sendinblue Form */}
 			</div>
-			;
 			<Footer />
 		</div>
 	);
