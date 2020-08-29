@@ -3,12 +3,31 @@
 	padding-bottom: 0;
 	text-align: center;
 }
+.fullpage {
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
 
 .formContainer label {
 	color: white;
 	text-align: left;
 	margin-left: 3rem;
 	float: left;
+}
+
+.hidden-text {
+	display: none;
+}
+
+.not-hidden-text {
+	display: flex;
+	text-align: center !important;
+	font-size: 40px;
+	padding: 11rem;
+}
+
+.hidden-form {
+	display: none;
 }
 
 /* Style inputs with type="text", select elements and textareas */
@@ -263,6 +282,10 @@ input[type='submit']:hover {
 		background-color: #233748;
 		padding: 20px;
 	}
+
+	.not-hidden-text {
+		margin-bottom: 7rem;
+	}
 }
 @media only screen and (max-width: 1400px) {
 	.contact-desktop {
@@ -336,6 +359,13 @@ input[type='submit']:hover {
 }
 
 @media only screen and (max-width: 800px) {
+	.not-hidden-text {
+		padding: 2rem !important;
+		font-size: 25px;
+		text-align: center;
+		margin-bottom: 0;
+		line-height: 40px;
+	}
 	.contact-desktop {
 		display: none;
 	}

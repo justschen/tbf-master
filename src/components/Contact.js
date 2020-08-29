@@ -21,8 +21,22 @@ const Contact = () => {
 		document.getElementById('test').className = newClassName;
 	};
 
+	const ToggleForm = () => {
+		const oldClassName = document.getElementById('test1').className;
+		const newClassName =
+			oldClassName === 'not-hidden-text' ? 'hidden-text' : 'not-hidden-text';
+		document.getElementById('test1').className = newClassName;
+	};
+
+	const ToggleDestroy = () => {
+		const oldClassName = document.getElementById('test2').className;
+		const newClassName =
+			oldClassName === 'hidden-form' ? 'non-hidden-form' : 'hidden-form';
+		document.getElementById('test2').className = newClassName;
+	};
+
 	return (
-		<div>
+		<div className="fullpage">
 			<div className="contactPage">
 				<Header name="Contact Us" image={contactHeader} />
 				<Container fluid className="decal">
@@ -43,58 +57,62 @@ const Contact = () => {
 				</Container>
 				<div className="outside">
 					<div className="formContainer">
-						<form
-							action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSeOLhwMZlugYyKMIBliQq901MkFazcQjblB0N_ELLLGg8yqkA/formResponse"
-							method="POST"
-							id="mG61Hd"
-						>
-							<p>
-								<label for="first">NAME/ORGANIZATION</label>
-								<input
-									type="text"
-									required
-									name="entry.290479036"
-									id="first"
-									placeholder="Please enter your name or organization."
-								/>
-							</p>
+						<h2 id="test1" className="hidden-text">
+							Thank you for submitting a response!
+						</h2>
 
-							<p class="email">
-								<label for="first">EMAIL ADDRESS</label>
-								<input
-									type="text"
-									required
-									name="entry.913134178"
-									id="first"
-									placeholder="Please enter your email address."
-								/>
-							</p>
-							<p>
-								<label for="first">MESSAGE</label>
-								<textarea
-									type="text"
-									required
-									name="entry.1166173655"
-									id="first"
-									placeholder="Please enter your message."
-									class="big"
-									style={{
-										height: '120px',
-									}}
-								/>
-							</p>
-							<p>
-								<input
-									onclick="window.location.href = 'google.com';"
-									id="submit"
-									type="submit"
-									target="_blank"
-									value="Send message"
-								/>
-							</p>
-						</form>
+						<div className="non-hidden-form" id="test2">
+							<form
+								target="fullpage"
+								onSubmitCapture={ToggleForm}
+								onSubmit={ToggleDestroy}
+								action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSeOLhwMZlugYyKMIBliQq901MkFazcQjblB0N_ELLLGg8yqkA/formResponse"
+								method="POST"
+								id="mG61Hd"
+							>
+								<p>
+									<label for="first">NAME/ORGANIZATION</label>
+									<input
+										type="text"
+										required
+										name="entry.290479036"
+										id="first"
+										placeholder="Please enter your name or organization."
+									/>
+								</p>
+
+								<p class="email">
+									<label for="first">EMAIL ADDRESS</label>
+									<input
+										type="text"
+										required
+										name="entry.913134178"
+										id="first"
+										placeholder="Please enter your email address."
+									/>
+								</p>
+								<p>
+									<label for="first">MESSAGE</label>
+									<textarea
+										type="text"
+										required
+										name="entry.1166173655"
+										id="first"
+										placeholder="Please enter your message."
+										class="big"
+										style={{
+											height: '120px',
+										}}
+									/>
+								</p>
+								<p>
+									<input id="submit" type="submit" value="Send message" />
+								</p>
+							</form>
+						</div>
 					</div>
 				</div>
+
 				<div className="contact-desktop">
 					<div className="clickUp">
 						<p>
