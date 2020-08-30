@@ -1,6 +1,7 @@
 import React from 'react';
 import CardImage from '../../img/BusinessCard.png';
 import MobileCard from '../../img/card-mobile.png';
+import MobileContact from '../../img/mobile-contact-card.png';
 
 import '../../css/Card.scss';
 
@@ -25,7 +26,7 @@ const Card = () => {
 			</div>
 
 			<div className="contact-mobile">
-				<img className="image" alt="card" src={MobileCard}></img>
+				<img className="image" alt="card" src={MobileContact}></img>
 				<div className="card-back">
 					<p>
 						The Berkeley Forum at the <br></br>University of California

@@ -9,16 +9,14 @@ import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 
 import tasslePath from '../../img/social-tassle/tassle.png';
-import facebookIcon from '../../img/social-tassle/Facebook.png';
-import instagramIcon from '../../img/social-tassle/Instagram.png';
-import twitterIcon from '../../img/social-tassle/Twitter.png';
-import linkedinIcon from '../../img/social-tassle/LinkedIN.png';
+import facebookIcon from '../../img/social-tassle/facebook-icon.png';
+import instagramIcon from '../../img/social-tassle/instagram-icon.png';
+import twitterIcon from '../../img/social-tassle/twitter-icon.png';
 import spotifyIcon from '../../img/social-tassle/spotify-icon.png';
 
 import facebookWhite from '../../img/social-tassle/facebook-white.png';
 import instagramWhite from '../../img/social-tassle/instagram-white.png';
 import twitterWhite from '../../img/social-tassle/twitter-white.png';
-import linkedinWhite from '../../img/social-tassle/linkedin-white.png';
 import spotifyWhite from '../../img/social-tassle/spotify-icon-white.png';
 
 import DropdownArrow from '../../img/dropdown-arrow.png';
@@ -174,10 +172,10 @@ const HeaderBar = (props) => {
 
 								<Link to="/team" className="link-tag">
 									<p className="nav-text">Meet&nbsp;the&nbsp;Team</p>
-								</Link>	
+								</Link>
 								<Link to="/committees" className="link-tag">
 									<p className="nav-text">Committees</p>
-								</Link>	
+								</Link>
 								<Link to="/legacy" className="link-tag">
 									<p className="nav-text">Legacy</p>
 								</Link>
