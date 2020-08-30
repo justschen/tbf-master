@@ -63,7 +63,8 @@ const Contact = () => {
 
 						<div className="non-hidden-form" id="test2">
 							<form
-								target="fullpage"
+								target="_blank"
+								rel="noopener noreferrer"
 								onSubmitCapture={ToggleForm}
 								onSubmit={ToggleDestroy}
 								action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSeOLhwMZlugYyKMIBliQq901MkFazcQjblB0N_ELLLGg8yqkA/formResponse"

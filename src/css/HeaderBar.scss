@@ -15,7 +15,7 @@
 }
 
 .header h1 {
-	margin: 0 0 0 4rem;
+	margin: 0 0 0 4.4rem;
 	padding-top: 1rem;
 	text-align: left;
 }
@@ -279,7 +279,7 @@
 
 		h1 {
 			font-size: 20px;
-			margin: 0.4rem 0 0 3rem !important;
+			margin: 0.4rem 0 0 2rem !important;
 			margin-right: 5.6rem !important;
 			width: 100%;
 			font-size: 20px !important;
@@ -297,7 +297,7 @@
 
 	.mr-auto {
 		margin-top: 2rem;
-		margin-left: -28.3rem;
+		margin-left: -27.7rem;
 		.link-tag {
 			width: 80%;
 		}
@@ -397,7 +397,7 @@
 
 		h1 {
 			font-size: 20px;
-			margin: 0.4rem 0 0 3rem !important;
+			margin: 0.4rem 0 0 1.6rem !important;
 			margin-right: 5.6rem !important;
 			width: 100%;
 			font-size: 20px !important;
@@ -414,7 +414,7 @@
 
 	.mr-auto {
 		margin-top: 2rem;
-		margin-left: -27.3rem;
+		margin-left: -26.6rem;
 		.link-tag {
 			width: 80%;
 		}
@@ -523,7 +523,7 @@
 
 	.mr-auto {
 		margin-top: 0rem;
-		margin-left: -33.8rem;
+		margin-left: -37rem;
 		.link-tag {
 			width: 80%;
 		}
@@ -548,6 +548,7 @@
 	.header .navbar {
 		padding-right: 2rem;
 		padding-left: 15rem;
+		margin-left: 3rem;
 	}
 
 	.landing-navbar {
@@ -556,11 +557,11 @@
 
 	.mobile-tassle {
 		display: inline-block;
-		margin-left: -60rem;
+		margin-left: -40rem !important;
 		margin-top: 1rem;
 		margin-bottom: 1rem;
 		.icon-pic {
-			margin-right: 10rem;
+			margin-right: 30rem;
 		}
 	}
 }
