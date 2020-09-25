@@ -14,11 +14,8 @@ const JoinUs = () => {
 			<section class="bottom">
 				<p>
 					<h2 class="title">Fall 2020 Recruitment</h2>
-					Our{' '}
-					<a href="https://docs.google.com/forms/d/e/1FAIpQLScz95X2NgKh8bm1HtAZDCkSLzLll5FJ_asNPIdFyZ_l-uS4Iw/viewform?edit_requested=true">
-						Fall 2020 Application
-					</a>{' '}
-					is live! Applications will be due on Thursday, September 10th at 11:59
+					Our Fall 2020 Application
+					is now closed! Applications were due on Thursday, September 10th at 11:59
 					PM. Late applications will not be accepted. If you have any questions
 					regarding our recruitment process, please contact our Director of
 					Membership, Daniel Voskoboynik, at recruitment@forum.berkeley.edu. We
