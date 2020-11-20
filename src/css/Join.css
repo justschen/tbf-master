@@ -60,7 +60,7 @@
 	justify-content: center;
 	margin: auto;
 	margin-top: 2rem !important;
-	margin-bottom: -30rem !important;
+	margin-bottom: -20rem !important;
 	position: relative;
 	overflow: hidden;
 	width: 100%;
@@ -69,7 +69,17 @@
 
 @media only screen and (max-width: 2800px) {
 	.join .bottom {
-		margin-top: 4rem;
+		margin-top: 28rem;
+		width: 70%;
+		justify-content: center;
+		display: flex;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 2000px) {
+	.join .bottom {
+		margin-top: 7rem;
 		width: 70%;
 		justify-content: center;
 		display: flex;
@@ -79,7 +89,7 @@
 
 @media only screen and (max-width: 1900px) {
 	.join .bottom {
-		margin-top: 4rem;
+		margin-top: 12rem;
 		width: 70%;
 		justify-content: center;
 		display: flex;
@@ -89,7 +99,17 @@
 
 @media only screen and (max-width: 1500px) {
 	.join .bottom {
-		margin-top: 10rem !important;
+		margin-top: 13rem !important;
+		width: 70%;
+		justify-content: center;
+		display: flex;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 1400px) {
+	.join .bottom {
+		margin-top: 7rem !important;
 		width: 70%;
 		justify-content: center;
 		display: flex;

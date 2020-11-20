@@ -2,14 +2,14 @@ import React from 'react';
 import { Link as ReachRouterLink } from '@reach/router';
 import { Link as ReactScrollLink } from 'react-scroll';
 
-import * as Scroll from 'react-scroll';
-import {
-	Element,
-	Events,
-	animateScroll as scroll,
-	scrollSpy,
-	scroller,
-} from 'react-scroll';
+// import * as Scroll from 'react-scroll';
+// import {
+// 	Element,
+// 	Events,
+// 	animateScroll as scroll,
+// 	scrollSpy,
+// 	scroller,
+// } from 'react-scroll';
 
 import '../../css/Header.scss';
 import Carousel from 'react-bootstrap/Carousel';
@@ -21,13 +21,12 @@ import HeaderBar from './HeaderBar';
 import Scrolls from './Scroll';
 
 const Header = (props) => {
-	let middle;
 	const bg = {
 		backgroundImage: `url(${props.image})`,
 		background: props.image,
 		backgroundPosition: props.position,
 	};
-	if (props.name.localeCompare('landing') == 0) {
+	if (props.name.localeCompare('landing') === 0) {
 		return (
 			<div className="landing-header">
 				<HeaderBar />
@@ -61,7 +60,7 @@ const Header = (props) => {
 				</Carousel>
 			</div>
 		);
-	} else if (props.name.localeCompare('blog') == 0) {
+	} else if (props.name.localeCompare('blog') === 0) {
 		return (
 			<div className="space">
 				<HeaderBar />
@@ -72,6 +71,7 @@ const Header = (props) => {
 			<div className="stuff" style={bg}>
 				<HeaderBar />
 				<iframe
+					title="calender-block"
 					className="calender-block"
 					src="https://calendar.google.com/calendar/embed?src=u2kell0f7gr7f6t2hl2v4oelf0%40group.calendar.google.com&ctz=America%2FLos_Angeles"
 					style={{

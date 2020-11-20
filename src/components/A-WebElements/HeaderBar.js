@@ -30,8 +30,6 @@ const spotifyURL =
 	'https://open.spotify.com/show/1EhFT7urj3aA6oxQ2DDL3S?si=o8BHNKekTY-unIuggK6nFg';
 
 const HeaderBar = (props) => {
-	let middle;
-
 	return (
 		<div className="header">
 			<div className="header-desktop">
@@ -207,19 +205,19 @@ const HeaderBar = (props) => {
 							<div className="mobile-tassle">
 								<Container className="icon-pic">
 									<a href={facebookURL}>
-										<img className="icon-image" src={facebookWhite} />
+										<img className="icon-image" src={facebookWhite} alt="Facebook"/>
 									</a>
 
 									<a href={instagramURL}>
-										<img className="icon-image" src={instagramWhite} />
+										<img className="icon-image" src={instagramWhite} alt="instagram"/>
 									</a>
 
 									<a href={twitterURL}>
-										<img className="icon-image" src={twitterWhite} />
+										<img className="icon-image" src={twitterWhite} alt="twitter"/>
 									</a>
 
 									<a href={spotifyURL}>
-										<img className="icon-image" src={spotifyWhite} />
+										<img className="icon-image" src={spotifyWhite} alt="spotify"/>
 									</a>
 								</Container>
 							</div>

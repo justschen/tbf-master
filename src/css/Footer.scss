@@ -110,25 +110,31 @@
 		display: flex;
 		flex-direction: column;
 		.row {
-			margin: 1.5rem 1rem;
+			margin: 0rem 0.5rem 1rem 0.5rem;
 			width: auto;
 		}
 		.col {
-			padding: 0;
+			padding: 0 !important;
 			display: flex;
 			flex-direction: column;
 			align-items: flex-start;
 		}
 		.logo-row {
 			border-top: 2px solid #ffffff;
-			padding-top: 3rem;
+			padding-top: 2rem;
 			margin-top: 0;
 		}
 		p {
-			font-size: 4vw !important;
+			font-size: 3.5vw !important;
 			color: white;
 			margin-bottom: 0.5rem;
 			text-align: left;
+		}
+		.contact-info {
+			p {
+				margin-left: 0 !important;
+				margin-right: 0 !important;
+			}
 		}
 		.tbf-logo {
 			border: 2px solid #ffffff;

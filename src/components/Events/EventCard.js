@@ -21,11 +21,13 @@ const EventCard = (props) => {
 							<hr></hr>
 							<p className="title">{props.title}</p>
 							<p className="date">{props.date}</p>
-							<p className="content">{props.extra}</p>
+							<p className="content">{props.content}</p>
 							<p className="content">
-								{props.content} <br></br>
+								{props.extra} <br></br>
 								<br></br>
 								<a
+									target="_blank"
+									rel="noopener noreferrer"
 									className="blockLink"
 									href={props.link}
 									style={{
@@ -36,6 +38,8 @@ const EventCard = (props) => {
 								</a>
 								&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 								<a
+									target="_blank"
+									rel="noopener noreferrer"
 									className="blockLink"
 									href={props.google}
 									style={{
@@ -45,6 +49,7 @@ const EventCard = (props) => {
 									<u>Add to Google Calendar</u>
 								</a>
 							</p>
+							<p className="passed-event"> {props.passed}</p>
 						</Col>
 					</Row>
 				</Container>

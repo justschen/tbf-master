@@ -3,6 +3,8 @@ import coverPhoto from '../img/mailing-header.jpg';
 import Header from './A-WebElements/Header';
 import Footer from './A-WebElements/Footer';
 
+import Iframe from 'react-iframe';
+
 import useScript from './Hooks/useScript';
 
 import Container from 'react-bootstrap/Container';
@@ -32,6 +34,7 @@ class MailingList extends React.Component {
 			common: {
 				selectedList: '{quantity} list selected',
 				selectedLists: '{quantity} lists selected',
+				
 			},
 		};
 
@@ -50,10 +53,16 @@ class MailingList extends React.Component {
 						</p>
 					</Row>
 				</Container>
-				<div>
+				<div className="mail-form">
+					<Iframe
+						width="100%"
+						height="1000"
+						url="https://sibforms.com/serve/MUIEADaQ3xzm_cupvz_CFUQReQpfRItE7o728-TrY1lwi6_tbdexEN601R3I9WoS-8Tcu_RLmS2z8j-rt--2H3Up_4PTdhrwiOEw-cjO8CGDI5JnwWxfA6m5Oplf_JGou4mes5I3__AgZKKpJRdEzv65hNCgZfOdOYXympUzeEVvapGsRAt4oB17_uLzb-_o_I8_AnYmMLQL5xYW"
+						scrolling="auto"
+					/>
 					{/* Begin Sendinblue Form */}
 					{/* START - We recommend to place the below code in head tag of your website html  */}
-					<style
+					{/* <style
 						dangerouslySetInnerHTML={{
 							__html:
 								'\n  @font-face {\n    font-display: block;\n    font-family: Roboto;\n    src: url(https://assets.sendinblue.com/font/Roboto/Latin/normal/normal/7529907e9eaf8ebb5220c5f9850e3811.woff2) format("woff2"), url(https://assets.sendinblue.com/font/Roboto/Latin/normal/normal/25c678feafdc175a70922a116c9be3e7.woff) format("woff")\n  }\n\n  @font-face {\n    font-display: fallback;\n    font-family: Roboto;\n    font-weight: 600;\n    src: url(https://assets.sendinblue.com/font/Roboto/Latin/medium/normal/6e9caeeafb1f3491be3e32744bc30440.woff2) format("woff2"), url(https://assets.sendinblue.com/font/Roboto/Latin/medium/normal/71501f0d8d5aa95960f6475d5487d4c2.woff) format("woff")\n  }\n\n  @font-face {\n    font-display: fallback;\n    font-family: Roboto;\n    font-weight: 700;\n    src: url(https://assets.sendinblue.com/font/Roboto/Latin/bold/normal/3ef7cf158f310cf752d5ad08cd0e7e60.woff2) format("woff2"), url(https://assets.sendinblue.com/font/Roboto/Latin/bold/normal/ece3a1d82f18b60bcce0211725c476aa.woff) format("woff")\n  }\n\n  #sib-container input:-ms-input-placeholder {\n    text-align: left;\n    font-family: "Helvetica", sans-serif;\n    color: #c0ccda;\n  }\n\n  #sib-container input::placeholder {\n    text-align: left;\n    font-family: "Helvetica", sans-serif;\n    color: #c0ccda;\n  }\n\n  #sib-container textarea::placeholder {\n    text-align: left;\n    font-family: "Helvetica", sans-serif;\n    color: #c0ccda;\n  }\n',
@@ -62,10 +71,10 @@ class MailingList extends React.Component {
 					<link
 						rel="stylesheet"
 						href="https://sibforms.com/forms/end-form/build/sib-styles.css"
-					/>
+					/> */}
 					{/*  END - We recommend to place the above code in head tag of your website html */}
 					{/* START - We recommend to place the below code where you want the form in your website html  */}
-					<div
+					{/* <div
 						className="sib-form"
 						style={{ textAlign: 'center', backgroundColor: '#EFF2F7' }}
 					>
@@ -138,7 +147,7 @@ class MailingList extends React.Component {
 									borderStyle: 'solid',
 								}}
 							>
-								{/* FORM */}
+								
 								<form
 									id="sib-form"
 									method="POST"
@@ -368,7 +377,7 @@ class MailingList extends React.Component {
 								</form>
 							</div>
 						</div>
-					</div>
+					</div> */}
 					{/* END - We recommend to place the below code where you want the form in your website html  */}
 					{/* START - We recommend to place the below code in footer or bottom of your website html  */}
 					{/* END - We recommend to place the above code in footer or bottom of your website html  */}
@@ -400,6 +409,7 @@ class MailingList extends React.Component {
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/json',
+					'Access-Control-Allow-Origin': '*',
 				},
 				body: JSON.stringify(formdata),
 			}

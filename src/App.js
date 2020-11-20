@@ -19,6 +19,7 @@ import Contact from './components/Contact';
 import Decal from './components/Decal';
 import JoinUs from './components/JoinUs';
 
+import Secret from './components/A-WebElements/SecretPage';
 import ConvoBlocks from './components/Conversations/ConvoBlocks';
 import Cancellation from './components/Conversations/Cancellation';
 import CardsAgainst from './components/Conversations/CardsAgainst';
@@ -36,7 +37,7 @@ import Press from './components/Conversations/Press';
 import RandPaul from './components/Conversations/RandPaul';
 import Spring2019 from './components/Conversations/Spring2019';
 
-export const ScrollToTop = ({ children, location }) => {
+const ScrollToTop = ({ children, location }) => {
 	React.useEffect(() => window.scrollTo(0, 0), [location.pathname]);
 	return children;
 };
@@ -44,7 +45,7 @@ export const ScrollToTop = ({ children, location }) => {
 const App = () => {
 	return (
 		<div className="App">
-			<Router primary={false}>
+			<Router default={false}>
 				<ScrollToTop path="/">
 					<Landing path="/" class />
 					<About path="/about" />
@@ -67,7 +68,6 @@ const App = () => {
 					<Press path="/josh-earnest-at-the-berkeley-forum" />
 					<RandPaul path="/rand-paul-at-the-berkeley-forum" />
 					<Spring2019 path="/spring-2019-lineup" />
-
 					<Calendar path="/events" />
 					<PastEvents path="/past-events" />
 					<Posters path="/posters" />
@@ -77,6 +77,7 @@ const App = () => {
 					<Legacy path="/legacy" />
 					<JoinUs path="/join" />
 					<Advisory path="/advisory" />
+					<Secret default />
 				</ScrollToTop>
 			</Router>
 		</div>

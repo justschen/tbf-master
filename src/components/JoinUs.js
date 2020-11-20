@@ -4,6 +4,7 @@ import '../css/Join.css';
 import bigPic from '../img/join.png';
 import Header from './A-WebElements/Header';
 import Footer from './A-WebElements/Footer';
+import Calendly from './Hooks/Calendly.js';
 
 const JoinUs = () => {
 	return (
@@ -15,14 +16,9 @@ const JoinUs = () => {
 				<p>
 					<h2 class="title">Fall 2020 Recruitment</h2>
 					Our Fall 2020 Application
-					is now closed! Applications were due on Thursday, September 10th at 11:59
-					PM. Late applications will not be accepted. If you have any questions
+					is closed. If you have any questions
 					regarding our recruitment process, please contact our Director of
-					Membership, Daniel Voskoboynik, at recruitment@forum.berkeley.edu. We
-					will have one information session on Tuesday, September 1st at 5 PM
-					PDT, which will be recorded and posted on our Facebook page. We will
-					also be virtually tabling via Zoom through Thursday, September 10th.
-					Feel free to drop by with any questions!
+					Membership, Daniel Voskoboynik, at recruitment@forum.berkeley.edu.
 				</p>
 			</section>
 			<div className="youtube">
@@ -31,7 +27,6 @@ const JoinUs = () => {
 					src="https://www.youtube.com/embed/fV2ufCKfkW4"
 					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 					frameborder="0"
-					allow="autoplay; encrypted-media"
 					allowfullscreen="allowfullscreen"
 					mozallowfullscreen="mozallowfullscreen"
 					msallowfullscreen="msallowfullscreen"
@@ -40,7 +35,7 @@ const JoinUs = () => {
 					title="video"
 				/>
 			</div>
-
+			
 			<Footer />
 		</div>
 	);

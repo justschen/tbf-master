@@ -6,12 +6,20 @@ import Footer from './A-WebElements/Footer';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
+import MetaImage from "../img/meta-image.png"
+
 import '../css/Landing.scss';
 
 const Landing = () => {
 	return (
 		<div className="landing">
 			<Header name="landing" image={coverPhoto} />
+			<img
+				src={MetaImage}
+				alt="meta"
+				className="selectDisable"
+				style={{ display: 'none' }}
+			/>
 			<Container fluid className="landing-content">
 				<Row>
 					<p>

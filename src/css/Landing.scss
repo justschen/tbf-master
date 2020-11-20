@@ -4,6 +4,8 @@
 		p {
 			font-size: 21px;
 			text-align: left;
+			margin-left: 10rem;
+			margin-right: 10rem;
 		}
 		.row {
 			justify-content: left;
@@ -49,6 +51,13 @@
 }
 @media only screen and (max-width: 1145px) {
 	.landing {
+		p {
+			font-size: 21px;
+			text-align: left;
+			margin-left: 1rem !important;
+			margin-right: 1rem !important;
+		}
+
 		.youtube-player {
 			width: 80%;
 			height: 80%;

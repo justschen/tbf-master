@@ -60,6 +60,14 @@ button {
 }
 
 .scrolled {
-	height:0vh;
+	height: 0vh;
 	background-color: mediumaquamarine;
+}
+
+.selectDisable {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
 }

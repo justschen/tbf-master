@@ -20,16 +20,17 @@ const PastEvents = () => {
 			{currentEventData.map((speaker) => (
 				<Row xs={1}>
 					<EventCard
-						name={speaker[0]}
-						title={speaker[1]}
-						date={speaker[2]}
-						content={speaker[3]}
-						image={speaker[4]}
-						link={speaker[5]}
-						google={speaker[6]}
-						extra={speaker[7]}
-						className="event-card"
-					/>
+							name={speaker[0]}
+							title={speaker[1]}
+							date={speaker[2]}
+							content={speaker[3]}
+							extra={speaker[4]}
+							image={speaker[5]}
+							link={speaker[6]}
+							google={speaker[7]}
+							passed={speaker[8]}
+							className="event-card"
+						/>
 				</Row>
 			))}
 			<Row>
